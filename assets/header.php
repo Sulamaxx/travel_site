@@ -19,11 +19,6 @@
                     <a href="index.php" class="drop-down">Home</a><i class="bi bi-plus dropdown-icon"></i>
                     <ul class="sub-menu">
                         <li><a href="index.php">Home 01</a></li>
-                        <li><a href="index2.php">Home 02</a></li>
-                        <li><a href="index3.php">Home 03</a></li>
-                        <li><a href="index4.php">Home 04</a></li>
-                        <li><a href="index5.php">Home 05</a></li>
-                        <li><a href="index6.php">Home 06</a></li>
                     </ul>
                 </li>
                 <li>
@@ -51,10 +46,6 @@
                     <a href="destination1.php" class="drop-down">Destination</a><i class="bi bi-plus dropdown-icon"></i>
                     <ul class="sub-menu">
                         <li><a href="destination1.php">Destination Style 01</a></li>
-                        <li><a href="destination2.php">Destination Style 02</a></li>
-                        <li><a href="destination3.php">Destination Style 03</a></li>
-                        <li><a href="destination4.php">Destination Style 04</a></li>
-                        <li><a href="destination5.php">Destination Style 05</a></li>
                         <li><a href="destination-details.php">Destination Details</a></li>
                     </ul>
                 </li>
@@ -203,7 +194,7 @@
                 </div>
                 <div class="content">
                     <span>To More Inquiry</span>
-                    <h6><a href="tel:+990737621432">+990-737 621 432</a></h6>
+                    <h6><a href="tel:+990737621432">+990-737 621 43233</a></h6>
                 </div>
             </div>
             <div class="sidebar-button mobile-menu-btn">
