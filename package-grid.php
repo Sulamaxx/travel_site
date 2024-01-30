@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/package-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:11 GMT -->
+<!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/package-grid.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:10 GMT -->
 
 <head>
 
@@ -64,7 +64,7 @@
     <div class="right-sidebar-menu">
         <div class="sidebar-logo-area d-flex justify-content-between align-items-center">
             <div class="sidebar-logo-wrap">
-                <a href="index.html"><img alt="image" src="assets/img/logo.svg"></a>
+                <a href="index.php"><img alt="image" src="assets/img/logo.svg"></a>
             </div>
             <div class="right-sidebar-close-btn">
                 <i class="bi bi-x"></i>
@@ -75,7 +75,7 @@
                 <h4>Tour Type</h4>
                 <ul class="category-list">
                     <li>
-                        <a href="activities-details.html" class="single-category">
+                        <a href="activities-details.php" class="single-category">
                             <div class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
 <path d="M3.93643 16.3241C4.00671 17.5515 4.30556 18.6997 4.77828 19.5571C5.02773 20.0212 5.40094 20.4071 5.85647 20.6719C6.312 20.9368 6.83202 21.0701 7.35878 21.0572C7.33376 22.4024 7.27767 24.5653 7.15735 26.4887C6.72484 26.652 6.34999 26.939 6.07956 27.314C5.80914 27.6889 5.65512 28.1352 5.63671 28.5972C5.57781 30.0055 5.58315 32.0284 5.9333 33.7261C5.66701 34.0651 5.5243 34.4848 5.52875 34.9159C5.5332 35.3469 5.68453 35.7636 5.95776 36.097L7.56021 38.0377L6.50386 39.0677C6.44983 39.1204 6.40894 39.185 6.38448 39.2564C6.36001 39.3278 6.35266 39.4039 6.36302 39.4787C6.37337 39.5534 6.40114 39.6247 6.44409 39.6868C6.48703 39.7488 6.54395 39.7999 6.61027 39.8359L11.6053 42.5457C11.6053 42.5457 11.7 45 13.8244 45H27.1071C27.9756 45 28.6823 44.2103 28.6823 43.2396V42.4909C28.685 42.0612 28.5396 41.6436 28.2707 41.3085C28.4777 41.1486 28.6626 40.9618 28.8203 40.7531C29.0565 40.4283 29.1984 40.0447 29.2305 39.6444C29.2626 39.2441 29.1835 38.8427 29.002 38.4845L28.8029 38.0864C28.6263 37.7328 28.5342 37.3431 28.5338 36.9479V32.5047C29.0645 32.1647 30.171 31.2434 30.4421 29.3489C30.5056 28.88 30.5105 28.4051 30.4569 27.9349C30.2858 26.295 29.6697 22.483 27.548 19.891L32.3244 19.2106L33.448 24.9839L31.2736 25.9763C31.2156 26.0023 31.1633 26.0395 31.1197 26.0858C31.0762 26.132 31.0422 26.1865 31.0198 26.2459C30.9973 26.3054 30.9869 26.3687 30.989 26.4322C30.9912 26.4957 31.0059 26.5582 31.0323 26.616C31.0587 26.6738 31.0962 26.7258 31.1428 26.769C31.1894 26.8123 31.2441 26.8458 31.3037 26.8679C31.3633 26.8899 31.4267 26.8999 31.4902 26.8973C31.5537 26.8947 31.616 26.8795 31.6736 26.8527L34.1933 25.7028C34.2917 25.6579 34.3721 25.5812 34.4216 25.485C34.4711 25.3888 34.4868 25.2787 34.4661 25.1726L34.3407 24.5279L40.8523 20.6265C40.9498 20.5681 41.0236 20.477 41.0604 20.3694C41.0972 20.2618 41.0948 20.1447 41.0536 20.0387C39.4281 15.8626 36.7774 12.2463 35.6522 10.8137L36.673 10.0753C36.7263 10.0366 36.7712 9.98749 36.8048 9.93084C36.8384 9.87419 36.86 9.81125 36.8684 9.74591C36.8767 9.68057 36.8715 9.61422 36.8532 9.55096C36.8349 9.48769 36.8038 9.42885 36.7618 9.37808C35.3202 7.63422 33.5253 6.61316 32.2736 6.06369C31.592 5.7654 30.8667 5.57941 30.1257 5.51295C30.2741 4.98324 30.3517 4.43625 30.3567 3.88619C30.358 3.81723 30.3444 3.74881 30.317 3.68553C30.2896 3.62225 30.2489 3.5656 30.1977 3.51941C30.1465 3.47322 30.0859 3.43857 30.0202 3.41779C29.9544 3.39702 29.8849 3.3906 29.8165 3.39899L29.1662 3.47855C29.5722 2.45795 29.5643 1.31926 29.144 0.304443C29.1121 0.224182 29.0593 0.153946 28.991 0.101062C28.9228 0.0481787 28.8416 0.0145854 28.7559 0.00378731C28.6702 -0.00701079 28.5832 0.00538206 28.5039 0.0396728C28.4247 0.0739635 28.3561 0.128895 28.3053 0.198738C28.2957 0.21181 27.3365 1.50094 25.2346 2.03747C24.5378 2.20734 23.8165 2.25335 23.1038 2.1734C21.9304 2.04846 20.7441 2.14342 19.6055 2.45341C16.8062 3.25097 15.015 5.96346 15.439 8.76282C15.6163 9.94374 16.1804 11.0325 17.0429 11.8584C17.0151 12.3055 17.0655 12.7541 17.1919 13.1839C17.4966 14.4327 18.4365 14.8382 19.1717 14.9034V19.7878L17.4644 20.083C17.2493 19.8661 16.9587 19.7408 16.6534 19.7332C16.4539 19.7287 16.2543 19.7388 16.0563 19.7636C16.408 17.5427 16.1854 15.2687 15.4097 13.1582C15.5418 13.1722 15.6732 13.1863 15.8077 13.2003C15.8245 13.2021 15.8414 13.203 15.8583 13.203C15.9816 13.2027 16.1 13.1551 16.1893 13.0701C16.2785 12.9851 16.3318 12.8691 16.3381 12.746C16.3444 12.6229 16.3033 12.5021 16.2233 12.4083C16.1432 12.3146 16.0303 12.2552 15.9077 12.2422C15.5948 12.2095 15.282 12.1754 14.9694 12.14C14.8384 11.8826 14.6484 11.6599 14.415 11.4899C14.1815 11.32 13.9111 11.2076 13.6259 11.1621L12.2905 10.9502C12.0714 10.9141 11.8465 10.9374 11.6395 11.0178C11.4324 11.0981 11.2507 11.2325 11.1133 11.407C11.0614 11.4732 11.0163 11.5443 10.9785 11.6194C10.7469 11.5851 10.5154 11.5498 10.2841 11.5137C9.83896 11.4403 9.39859 11.3405 8.9653 11.2148C7.5082 10.8096 6.42992 11.2252 6.10718 11.3771C5.40436 11.4683 4.8026 12.0449 4.40381 13.0162C4.13295 13.7151 3.97632 14.453 3.93995 15.2017V15.2041C3.90584 15.484 3.90112 15.7666 3.92589 16.0475C3.93039 16.1394 3.93109 16.2308 3.93643 16.3241ZM12.2403 20.7187C12.3606 20.9261 12.5268 21.1031 12.7262 21.2362C12.9255 21.3693 13.1527 21.455 13.3903 21.4867L14.1011 21.582L14.1115 21.7787L11.4698 24.7527C11.4802 23.4054 11.4073 22.0587 11.2513 20.7204C11.582 20.7068 11.9117 20.7063 12.2403 20.7187ZM21.7201 44.0367H15.9389V42.4357C15.9384 42.1871 15.9176 41.9389 15.8765 41.6938H21.7201V44.0367ZM10.2336 27.5948L14.1776 23.155C14.278 25.4451 14.3914 29.0869 14.2397 31.4921L13.6494 31.978L10.2336 27.5948ZM13.8998 33.0186L14.3305 32.6646C14.4238 33.071 14.651 33.4343 14.9756 33.6962V39.6349C14.0585 38.3382 12.775 36.6989 11.4513 35.564L13.8998 33.0186ZM10.29 20.7958C10.5149 22.518 10.5263 24.4613 10.4921 25.8532L10.0652 26.3338H8.13189C8.24434 24.4373 8.29832 22.3551 8.32235 21.0522C8.72555 21.0268 9.12699 20.9787 9.52475 20.9079C9.77936 20.8627 10.0344 20.8253 10.29 20.7958ZM6.59916 28.6368C6.61364 28.2759 6.76743 27.9347 7.02822 27.6849C7.28901 27.4351 7.6365 27.296 7.99765 27.2971H9.21564C9.15562 27.3812 9.12432 27.4824 9.12639 27.5857C9.12847 27.689 9.16381 27.7889 9.22717 27.8706L9.90709 28.7433L6.7386 32.7154C6.57724 31.3622 6.53059 29.9978 6.59916 28.6368ZM6.70051 35.483C6.5665 35.3193 6.49248 35.1147 6.49072 34.9031C6.48895 34.6916 6.55955 34.4858 6.69081 34.3198L10.516 29.5249L12.936 32.6314L8.25179 37.3621L6.70051 35.483ZM12.5678 42.7809V42.2591C12.5679 42.1724 12.5445 42.0873 12.5001 42.0128C12.4558 41.9383 12.3922 41.8771 12.316 41.8357L7.64398 39.3002L10.7725 36.25C12.1861 37.447 13.5919 39.3331 14.3346 40.3983C14.7526 40.9957 14.9765 41.7074 14.9756 42.4365V44.0376H13.823C13.49 44.037 13.1708 43.9044 12.9355 43.6688C12.7002 43.4332 12.568 43.1139 12.5678 42.7809ZM22.6834 41.6938H25.2079V44.0367H22.6834V41.6938ZM27.7183 43.24C27.7183 43.6721 27.438 44.0371 27.1064 44.0371H26.1712V41.6938H27.1064C27.438 41.6938 27.7183 42.0592 27.7183 42.4909V43.24ZM29.4878 29.213C29.396 29.9998 29.048 30.7347 28.4974 31.3043C28.1535 25.7715 25.5834 21.1427 24.8474 19.9201C25.0661 19.7317 25.3404 19.62 25.6285 19.602C25.7168 19.5944 25.8056 19.6055 25.8894 19.6344C25.9731 19.6634 26.0499 19.7095 26.1147 19.7699C28.7011 22.1406 29.3584 26.6956 29.4981 28.0352C29.5433 28.4265 29.5399 28.822 29.4878 29.2125V29.213ZM23.7521 22.203L23.7186 22.2274C23.2713 22.5546 22.9613 23.0361 22.8485 23.5787L22.5501 24.9502L22.1749 22.9698C22.1619 22.9011 22.1341 22.8361 22.0934 22.7792C22.0528 22.7224 22.0002 22.6751 21.9395 22.6406C20.5633 21.8596 20.2021 20.9893 20.135 20.791V16.6603C21.1952 17.2749 22.3436 17.7229 23.54 17.9884C23.4632 18.8079 23.5512 19.4906 23.7982 20.0311C23.8087 20.0614 23.8221 20.0905 23.8384 20.1181C23.8944 20.2322 23.9595 20.3417 24.0331 20.4453C24.0488 20.4669 24.0622 20.4893 24.0761 20.5114L24.1229 20.5915C24.2629 20.8603 24.3025 21.1701 24.2345 21.4654C24.1666 21.7607 23.9955 22.0221 23.7521 22.2026V22.203ZM33.3376 18.0935L32.6413 18.1928L29.3425 18.6626C29.7361 15.5369 28.3039 13.6271 27.7142 12.9892L27.891 9.62674C31.3256 12.0217 32.9961 17.1759 33.3376 18.0931V18.0935ZM27.223 15.8417C27.3904 15.3813 27.5132 14.9058 27.5899 14.422C28.1229 15.296 28.6758 16.7569 28.35 18.8041L26.735 19.0342C26.5725 18.8915 26.3827 18.7833 26.1771 18.716C25.9716 18.6488 25.7545 18.6239 25.5391 18.6429C25.171 18.6735 24.8152 18.7901 24.5004 18.9833C24.4694 18.7056 24.4666 18.4254 24.492 18.1471C24.5259 18.1485 24.5599 18.1516 24.5936 18.1516C25.0038 18.1533 25.4077 18.0509 25.7675 17.854C26.1273 17.6571 26.4313 17.3722 26.6509 17.0258C26.8829 16.6523 27.0746 16.2552 27.2228 15.8413L27.223 15.8417ZM40.0051 20.0113L34.1445 23.5227L33.279 19.075L34.0609 18.9636L35.6705 18.7344C35.7336 18.7261 35.7946 18.7054 35.8497 18.6734C35.9048 18.6414 35.953 18.5988 35.9915 18.5481C36.0301 18.4973 36.0581 18.4394 36.0742 18.3778C36.0902 18.3161 36.0938 18.2519 36.0848 18.1888C36.0758 18.1257 36.0544 18.065 36.0218 18.0103C35.9892 17.9555 35.946 17.9078 35.8949 17.8698C35.8437 17.8319 35.7855 17.8045 35.7236 17.7891C35.6618 17.7738 35.5975 17.7709 35.5345 17.7806L34.3134 17.9547C33.7234 16.3494 33.0507 14.7758 32.298 13.2401L34.8704 11.3792C35.9184 12.7096 38.4032 16.0814 40.0048 20.0109L40.0051 20.0113ZM35.6802 9.60396L31.7793 12.4257C30.9508 11.357 30.0666 10.3327 29.1302 9.35713C28.8328 9.05673 28.4789 8.81804 28.089 8.65478C27.699 8.49152 27.2806 8.4069 26.8579 8.40579H26.5745C26.2185 8.40541 25.8771 8.26382 25.6254 8.01207C25.3736 7.76032 25.232 7.41899 25.2317 7.06297C25.2318 6.8988 25.2971 6.74142 25.4132 6.62534C25.5293 6.50926 25.6867 6.44396 25.8509 6.44377H29.4526C30.2896 6.43975 31.1183 6.61052 31.8856 6.94517C33.3184 7.56365 34.6097 8.46843 35.6802 9.60396ZM18.1243 12.9415C18.1205 12.9259 18.1161 12.9105 18.1109 12.8953C18.0084 12.5403 17.975 12.169 18.0125 11.8014C18.0241 11.6327 18.0954 11.4736 18.2136 11.3526C18.3317 11.2315 18.489 11.1565 18.6574 11.1408C18.819 11.1145 18.9847 11.1466 19.1248 11.2313C19.2649 11.316 19.3703 11.4478 19.4221 11.6031C19.4639 11.7185 19.4968 11.8369 19.5205 11.9573C19.5351 12.0306 19.5666 12.0994 19.6125 12.1584C19.6583 12.2174 19.7173 12.2649 19.7847 12.2971C19.852 12.3294 19.926 12.3456 20.0007 12.3443C20.0754 12.3431 20.1488 12.3245 20.215 12.29C20.3408 12.221 20.4605 12.1414 20.5726 12.0519C20.9409 11.7584 21.2381 11.3853 21.4419 10.9608C21.6457 10.5362 21.7509 10.071 21.7496 9.60003V9.24904C21.7496 9.05908 21.7882 8.87111 21.863 8.69651C21.9378 8.5219 22.0473 8.36429 22.1848 8.23321C22.3222 8.10213 22.4849 8.0003 22.6629 7.9339C22.8408 7.8675 23.0304 7.8379 23.2202 7.8469C23.2837 7.85046 23.3472 7.84141 23.4072 7.82027C23.4672 7.79913 23.5224 7.76632 23.5697 7.72374C23.6169 7.68115 23.6552 7.62964 23.6825 7.57216C23.7097 7.51468 23.7253 7.45238 23.7283 7.38885C23.7313 7.32532 23.7217 7.26182 23.7001 7.20201C23.6785 7.14221 23.6452 7.08728 23.6022 7.0404C23.5592 6.99352 23.5074 6.95562 23.4497 6.92887C23.392 6.90213 23.3295 6.88708 23.266 6.88459C22.9461 6.86943 22.6264 6.91935 22.3263 7.03134C22.0263 7.14333 21.7521 7.31505 21.5203 7.5361C21.2885 7.75715 21.104 8.02294 20.978 8.31737C20.8519 8.61181 20.787 8.92876 20.787 9.24904V9.59961C20.7884 10.1374 20.591 10.6568 20.2327 11.058C20.0754 10.7545 19.8276 10.5075 19.5236 10.3512C19.2197 10.1948 18.8746 10.1369 18.5363 10.1853C18.314 10.2113 18.0992 10.2813 17.9042 10.391C17.7093 10.5008 17.5381 10.6482 17.4006 10.8248C16.864 10.1989 16.5143 9.43458 16.3915 8.6193C16.0401 6.29773 17.5353 4.04559 19.8701 3.38043C20.8918 3.10702 21.9549 3.02293 23.0069 3.13234C23.8322 3.22397 24.6671 3.16949 25.4734 2.97139C26.5777 2.70144 27.6015 2.17178 28.4597 1.42644C28.5282 1.8326 28.5157 2.24829 28.4231 2.64963C28.3305 3.05098 28.1595 3.43007 27.92 3.76516C27.8587 3.8395 27.8212 3.93049 27.8121 4.0264C27.8031 4.1223 27.823 4.2187 27.8694 4.30316C27.9157 4.38761 27.9863 4.45624 28.072 4.50018C28.1577 4.54412 28.2546 4.56136 28.3502 4.54966L29.3596 4.4261C29.3236 4.78623 29.2438 5.14063 29.1221 5.48146H25.8509C25.4313 5.48195 25.029 5.64885 24.7323 5.94555C24.4357 6.24225 24.2688 6.64451 24.2684 7.06409C24.2692 7.67542 24.5124 8.26147 24.9447 8.69371C25.3771 9.12594 25.9632 9.36908 26.5745 9.36978C26.5745 9.36978 26.9118 9.37288 26.94 9.37386L26.7256 13.449C26.693 14.1525 26.5557 14.8472 26.3179 15.5101C26.1931 15.8596 26.0317 16.1949 25.8364 16.5104C25.6778 16.7576 25.449 16.9518 25.1794 17.0683C24.9097 17.1848 24.6115 17.2181 24.3228 17.1641C22.9663 16.9329 21.6644 16.4525 20.4829 15.7471C20.3771 15.6821 20.2897 15.5912 20.2287 15.4829C20.1678 15.3747 20.1355 15.2528 20.1348 15.1286V14.4117C20.1344 14.3425 20.1191 14.2742 20.0901 14.2114C20.061 14.1486 20.0189 14.0927 19.9664 14.0476C19.9139 14.0025 19.8524 13.9691 19.786 13.9498C19.7195 13.9304 19.6497 13.9256 19.5812 13.9355C19.3844 13.9651 18.3868 14.0502 18.1243 12.9415ZM19.1843 20.9678C19.1972 21.0231 19.5104 22.2891 21.2691 23.3624L22.0439 27.4541C22.0646 27.5632 22.1224 27.6619 22.2075 27.7333C22.2925 27.8047 22.3997 27.8446 22.5107 27.8461H22.5173C22.6273 27.8461 22.734 27.8084 22.8196 27.7394C22.9052 27.6703 22.9646 27.5741 22.988 27.4666L23.7892 23.7821C23.8516 23.4725 24.0264 23.1971 24.28 23.009L24.326 22.9752C24.5986 22.7719 24.8211 22.5088 24.9763 22.2062C26.0475 24.4131 27.504 28.1447 27.5691 32.2296V36.9479C27.5698 37.4926 27.6967 38.0298 27.9399 38.5173L28.1393 38.9152C28.2414 39.1133 28.287 39.3357 28.2709 39.5579C28.2548 39.7802 28.1777 39.9937 28.048 40.175C27.8725 40.4021 27.6525 40.591 27.4014 40.73H15.9389V33.62C16.5935 32.9131 18.6659 29.9202 17.8272 20.9972L19.1717 20.7651C19.1717 20.7651 19.176 20.9327 19.1843 20.9678ZM16.8509 20.9061C17.6319 28.9077 16.0293 31.9141 15.4002 32.7606C15.2071 32.4595 15.1772 31.9581 15.1863 31.7656C15.4084 28.6823 15.1703 23.5145 15.0574 21.4365C15.0498 21.3294 15.0759 21.2226 15.1321 21.1311C15.1883 21.0397 15.2718 20.9681 15.3707 20.9265C15.7706 20.7647 16.1991 20.686 16.6303 20.6951C16.6867 20.6973 16.7403 20.72 16.7811 20.759C16.8218 20.798 16.8469 20.8506 16.8514 20.9068L16.8509 20.9061ZM11.8667 12.0079C11.8985 11.9671 11.9408 11.9357 11.989 11.917C12.0372 11.8982 12.0895 11.8929 12.1405 11.9015L13.4752 12.1135C13.6137 12.1353 13.7449 12.1904 13.8575 12.274C13.9701 12.3575 14.0608 12.4671 14.1218 12.5934C15.5591 15.5742 15.3269 18.4808 15.0346 20.0251C15.0276 20.0279 15.0206 20.0301 15.0135 20.0329C14.7182 20.1516 14.47 20.364 14.3071 20.6374L13.5185 20.5315C13.3593 20.5102 13.2149 20.4269 13.1166 20.2998C13.0184 20.1727 12.9742 20.012 12.9936 19.8526C13.364 16.7362 12.4201 13.7783 11.8245 12.2926C11.8053 12.2457 11.799 12.1945 11.8064 12.1444C11.8139 12.0943 11.8347 12.0472 11.8667 12.0079ZM8.70764 12.1429C9.1769 12.2789 9.65384 12.3868 10.1359 12.4662C10.3566 12.5007 10.616 12.5404 10.9078 12.5835C10.9154 12.6063 10.9211 12.6295 10.9301 12.652C11.4915 14.0526 12.3819 16.8358 12.0367 19.74C12.0367 19.7432 12.0367 19.7463 12.0359 19.7495C11.138 19.7323 10.2405 19.803 9.35635 19.9604C8.96698 20.0301 8.57368 20.0758 8.17869 20.0972C8.80266 19.2101 9.14578 17.74 9.04809 16.0329C8.94688 14.2631 8.40416 12.7999 7.64089 12.0069C8.00124 11.9991 8.36076 12.045 8.70764 12.1429ZM5.29542 13.3821C5.55842 12.7417 5.92346 12.3475 6.27207 12.3278C6.28205 12.3278 6.29189 12.327 6.30187 12.327C7.04897 12.327 7.96208 13.9124 8.08705 16.0871C8.21285 18.2909 7.46547 19.9857 6.71302 20.0287C6.36371 20.0498 5.95678 19.6985 5.62237 19.0923C5.5528 18.9636 5.48942 18.8317 5.43247 18.697C5.61378 18.7746 5.8089 18.8147 6.00612 18.8151C6.15959 18.8147 6.31211 18.791 6.45846 18.7448C6.71181 18.6675 6.93981 18.5238 7.11873 18.3285C7.29764 18.1332 7.42092 17.8935 7.47573 17.6343C7.56154 17.2149 7.58991 16.7859 7.56007 16.3588C7.54373 15.9707 7.43687 15.5919 7.24801 15.2524C6.95887 14.7488 6.54771 14.4554 6.05869 14.4041C5.99533 14.3966 5.93112 14.4018 5.86978 14.4193C5.80843 14.4368 5.75118 14.4664 5.70135 14.5062C5.65151 14.546 5.61008 14.5954 5.57947 14.6513C5.54885 14.7073 5.52966 14.7688 5.523 14.8323C5.51635 14.8957 5.52236 14.9598 5.5407 15.0209C5.55903 15.0821 5.58932 15.1389 5.6298 15.1882C5.67029 15.2375 5.72017 15.2783 5.77654 15.3082C5.83291 15.338 5.89465 15.3564 5.95818 15.3622C6.12897 15.3801 6.28148 15.5046 6.41249 15.7319C6.52653 15.942 6.59015 16.1757 6.59832 16.4146C6.62308 16.7538 6.60171 17.0948 6.53478 17.4283C6.51471 17.5205 6.47056 17.6057 6.40682 17.6754C6.34309 17.745 6.26204 17.7965 6.17193 17.8246C6.08183 17.8527 5.98589 17.8564 5.89387 17.8354C5.80185 17.8144 5.71705 17.7693 5.6481 17.7049C5.08851 17.1828 4.92643 16.4586 4.88792 15.9499C4.85131 15.0754 4.98985 14.2023 5.29542 13.3821Z" />
@@ -86,7 +86,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="activities-details.html" class="single-category">
+                        <a href="activities-details.php" class="single-category">
                             <div class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
 <g clip-path="url(#clip0_2102_174)">
@@ -100,7 +100,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="activities-details.html" class="single-category">
+                        <a href="activities-details.php" class="single-category">
                             <div class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
 <g clip-path="url(#clip0_2102_180)">
@@ -112,7 +112,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="activities-details.html" class="single-category">
+                        <a href="activities-details.php" class="single-category">
                             <div class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
 <path d="M5.72022 21.5631C5.6674 21.4839 5.58531 21.429 5.49199 21.4103C5.39866 21.3917 5.30176 21.4109 5.22259 21.4637L5.21532 21.4686C4.70393 21.8083 4.22359 22.1925 3.77994 22.6169C3.74542 22.6498 3.71775 22.6891 3.69854 22.7327C3.67933 22.7763 3.66897 22.8233 3.66804 22.871C3.66711 22.9186 3.67564 22.966 3.69313 23.0103C3.71063 23.0546 3.73674 23.095 3.76996 23.1292C3.80317 23.1634 3.84284 23.1906 3.88665 23.2093C3.93047 23.2281 3.97756 23.2379 4.02521 23.2383C4.07286 23.2388 4.12012 23.2297 4.16426 23.2117C4.20839 23.1938 4.24852 23.1672 4.28233 23.1336L4.30027 23.1372C4.70746 22.7397 5.1494 22.3794 5.62082 22.0607C5.69998 22.0079 5.75493 21.9258 5.77357 21.8325C5.79221 21.7391 5.77302 21.6422 5.72022 21.5631ZM7.43657 20.6433C7.39546 20.5578 7.32218 20.4921 7.23274 20.4604C7.14331 20.4288 7.045 20.4339 6.95931 20.4746C6.76912 20.5643 6.60046 20.6576 6.40669 20.7509C6.32293 20.7961 6.26057 20.8727 6.23332 20.9639C6.20606 21.0551 6.21615 21.1534 6.26135 21.2372C6.30656 21.3209 6.38318 21.3833 6.47437 21.4105C6.56556 21.4378 6.66384 21.4277 6.74759 21.3825C6.91983 21.2928 7.10643 21.2031 7.2715 21.1205C7.35637 21.0788 7.42132 21.0052 7.45223 20.9159C7.48315 20.8265 7.47752 20.7285 7.43657 20.6433Z" />
@@ -125,7 +125,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="activities-details.html" class="single-category">
+                        <a href="activities-details.php" class="single-category">
                             <div class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
 <g clip-path="url(#clip0_2102_198)">
@@ -137,7 +137,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="activities-details.html" class="single-category">
+                        <a href="activities-details.php" class="single-category">
                             <div class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
 <path d="M22.2963 20.4362L12.0546 23.9994C11.9279 24.0424 11.8177 24.1238 11.7393 24.2323C11.6609 24.3407 11.6183 24.4709 11.6172 24.6047V28.4727C11.6082 29.344 12.9203 29.344 12.909 28.4727V25.0626L22.5056 21.7239L32.109 25.0626V28.4727C32.0704 29.3679 33.4354 29.3679 33.3945 28.4727V24.6047C33.3945 24.333 33.2226 24.0874 32.9622 23.9994L22.7217 20.4362C22.5442 20.3743 22.4699 20.3766 22.2963 20.4362Z" />
@@ -159,7 +159,7 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="destination-card2">
-                                        <a href="destination-details.html" class="destination-card-img">
+                                        <a href="destination-details.php" class="destination-card-img">
                                             <img src="assets/img/home2/destination-card-sidebar-img1.png" alt>
                                         </a>
                                         <div class="batch">
@@ -167,13 +167,13 @@
                                         </div>
                                         <div class="destination-card2-content">
                                             <span>Travel To</span>
-                                            <h4><a href="destination-details.html">New York</a></h4>
+                                            <h4><a href="destination-details.php">New York</a></h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="destination-card2">
-                                        <a href="destination-details.html" class="destination-card-img">
+                                        <a href="destination-details.php" class="destination-card-img">
                                             <img src="assets/img/home2/destination-card-sidebar-img2.png" alt>
                                         </a>
                                         <div class="batch">
@@ -181,13 +181,13 @@
                                         </div>
                                         <div class="destination-card2-content">
                                             <span>Travel To</span>
-                                            <h4><a href="destination-details.html">Switzerland</a></h4>
+                                            <h4><a href="destination-details.php">Switzerland</a></h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="destination-card2">
-                                        <a href="destination-details.html" class="destination-card-img">
+                                        <a href="destination-details.php" class="destination-card-img">
                                             <img src="assets/img/home2/destination-card-sidebar-img3.png" alt>
                                         </a>
                                         <div class="batch">
@@ -195,13 +195,13 @@
                                         </div>
                                         <div class="destination-card2-content">
                                             <span>Travel To</span>
-                                            <h4><a href="destination-details.html">Saudi Arab</a></h4>
+                                            <h4><a href="destination-details.php">Saudi Arab</a></h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="destination-card2">
-                                        <a href="destination-details.html" class="destination-card-img">
+                                        <a href="destination-details.php" class="destination-card-img">
                                             <img src="assets/img/home2/destination-card-sidebar-img4.png" alt>
                                         </a>
                                         <div class="batch">
@@ -209,13 +209,13 @@
                                         </div>
                                         <div class="destination-card2-content">
                                             <span>Travel To</span>
-                                            <h4><a href="destination-details.html">Indonesia</a></h4>
+                                            <h4><a href="destination-details.php">Indonesia</a></h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="destination-card2">
-                                        <a href="destination-details.html" class="destination-card-img">
+                                        <a href="destination-details.php" class="destination-card-img">
                                             <img src="assets/img/home2/destination-card-sidebar-img1.png" alt>
                                         </a>
                                         <div class="batch">
@@ -223,13 +223,13 @@
                                         </div>
                                         <div class="destination-card2-content">
                                             <span>Travel To</span>
-                                            <h4><a href="destination-details.html">New York</a></h4>
+                                            <h4><a href="destination-details.php">New York</a></h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="destination-card2">
-                                        <a href="destination-details.html" class="destination-card-img">
+                                        <a href="destination-details.php" class="destination-card-img">
                                             <img src="assets/img/home2/destination-card-sidebar-img2.png" alt>
                                         </a>
                                         <div class="batch">
@@ -237,13 +237,13 @@
                                         </div>
                                         <div class="destination-card2-content">
                                             <span>Travel To</span>
-                                            <h4><a href="destination-details.html">Switzerland</a></h4>
+                                            <h4><a href="destination-details.php">Switzerland</a></h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="destination-card2">
-                                        <a href="destination-details.html" class="destination-card-img">
+                                        <a href="destination-details.php" class="destination-card-img">
                                             <img src="assets/img/home2/destination-card-sidebar-img3.png" alt>
                                         </a>
                                         <div class="batch">
@@ -251,13 +251,13 @@
                                         </div>
                                         <div class="destination-card2-content">
                                             <span>Travel To</span>
-                                            <h4><a href="destination-details.html">Saudi Arab</a></h4>
+                                            <h4><a href="destination-details.php">Saudi Arab</a></h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="destination-card2">
-                                        <a href="destination-details.html" class="destination-card-img">
+                                        <a href="destination-details.php" class="destination-card-img">
                                             <img src="assets/img/home2/destination-card-sidebar-img4.png" alt>
                                         </a>
                                         <div class="batch">
@@ -265,7 +265,7 @@
                                         </div>
                                         <div class="destination-card2-content">
                                             <span>Travel To</span>
-                                            <h4><a href="destination-details.html">Indonesia</a></h4>
+                                            <h4><a href="destination-details.php">Indonesia</a></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -277,7 +277,7 @@
 <path d="M53 6.5L1 6.5M1 6.5L7 12M1 6.5L7 0.999996"></path>
 </svg>
                             </div>
-                            <a href="destination2.html" class="secondary-btn2">View All</a>
+                            <a href="destination2.php" class="secondary-btn2">View All</a>
                             <div class="destination-sidebar-next">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="53" height="13" viewBox="0 0 53 13">
 <path d="M0 6.5H52M52 6.5L46 1M52 6.5L46 12"></path>
@@ -312,7 +312,7 @@
                 </div>
                 <div class="content">
                     <span>Email:</span>
-                    <h6><a href="https://demo-egenslab.b-cdn.net/cdn-cgi/l/email-protection#bad3d4dcd5faddd7dbd3d694d9d5d7"><span class="__cf_email__" data-cfemail="c8a1a6aea788afa5a9a1a4e6aba7a5">[email&#160;protected]</span></a></h6>
+                    <h6><a href="https://demo-egenslab.b-cdn.net/cdn-cgi/l/email-protection#51383f373e11363c30383d7f323e3c"><span class="__cf_email__" data-cfemail="056c6b636a456268646c692b666a68">[email&#160;protected]</span></a></h6>
                 </div>
             </div>
         </div>
@@ -376,7 +376,7 @@
                 </div>
             </a>
         </div>
-        <p>50% Off Your Next Trip. Hurry Up For your new Tour! <a href="package-grid.html">Book Your Tour</a> </p>
+        <p>50% Off Your Next Trip. Hurry Up For your new Tour! <a href="package-grid.php">Book Your Tour</a> </p>
         <div class="topbar-right">
             <div class="social-icon-area">
                 <ul>
@@ -393,15 +393,15 @@
 
     <header class="header-area style-1">
         <div class="header-logo d-lg-none d-flex">
-            <a href="index.html"><img alt="image" class="img-fluid" src="assets/img/logo.svg"></a>
+            <a href="index.php"><img alt="image" class="img-fluid" src="assets/img/logo.svg"></a>
         </div>
         <div class="company-logo d-lg-flex d-none">
-            <a href="index.html"><img src="assets/img/logo.svg" alt></a>
+            <a href="index.php"><img src="assets/img/logo.svg" alt></a>
         </div>
         <div class="main-menu">
             <div class="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
                 <div class="mobile-logo-wrap">
-                    <a href="index.html"><img alt="image" src="assets/img/logo.svg"></a>
+                    <a href="index.php"><img alt="image" src="assets/img/logo.svg"></a>
                 </div>
                 <div class="menu-close-btn">
                     <i class="bi bi-x"></i>
@@ -409,138 +409,138 @@
             </div>
             <ul class="menu-list">
                 <li class="menu-item-has-children">
-                    <a href="index.html" class="drop-down">Home</a><i class="bi bi-plus dropdown-icon"></i>
+                    <a href="index.php" class="drop-down">Home</a><i class="bi bi-plus dropdown-icon"></i>
                     <ul class="sub-menu">
-                        <li><a href="index.html">Home 01</a></li>
-                        <li><a href="index2.html">Home 02</a></li>
-                        <li><a href="index3.html">Home 03</a></li>
-                        <li><a href="index4.html">Home 04</a></li>
-                        <li><a href="index5.html">Home 05</a></li>
-                        <li><a href="index6.html">Home 06</a></li>
+                        <li><a href="index.php">Home 01</a></li>
+                        <li><a href="index2.php">Home 02</a></li>
+                        <li><a href="index3.php">Home 03</a></li>
+                        <li><a href="index4.php">Home 04</a></li>
+                        <li><a href="index5.php">Home 05</a></li>
+                        <li><a href="index6.php">Home 06</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="about.html" class="drop-down">About</a>
+                    <a href="about.php" class="drop-down">About</a>
                 </li>
                 <li class="menu-item-has-children active">
-                    <a href="package-grid.html" class="drop-down">Tours</a><i class="bi bi-plus dropdown-icon"></i>
+                    <a href="package-grid.php" class="drop-down">Tours</a><i class="bi bi-plus dropdown-icon"></i>
                     <ul class="sub-menu">
-                        <li><a href="package-grid.html">Package Grid</a></li>
+                        <li class="active"><a href="package-grid.php">Package Grid</a></li>
                         <li>
-                            <a href="package-sidebar.html">Package Sidebar</a>
+                            <a href="package-sidebar.php">Package Sidebar</a>
                         </li>
                         <li>
-                            <a href="package-top-search.html">Package Top Search</a>
+                            <a href="package-top-search.php">Package Top Search</a>
                         </li>
                         <li>
-                            <a href="package-category.html">Package Category</a>
+                            <a href="package-category.php">Package Category</a>
                         </li>
-                        <li class="active">
-                            <a href="package-details.html">Package Details</a>
+                        <li>
+                            <a href="package-details.php">Package Details</a>
                         </li>
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
-                    <a href="destination1.html" class="drop-down">Destination</a><i class="bi bi-plus dropdown-icon"></i>
+                    <a href="destination1.php" class="drop-down">Destination</a><i class="bi bi-plus dropdown-icon"></i>
                     <ul class="sub-menu">
-                        <li><a href="destination1.html">Destination Style 01</a></li>
-                        <li><a href="destination2.html">Destination Style 02</a></li>
-                        <li><a href="destination3.html">Destination Style 03</a></li>
-                        <li><a href="destination4.html">Destination Style 04</a></li>
-                        <li><a href="destination5.html">Destination Style 05</a></li>
-                        <li><a href="destination-details.html">Destination Details</a></li>
+                        <li><a href="destination1.php">Destination Style 01</a></li>
+                        <li><a href="destination2.php">Destination Style 02</a></li>
+                        <li><a href="destination3.php">Destination Style 03</a></li>
+                        <li><a href="destination4.php">Destination Style 04</a></li>
+                        <li><a href="destination5.php">Destination Style 05</a></li>
+                        <li><a href="destination-details.php">Destination Details</a></li>
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
                     <a href="#" class="drop-down">Pages</a><i class="bi bi-plus dropdown-icon"></i>
                     <ul class="sub-menu">
                         <li>
-                            <a href="hotel-suits.html">Hotel</a>
+                            <a href="hotel-suits.php">Hotel</a>
                             <i class="d-lg-flex d-none bi bi-chevron-right dropdown-icon"></i>
                             <i class="d-lg-none d-flex bi bi-plus dropdown-icon"></i>
                             <ul class="sub-menu">
-                                <li><a href="hotel-suits.html">Hotel</a></li>
-                                <li><a href="hotel-details.html">Hotel Details</a></li>
+                                <li><a href="hotel-suits.php">Hotel</a></li>
+                                <li><a href="hotel-details.php">Hotel Details</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="activities.html">Activities</a>
+                            <a href="activities.php">Activities</a>
                             <i class="d-lg-flex d-none bi bi-chevron-right dropdown-icon"></i>
                             <i class="d-lg-none d-flex bi bi-plus dropdown-icon"></i>
                             <ul class="sub-menu">
-                                <li><a href="activities.html">Activities</a></li>
-                                <li><a href="activities-details.html">Activities Details</a></li>
+                                <li><a href="activities.php">Activities</a></li>
+                                <li><a href="activities-details.php">Activities Details</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="transport.html">Transport</a>
+                            <a href="transport.php">Transport</a>
                             <i class="d-lg-flex d-none bi bi-chevron-right dropdown-icon"></i>
                             <i class="d-lg-none d-flex bi bi-plus dropdown-icon"></i>
                             <ul class="sub-menu">
-                                <li><a href="transport.html">Transport</a></li>
-                                <li><a href="transport-details.html">Transport Details</a></li>
+                                <li><a href="transport.php">Transport</a></li>
+                                <li><a href="transport-details.php">Transport Details</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="visa.html">Visa</a>
+                            <a href="visa.php">Visa</a>
                             <i class="d-lg-flex d-none bi bi-chevron-right dropdown-icon"></i>
                             <i class="d-lg-none d-flex bi bi-plus dropdown-icon"></i>
                             <ul class="sub-menu">
-                                <li><a href="visa.html">Visa</a></li>
-                                <li><a href="visa-details.html">Visa Details</a></li>
+                                <li><a href="visa.php">Visa</a></li>
+                                <li><a href="visa-details.php">Visa Details</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="blog-grid.html">Blog</a>
+                            <a href="blog-grid.php">Blog</a>
                             <i class="d-lg-flex d-none bi bi-chevron-right dropdown-icon"></i>
                             <i class="d-lg-none d-flex bi bi-plus dropdown-icon"></i>
                             <ul class="sub-menu">
-                                <li><a href="blog-grid.html">Blog Grid</a></li>
-                                <li><a href="blog-standard.html">Blog Standard</a></li>
-                                <li><a href="blog-grid-sidebar.html">Blog Grid Sidebar</a></li>
-                                <li><a href="blog-standard-sidebar.html">Blog Standard Sidebar</a></li>
-                                <li><a href="blog-details.html">Blog Details</a></li>
+                                <li><a href="blog-grid.php">Blog Grid</a></li>
+                                <li><a href="blog-standard.php">Blog Standard</a></li>
+                                <li><a href="blog-grid-sidebar.php">Blog Grid Sidebar</a></li>
+                                <li><a href="blog-standard-sidebar.php">Blog Standard Sidebar</a></li>
+                                <li><a href="blog-details.php">Blog Details</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="guide1.html">Tour Guide</a>
+                            <a href="guide1.php">Tour Guide</a>
                             <i class="d-lg-flex d-none bi bi-chevron-right dropdown-icon"></i>
                             <i class="d-lg-none d-flex bi bi-plus dropdown-icon"></i>
                             <ul class="sub-menu">
-                                <li><a href="guide1.html">Tour Guide Style 01</a></li>
-                                <li><a href="guide2.html">Tour Guide Style 02</a></li>
-                                <li><a href="guide3.html">Tour Guide Style 03</a></li>
-                                <li><a href="guide4.html">Tour Guide Style 04</a></li>
-                                <li><a href="guide5.html">Tour Guide Style 05</a></li>
+                                <li><a href="guide1.php">Tour Guide Style 01</a></li>
+                                <li><a href="guide2.php">Tour Guide Style 02</a></li>
+                                <li><a href="guide3.php">Tour Guide Style 03</a></li>
+                                <li><a href="guide4.php">Tour Guide Style 04</a></li>
+                                <li><a href="guide5.php">Tour Guide Style 05</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="shop.html">Shop</a>
+                            <a href="shop.php">Shop</a>
                             <i class="d-lg-flex d-none bi bi-chevron-right dropdown-icon"></i>
                             <i class="d-lg-none d-flex bi bi-plus dropdown-icon"></i>
                             <ul class="sub-menu">
-                                <li><a href="shop.html">Shop</a></li>
-                                <li><a href="product-details.html">Product Details</a></li>
-                                <li><a href="cart.html">Cart</a></li>
-                                <li><a href="checkout.html">CheckOut</a></li>
+                                <li><a href="shop.php">Shop</a></li>
+                                <li><a href="product-details.php">Product Details</a></li>
+                                <li><a href="cart.php">Cart</a></li>
+                                <li><a href="checkout.php">CheckOut</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="dashboard.html">Dashboard</a>
+                            <a href="dashboard.php">Dashboard</a>
                             <i class="d-lg-flex d-none bi bi-chevron-right dropdown-icon"></i>
                             <i class="d-lg-none d-flex bi bi-plus dropdown-icon"></i>
                             <ul class="sub-menu">
-                                <li><a href="dashboard.html">Admin Dashboard</a></li>
-                                <li><a href="customer-dashboard.html">Customer Dashboard</a></li>
+                                <li><a href="dashboard.php">Admin Dashboard</a></li>
+                                <li><a href="customer-dashboard.php">Customer Dashboard</a></li>
                             </ul>
                         </li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="faq.html">Faqs</a></li>
-                        <li><a href="error.html">Error</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
+                        <li><a href="faq.php">Faqs</a></li>
+                        <li><a href="error.php">Error</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="contact.html" class="drop-down">Contact</a>
+                    <a href="contact.php" class="drop-down">Contact</a>
                 </li>
             </ul>
             <div class="topbar-right d-lg-none d-block">
@@ -579,14 +579,10 @@ REGISTER/ LOGIN
                 </li>
                 <li class="right-sidebar-button">
                     <svg class="sidebar-toggle-button" width="25" height="25" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
-<path d="M1.29608 0.0658336C0.609639 0.31147 0.139209 0.899069 0.0432028 1.63598C-0.0144009 2.09353 -0.0144009 5.4939 0.0432028 5.95146C0.129608 6.59686 0.489632 7.11703 1.07047 7.42046L1.36329 7.57458H3.83545H6.30761L6.59563 7.42046C6.96525 7.2278 7.25807 6.93401 7.45008 6.56314L7.60369 6.27416V3.79372V1.31328L7.45008 1.02429C7.25807 0.653433 6.96525 0.359633 6.59563 0.166978L6.30761 0.0128531L3.90745 0.00322056C1.83372 -0.00641251 1.4785 0.00322056 1.29608 0.0658336ZM6.2356 0.802741C6.52842 0.956866 6.65803 1.08209 6.79244 1.34699L6.90765 1.57336V3.80817V6.03816L6.74924 6.29824C6.53322 6.66429 6.2068 6.85694 5.74117 6.90029C5.54916 6.91956 4.55549 6.92437 3.52343 6.91474L1.65131 6.90029L1.41129 6.77025C1.12807 6.62094 1.00807 6.49571 0.854455 6.20191L0.739248 5.98518V3.79372V1.60226L0.854455 1.38552C1.05607 0.995397 1.33929 0.778659 1.74731 0.706413C1.85292 0.687148 2.85618 0.677515 3.97946 0.677515L6.01959 0.687148L6.2356 0.802741Z">
-</path>
-<path d="M11.6647 0.0658336C10.9783 0.31147 10.5079 0.899069 10.4119 1.63598C10.3879 1.82863 10.3687 2.80154 10.3687 3.79372C10.3687 4.7859 10.3879 5.75881 10.4119 5.95146C10.4983 6.59686 10.8583 7.11703 11.4391 7.42046L11.7319 7.57458H14.2041H16.6763L16.9643 7.42046C17.3339 7.2278 17.6267 6.93401 17.8187 6.56314L17.9723 6.27416V3.79372V1.31328L17.8187 1.02429C17.6267 0.653433 17.3339 0.359633 16.9643 0.166978L16.6763 0.0128531L14.2761 0.00322056C12.2024 -0.00641251 11.8471 0.00322056 11.6647 0.0658336ZM16.6043 0.802741C16.9019 0.956866 17.0267 1.08209 17.1611 1.35181L17.2811 1.583L17.2763 3.79854C17.2763 5.73472 17.2667 6.03816 17.1995 6.1682C17.0555 6.45237 16.9067 6.61131 16.6475 6.7558L16.3882 6.90029H14.2041H12.02L11.7799 6.77025C11.4967 6.62094 11.3767 6.49571 11.2231 6.20191L11.1079 5.98518V3.79372V1.60226L11.2231 1.38552C11.4247 0.995397 11.7079 0.778659 12.116 0.706413C12.2216 0.687148 13.2248 0.677515 14.3481 0.677515L16.3882 0.687148L16.6043 0.802741Z">
-</path>
-<path d="M1.29608 10.4693C0.609639 10.7149 0.139209 11.3025 0.0432028 12.0394C-0.0144009 12.497 -0.0144009 15.8973 0.0432028 16.3549C0.129608 17.0003 0.489632 17.5205 1.07047 17.8239L1.36329 17.978H3.83545H6.30761L6.59563 17.8239C6.96525 17.6312 7.25807 17.3374 7.45008 16.9666L7.60369 16.6776V14.1972V11.7167L7.45008 11.4277C7.25807 11.0569 6.96525 10.7631 6.59563 10.5704L6.30761 10.4163L3.90745 10.4067C1.83372 10.397 1.4785 10.4067 1.29608 10.4693ZM6.2356 11.2062C6.52842 11.3603 6.65803 11.4855 6.79244 11.7504L6.90765 11.9768V14.2116V16.4416L6.74924 16.7017C6.53322 17.0677 6.2068 17.2604 5.74117 17.3037C5.54916 17.323 4.55549 17.3278 3.52343 17.3182L1.65131 17.3037L1.41129 17.1737C1.12807 17.0244 1.00807 16.8992 0.854455 16.6054L0.739248 16.3886V14.1972V12.0057L0.854455 11.789C1.05607 11.3988 1.33929 11.1821 1.74731 11.1099C1.85292 11.0906 2.85618 11.081 3.97946 11.081L6.01959 11.0906L6.2356 11.2062Z">
-</path>
-<path d="M13.2441 10.4934C11.8856 10.8498 10.8583 11.8853 10.5079 13.2531C10.3735 13.7781 10.3735 14.6162 10.5079 15.1412C10.8343 16.4127 11.732 17.3808 12.9945 17.8239C13.3593 17.9491 13.4937 17.9732 14.0601 17.9925C14.617 18.0117 14.7754 17.9973 15.1162 17.9106C16.5179 17.5542 17.5452 16.5283 17.9052 15.1219C18.0348 14.6162 18.03 13.7685 17.9004 13.2531C17.55 11.8757 16.5179 10.8401 15.145 10.4885C14.6314 10.3585 13.7529 10.3585 13.2441 10.4934ZM15.2314 11.2784C15.7066 11.4518 16.0475 11.6782 16.4363 12.0828C17.0075 12.6848 17.2763 13.3639 17.2763 14.2068C17.2763 15.0882 17.0075 15.7288 16.3691 16.3645C15.721 17.0099 15.0826 17.2796 14.2186 17.2845C13.7001 17.2845 13.3113 17.193 12.8121 16.957C12.5336 16.8221 12.3608 16.692 12.0392 16.3694C11.396 15.724 11.132 15.0882 11.132 14.1972C11.132 13.3495 11.396 12.6896 11.972 12.0828C12.3608 11.6782 12.7017 11.4518 13.1817 11.2736C13.7913 11.0521 14.6218 11.0521 15.2314 11.2784Z">
-</path>
+<path d="M1.29608 0.0658336C0.609639 0.31147 0.139209 0.899069 0.0432028 1.63598C-0.0144009 2.09353 -0.0144009 5.4939 0.0432028 5.95146C0.129608 6.59686 0.489632 7.11703 1.07047 7.42046L1.36329 7.57458H3.83545H6.30761L6.59563 7.42046C6.96525 7.2278 7.25807 6.93401 7.45008 6.56314L7.60369 6.27416V3.79372V1.31328L7.45008 1.02429C7.25807 0.653433 6.96525 0.359633 6.59563 0.166978L6.30761 0.0128531L3.90745 0.00322056C1.83372 -0.00641251 1.4785 0.00322056 1.29608 0.0658336ZM6.2356 0.802741C6.52842 0.956866 6.65803 1.08209 6.79244 1.34699L6.90765 1.57336V3.80817V6.03816L6.74924 6.29824C6.53322 6.66429 6.2068 6.85694 5.74117 6.90029C5.54916 6.91956 4.55549 6.92437 3.52343 6.91474L1.65131 6.90029L1.41129 6.77025C1.12807 6.62094 1.00807 6.49571 0.854455 6.20191L0.739248 5.98518V3.79372V1.60226L0.854455 1.38552C1.05607 0.995397 1.33929 0.778659 1.74731 0.706413C1.85292 0.687148 2.85618 0.677515 3.97946 0.677515L6.01959 0.687148L6.2356 0.802741Z"></path>
+<path d="M11.6647 0.0658336C10.9783 0.31147 10.5079 0.899069 10.4119 1.63598C10.3879 1.82863 10.3687 2.80154 10.3687 3.79372C10.3687 4.7859 10.3879 5.75881 10.4119 5.95146C10.4983 6.59686 10.8583 7.11703 11.4391 7.42046L11.7319 7.57458H14.2041H16.6763L16.9643 7.42046C17.3339 7.2278 17.6267 6.93401 17.8187 6.56314L17.9723 6.27416V3.79372V1.31328L17.8187 1.02429C17.6267 0.653433 17.3339 0.359633 16.9643 0.166978L16.6763 0.0128531L14.2761 0.00322056C12.2024 -0.00641251 11.8471 0.00322056 11.6647 0.0658336ZM16.6043 0.802741C16.9019 0.956866 17.0267 1.08209 17.1611 1.35181L17.2811 1.583L17.2763 3.79854C17.2763 5.73472 17.2667 6.03816 17.1995 6.1682C17.0555 6.45237 16.9067 6.61131 16.6475 6.7558L16.3882 6.90029H14.2041H12.02L11.7799 6.77025C11.4967 6.62094 11.3767 6.49571 11.2231 6.20191L11.1079 5.98518V3.79372V1.60226L11.2231 1.38552C11.4247 0.995397 11.7079 0.778659 12.116 0.706413C12.2216 0.687148 13.2248 0.677515 14.3481 0.677515L16.3882 0.687148L16.6043 0.802741Z"></path>
+<path d="M1.29608 10.4693C0.609639 10.7149 0.139209 11.3025 0.0432028 12.0394C-0.0144009 12.497 -0.0144009 15.8973 0.0432028 16.3549C0.129608 17.0003 0.489632 17.5205 1.07047 17.8239L1.36329 17.978H3.83545H6.30761L6.59563 17.8239C6.96525 17.6312 7.25807 17.3374 7.45008 16.9666L7.60369 16.6776V14.1972V11.7167L7.45008 11.4277C7.25807 11.0569 6.96525 10.7631 6.59563 10.5704L6.30761 10.4163L3.90745 10.4067C1.83372 10.397 1.4785 10.4067 1.29608 10.4693ZM6.2356 11.2062C6.52842 11.3603 6.65803 11.4855 6.79244 11.7504L6.90765 11.9768V14.2116V16.4416L6.74924 16.7017C6.53322 17.0677 6.2068 17.2604 5.74117 17.3037C5.54916 17.323 4.55549 17.3278 3.52343 17.3182L1.65131 17.3037L1.41129 17.1737C1.12807 17.0244 1.00807 16.8992 0.854455 16.6054L0.739248 16.3886V14.1972V12.0057L0.854455 11.789C1.05607 11.3988 1.33929 11.1821 1.74731 11.1099C1.85292 11.0906 2.85618 11.081 3.97946 11.081L6.01959 11.0906L6.2356 11.2062Z"></path>
+<path d="M13.2441 10.4934C11.8856 10.8498 10.8583 11.8853 10.5079 13.2531C10.3735 13.7781 10.3735 14.6162 10.5079 15.1412C10.8343 16.4127 11.732 17.3808 12.9945 17.8239C13.3593 17.9491 13.4937 17.9732 14.0601 17.9925C14.617 18.0117 14.7754 17.9973 15.1162 17.9106C16.5179 17.5542 17.5452 16.5283 17.9052 15.1219C18.0348 14.6162 18.03 13.7685 17.9004 13.2531C17.55 11.8757 16.5179 10.8401 15.145 10.4885C14.6314 10.3585 13.7529 10.3585 13.2441 10.4934ZM15.2314 11.2784C15.7066 11.4518 16.0475 11.6782 16.4363 12.0828C17.0075 12.6848 17.2763 13.3639 17.2763 14.2068C17.2763 15.0882 17.0075 15.7288 16.3691 16.3645C15.721 17.0099 15.0826 17.2796 14.2186 17.2845C13.7001 17.2845 13.3113 17.193 12.8121 16.957C12.5336 16.8221 12.3608 16.692 12.0392 16.3694C11.396 15.724 11.132 15.0882 11.132 14.1972C11.132 13.3495 11.396 12.6896 11.972 12.0828C12.3608 11.6782 12.7017 11.4518 13.1817 11.2736C13.7913 11.0521 14.6218 11.0521 15.2314 11.2784Z"></path>
 </svg>
                 </li>
             </ul>
@@ -616,10 +612,10 @@ REGISTER/ LOGIN
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <div class="banner-content">
-                        <h1>Package Details</h1>
+                        <h1>Package Grid</h1>
                         <ul class="breadcrumb-list">
-                            <li><a href="index.html">Home</a></li>
-                            <li>Package Details</li>
+                            <li><a href="index.php">Home</a></li>
+                            <li>Package Grid</li>
                         </ul>
                     </div>
                 </div>
@@ -627,816 +623,460 @@ REGISTER/ LOGIN
         </div>
     </div>
 
-    <div class="package-details-area pt-120 mb-120 position-relative">
+    <div class="package-grid-section pt-120 mb-120">
         <div class="container">
+            <div class="row gy-5 mb-70">
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card">
+                        <div class="package-card-img-wrap">
+                            <a href="package-details.php" class="card-img"><img src="assets/img/home1/package-card-img1.png" alt></a>
+                            <div class="batch">
+                                <span class="date">3 Days / 4 Night</span>
+                                <div class="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<path d="M8.99939 0C5.40484 0 2.48047 2.92437 2.48047 6.51888C2.48047 10.9798 8.31426 17.5287 8.56264 17.8053C8.79594 18.0651 9.20326 18.0646 9.43613 17.8053C9.68451 17.5287 15.5183 10.9798 15.5183 6.51888C15.5182 2.92437 12.5939 0 8.99939 0ZM8.99939 9.79871C7.19088 9.79871 5.71959 8.32739 5.71959 6.51888C5.71959 4.71037 7.19091 3.23909 8.99939 3.23909C10.8079 3.23909 12.2791 4.71041 12.2791 6.51892C12.2791 8.32743 10.8079 9.79871 8.99939 9.79871Z" />
+</svg>
+                                    <ul class="location-list">
+                                        <li><a href="package-grid.php">Nepal</a></li>
+                                        <li><a href="package-grid.php">Indonesia Tour</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package-card-content">
+                            <div class="card-content-top">
+                                <h5><a href="package-details.php">the Allure Italy's Rich Culture, History, and Cuisine.</a></h5>
+                                <div class="location-area">
+                                    <ul class="location-list scrollTextAni">
+                                        <li><a href="package-grid.php">Alexandria</a></li>
+                                        <li><a href="package-grid.php">Sharm El Sheikh</a></li>
+                                        <li><a href="package-grid.php">Mansoura</a></li>
+                                        <li><a href="package-grid.php">Karachi</a></li>
+                                        <li><a href="package-grid.php">Lahore</a></li>
+                                        <li><a href="package-grid.php">Islamabad</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="price-area">
+                                    <h6>Starting Form:</h6>
+                                    <span>$2,898 <del>$3000</del></span>
+                                    <p>TAXES INCL/PERS</p>
+                                </div>
+                                <a href="package-details.php" class="primary-btn2">Book a Trip
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+<path d="M8.15624 10.2261L7.70276 12.3534L5.60722 18L6.85097 17.7928L12.6612 10.1948C13.4812 10.1662 14.2764 10.1222 14.9674 10.054C18.1643 9.73783 17.9985 8.99997 17.9985 8.99997C17.9985 8.99997 18.1643 8.26211 14.9674 7.94594C14.2764 7.87745 13.4811 7.8335 12.6611 7.80518L6.851 0.206972L5.60722 -5.41705e-07L7.70276 5.64663L8.15624 7.77386C7.0917 7.78979 6.37132 7.81403 6.37132 7.81403C6.37132 7.81403 4.90278 7.84793 2.63059 8.35988L0.778036 5.79016L0.000253424 5.79016L0.554115 8.91458C0.454429 8.94514 0.454429 9.05483 0.554115 9.08539L0.000253144 12.2098L0.778036 12.2098L2.63059 9.64035C4.90278 10.1523 6.37132 10.1857 6.37132 10.1857C6.37132 10.1857 7.0917 10.2102 8.15624 10.2261Z" />
+<path d="M12.0703 11.9318L12.0703 12.7706L8.97041 12.7706L8.97041 11.9318L12.0703 11.9318ZM12.0703 5.23292L12.0703 6.0714L8.97059 6.0714L8.97059 5.23292L12.0703 5.23292ZM9.97892 14.7465L9.97892 15.585L7.11389 15.585L7.11389 14.7465L9.97892 14.7465ZM9.97892 2.41846L9.97892 3.2572L7.11389 3.2572L7.11389 2.41846L9.97892 2.41846Z" />
+</svg>
+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card">
+                        <div class="package-card-img-wrap">
+                            <a href="package-details.php" class="card-img"><img src="assets/img/home1/package-card-img2.png" alt></a>
+                            <div class="batch">
+                                <span class="date">7 Days / 8 Night</span>
+                                <div class="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<path d="M8.99939 0C5.40484 0 2.48047 2.92437 2.48047 6.51888C2.48047 10.9798 8.31426 17.5287 8.56264 17.8053C8.79594 18.0651 9.20326 18.0646 9.43613 17.8053C9.68451 17.5287 15.5183 10.9798 15.5183 6.51888C15.5182 2.92437 12.5939 0 8.99939 0ZM8.99939 9.79871C7.19088 9.79871 5.71959 8.32739 5.71959 6.51888C5.71959 4.71037 7.19091 3.23909 8.99939 3.23909C10.8079 3.23909 12.2791 4.71041 12.2791 6.51892C12.2791 8.32743 10.8079 9.79871 8.99939 9.79871Z" />
+</svg>
+                                    <ul class="location-list">
+                                        <li><a href="package-grid.php">Egypt</a></li>
+                                        <li><a href="package-grid.php">Turkey Tour</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package-card-content">
+                            <div class="card-content-top">
+                                <h5><a href="package-details.php">Explore Travel NYC's Museums, Diversity, and Energy.</a></h5>
+                                <div class="location-area">
+                                    <ul class="location-list scrollTextAni">
+                                        <li><a href="package-grid.php">Mecca</a></li>
+                                        <li><a href="package-grid.php">Medina</a></li>
+                                        <li><a href="package-grid.php">Riyadh</a></li>
+                                        <li><a href="package-grid.php">Doha</a></li>
+                                        <li><a href="package-grid.php">Al Wakrah</a></li>
+                                        <li><a href="package-grid.php">Al Rayyan</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="price-area">
+                                    <h6>Starting Form:</h6>
+                                    <span>$3,256</span>
+                                    <p>TAXES INCL/PERS</p>
+                                </div>
+                                <a href="package-details.php" class="primary-btn2">Book a Trip
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+<path d="M8.15624 10.2261L7.70276 12.3534L5.60722 18L6.85097 17.7928L12.6612 10.1948C13.4812 10.1662 14.2764 10.1222 14.9674 10.054C18.1643 9.73783 17.9985 8.99997 17.9985 8.99997C17.9985 8.99997 18.1643 8.26211 14.9674 7.94594C14.2764 7.87745 13.4811 7.8335 12.6611 7.80518L6.851 0.206972L5.60722 -5.41705e-07L7.70276 5.64663L8.15624 7.77386C7.0917 7.78979 6.37132 7.81403 6.37132 7.81403C6.37132 7.81403 4.90278 7.84793 2.63059 8.35988L0.778036 5.79016L0.000253424 5.79016L0.554115 8.91458C0.454429 8.94514 0.454429 9.05483 0.554115 9.08539L0.000253144 12.2098L0.778036 12.2098L2.63059 9.64035C4.90278 10.1523 6.37132 10.1857 6.37132 10.1857C6.37132 10.1857 7.0917 10.2102 8.15624 10.2261Z" />
+<path d="M12.0703 11.9318L12.0703 12.7706L8.97041 12.7706L8.97041 11.9318L12.0703 11.9318ZM12.0703 5.23292L12.0703 6.0714L8.97059 6.0714L8.97059 5.23292L12.0703 5.23292ZM9.97892 14.7465L9.97892 15.585L7.11389 15.585L7.11389 14.7465L9.97892 14.7465ZM9.97892 2.41846L9.97892 3.2572L7.11389 3.2572L7.11389 2.41846L9.97892 2.41846Z" />
+</svg>
+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card">
+                        <div class="package-card-img-wrap">
+                            <a href="package-details.php" class="card-img"><img src="assets/img/home1/package-card-img3.png" alt></a>
+                            <div class="batch">
+                                <span class="date">5 Days / 6 Night</span>
+                                <div class="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<path d="M8.99939 0C5.40484 0 2.48047 2.92437 2.48047 6.51888C2.48047 10.9798 8.31426 17.5287 8.56264 17.8053C8.79594 18.0651 9.20326 18.0646 9.43613 17.8053C9.68451 17.5287 15.5183 10.9798 15.5183 6.51888C15.5182 2.92437 12.5939 0 8.99939 0ZM8.99939 9.79871C7.19088 9.79871 5.71959 8.32739 5.71959 6.51888C5.71959 4.71037 7.19091 3.23909 8.99939 3.23909C10.8079 3.23909 12.2791 4.71041 12.2791 6.51892C12.2791 8.32743 10.8079 9.79871 8.99939 9.79871Z" />
+</svg>
+                                    <ul class="location-list">
+                                        <li><a href="package-grid.php">France</a></li>
+                                        <li><a href="package-grid.php">Spain Tour</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package-card-content">
+                            <div class="card-content-top">
+                                <h5><a href="package-details.php">Embark Tranquility, Adventure, and Spiritual.</a></h5>
+                                <div class="location-area">
+                                    <ul class="location-list scrollTextAni">
+                                        <li><a href="package-grid.php">Alexandria</a></li>
+                                        <li><a href="package-grid.php">Sharm El Sheikh</a></li>
+                                        <li><a href="package-grid.php">Mansoura</a></li>
+                                        <li><a href="package-grid.php">Karachi</a></li>
+                                        <li><a href="package-grid.php">Lahore</a></li>
+                                        <li><a href="package-grid.php">Islamabad</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="price-area">
+                                    <h6>Starting Form:</h6>
+                                    <span>$1,988 <del>$2500</del></span>
+                                    <p>TAXES INCL/PERS</p>
+                                </div>
+                                <a href="package-details.php" class="primary-btn2">Book a Trip
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+<path d="M8.15624 10.2261L7.70276 12.3534L5.60722 18L6.85097 17.7928L12.6612 10.1948C13.4812 10.1662 14.2764 10.1222 14.9674 10.054C18.1643 9.73783 17.9985 8.99997 17.9985 8.99997C17.9985 8.99997 18.1643 8.26211 14.9674 7.94594C14.2764 7.87745 13.4811 7.8335 12.6611 7.80518L6.851 0.206972L5.60722 -5.41705e-07L7.70276 5.64663L8.15624 7.77386C7.0917 7.78979 6.37132 7.81403 6.37132 7.81403C6.37132 7.81403 4.90278 7.84793 2.63059 8.35988L0.778036 5.79016L0.000253424 5.79016L0.554115 8.91458C0.454429 8.94514 0.454429 9.05483 0.554115 9.08539L0.000253144 12.2098L0.778036 12.2098L2.63059 9.64035C4.90278 10.1523 6.37132 10.1857 6.37132 10.1857C6.37132 10.1857 7.0917 10.2102 8.15624 10.2261Z" />
+<path d="M12.0703 11.9318L12.0703 12.7706L8.97041 12.7706L8.97041 11.9318L12.0703 11.9318ZM12.0703 5.23292L12.0703 6.0714L8.97059 6.0714L8.97059 5.23292L12.0703 5.23292ZM9.97892 14.7465L9.97892 15.585L7.11389 15.585L7.11389 14.7465L9.97892 14.7465ZM9.97892 2.41846L9.97892 3.2572L7.11389 3.2572L7.11389 2.41846L9.97892 2.41846Z" />
+</svg>
+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card">
+                        <div class="package-card-img-wrap">
+                            <a href="package-details.php" class="card-img"><img src="assets/img/home1/package-card-img4.png" alt></a>
+                            <div class="batch">
+                                <span class="date">8 Days / 9 Night</span>
+                                <div class="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<path d="M8.99939 0C5.40484 0 2.48047 2.92437 2.48047 6.51888C2.48047 10.9798 8.31426 17.5287 8.56264 17.8053C8.79594 18.0651 9.20326 18.0646 9.43613 17.8053C9.68451 17.5287 15.5183 10.9798 15.5183 6.51888C15.5182 2.92437 12.5939 0 8.99939 0ZM8.99939 9.79871C7.19088 9.79871 5.71959 8.32739 5.71959 6.51888C5.71959 4.71037 7.19091 3.23909 8.99939 3.23909C10.8079 3.23909 12.2791 4.71041 12.2791 6.51892C12.2791 8.32743 10.8079 9.79871 8.99939 9.79871Z" />
+</svg>
+                                    <ul class="location-list">
+                                        <li><a href="package-grid.php">India</a></li>
+                                        <li><a href="package-grid.php">Japan Tour</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package-card-content">
+                            <div class="card-content-top">
+                                <h5><a href="package-details.php">Embracing City Lights, Landm, and Iconic Culture.</a></h5>
+                                <div class="location-area">
+                                    <ul class="location-list">
+                                        <li><a href="package-grid.php">Bangalore</a></li>
+                                        <li><a href="package-grid.php">Chennai</a></li>
+                                        <li><a href="package-grid.php">New Delhi</a></li>
+                                        <li><a href="package-grid.php">Dhaka</a></li>
+                                        <li><a href="package-grid.php">Rangpur</a></li>
+                                        <li><a href="package-grid.php">Sylhet</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="price-area">
+                                    <h6>Starting Form:</h6>
+                                    <span>$3,798</span>
+                                    <p>TAXES INCL/PERS</p>
+                                </div>
+                                <a href="package-details.php" class="primary-btn2">Book a Trip
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+<path d="M8.15624 10.2261L7.70276 12.3534L5.60722 18L6.85097 17.7928L12.6612 10.1948C13.4812 10.1662 14.2764 10.1222 14.9674 10.054C18.1643 9.73783 17.9985 8.99997 17.9985 8.99997C17.9985 8.99997 18.1643 8.26211 14.9674 7.94594C14.2764 7.87745 13.4811 7.8335 12.6611 7.80518L6.851 0.206972L5.60722 -5.41705e-07L7.70276 5.64663L8.15624 7.77386C7.0917 7.78979 6.37132 7.81403 6.37132 7.81403C6.37132 7.81403 4.90278 7.84793 2.63059 8.35988L0.778036 5.79016L0.000253424 5.79016L0.554115 8.91458C0.454429 8.94514 0.454429 9.05483 0.554115 9.08539L0.000253144 12.2098L0.778036 12.2098L2.63059 9.64035C4.90278 10.1523 6.37132 10.1857 6.37132 10.1857C6.37132 10.1857 7.0917 10.2102 8.15624 10.2261Z" />
+<path d="M12.0703 11.9318L12.0703 12.7706L8.97041 12.7706L8.97041 11.9318L12.0703 11.9318ZM12.0703 5.23292L12.0703 6.0714L8.97059 6.0714L8.97059 5.23292L12.0703 5.23292ZM9.97892 14.7465L9.97892 15.585L7.11389 15.585L7.11389 14.7465L9.97892 14.7465ZM9.97892 2.41846L9.97892 3.2572L7.11389 3.2572L7.11389 2.41846L9.97892 2.41846Z" />
+</svg>
+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card">
+                        <div class="package-card-img-wrap">
+                            <a href="package-details.php" class="card-img"><img src="assets/img/home1/package-card-img5.png" alt></a>
+                            <div class="batch">
+                                <span class="date">6 Days / 7 Night</span>
+                                <div class="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<path d="M8.99939 0C5.40484 0 2.48047 2.92437 2.48047 6.51888C2.48047 10.9798 8.31426 17.5287 8.56264 17.8053C8.79594 18.0651 9.20326 18.0646 9.43613 17.8053C9.68451 17.5287 15.5183 10.9798 15.5183 6.51888C15.5182 2.92437 12.5939 0 8.99939 0ZM8.99939 9.79871C7.19088 9.79871 5.71959 8.32739 5.71959 6.51888C5.71959 4.71037 7.19091 3.23909 8.99939 3.23909C10.8079 3.23909 12.2791 4.71041 12.2791 6.51892C12.2791 8.32743 10.8079 9.79871 8.99939 9.79871Z" />
+</svg>
+                                    <ul class="location-list">
+                                        <li><a href="package-grid.php">Brazil</a></li>
+                                        <li><a href="package-grid.php">Hungary Tour</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package-card-content">
+                            <div class="card-content-top">
+                                <h5><a href="package-details.php">A Journey of Tour Beauty and Inspiration.</a></h5>
+                                <div class="location-area">
+                                    <ul class="location-list scrollTextAni">
+                                        <li><a href="package-grid.php">Paris</a></li>
+                                        <li><a href="package-grid.php">Marseille</a></li>
+                                        <li><a href="package-grid.php">Bordeaux</a></li>
+                                        <li><a href="package-grid.php">Madrid</a></li>
+                                        <li><a href="package-grid.php">Barcelona</a></li>
+                                        <li><a href="package-grid.php">Valencia</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="price-area">
+                                    <h6>Starting Form:</h6>
+                                    <span>$4,562 <del>$5,000</del></span>
+                                    <p>TAXES INCL/PERS</p>
+                                </div>
+                                <a href="package-details.php" class="primary-btn2">Book a Trip
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+<path d="M8.15624 10.2261L7.70276 12.3534L5.60722 18L6.85097 17.7928L12.6612 10.1948C13.4812 10.1662 14.2764 10.1222 14.9674 10.054C18.1643 9.73783 17.9985 8.99997 17.9985 8.99997C17.9985 8.99997 18.1643 8.26211 14.9674 7.94594C14.2764 7.87745 13.4811 7.8335 12.6611 7.80518L6.851 0.206972L5.60722 -5.41705e-07L7.70276 5.64663L8.15624 7.77386C7.0917 7.78979 6.37132 7.81403 6.37132 7.81403C6.37132 7.81403 4.90278 7.84793 2.63059 8.35988L0.778036 5.79016L0.000253424 5.79016L0.554115 8.91458C0.454429 8.94514 0.454429 9.05483 0.554115 9.08539L0.000253144 12.2098L0.778036 12.2098L2.63059 9.64035C4.90278 10.1523 6.37132 10.1857 6.37132 10.1857C6.37132 10.1857 7.0917 10.2102 8.15624 10.2261Z" />
+<path d="M12.0703 11.9318L12.0703 12.7706L8.97041 12.7706L8.97041 11.9318L12.0703 11.9318ZM12.0703 5.23292L12.0703 6.0714L8.97059 6.0714L8.97059 5.23292L12.0703 5.23292ZM9.97892 14.7465L9.97892 15.585L7.11389 15.585L7.11389 14.7465L9.97892 14.7465ZM9.97892 2.41846L9.97892 3.2572L7.11389 3.2572L7.11389 2.41846L9.97892 2.41846Z" />
+</svg>
+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card">
+                        <div class="package-card-img-wrap">
+                            <a href="package-details.php" class="card-img"><img src="assets/img/home1/package-card-img6.png" alt></a>
+                            <div class="batch">
+                                <span class="date">4 Days / 5 Night</span>
+                                <div class="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<path d="M8.99939 0C5.40484 0 2.48047 2.92437 2.48047 6.51888C2.48047 10.9798 8.31426 17.5287 8.56264 17.8053C8.79594 18.0651 9.20326 18.0646 9.43613 17.8053C9.68451 17.5287 15.5183 10.9798 15.5183 6.51888C15.5182 2.92437 12.5939 0 8.99939 0ZM8.99939 9.79871C7.19088 9.79871 5.71959 8.32739 5.71959 6.51888C5.71959 4.71037 7.19091 3.23909 8.99939 3.23909C10.8079 3.23909 12.2791 4.71041 12.2791 6.51892C12.2791 8.32743 10.8079 9.79871 8.99939 9.79871Z" />
+</svg>
+                                    <ul class="location-list">
+                                        <li><a href="package-grid.php">Nepal</a></li>
+                                        <li><a href="package-grid.php">Indonesia Tour </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package-card-content">
+                            <div class="card-content-top">
+                                <h5><a href="package-details.php">Adventure Art, Architecture, and Mediterranean.</a></h5>
+                                <div class="location-area">
+                                    <ul class="location-list scrollTextAni">
+                                        <li><a href="package-grid.php">Kathmandu</a></li>
+                                        <li><a href="package-grid.php">Pokhara</a></li>
+                                        <li><a href="package-grid.php">Lalitpur</a></li>
+                                        <li><a href="package-grid.php">Jakarta</a></li>
+                                        <li><a href="package-grid.php">Surabaya</a></li>
+                                        <li><a href="package-grid.php">Bandung</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="price-area">
+                                    <h6>Starting Form:</h6>
+                                    <span>$5,320 <del>$5,500</del></span>
+                                    <p>TAXES INCL/PERS</p>
+                                </div>
+                                <a href="package-details.php" class="primary-btn2">Book a Trip
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+<path d="M8.15624 10.2261L7.70276 12.3534L5.60722 18L6.85097 17.7928L12.6612 10.1948C13.4812 10.1662 14.2764 10.1222 14.9674 10.054C18.1643 9.73783 17.9985 8.99997 17.9985 8.99997C17.9985 8.99997 18.1643 8.26211 14.9674 7.94594C14.2764 7.87745 13.4811 7.8335 12.6611 7.80518L6.851 0.206972L5.60722 -5.41705e-07L7.70276 5.64663L8.15624 7.77386C7.0917 7.78979 6.37132 7.81403 6.37132 7.81403C6.37132 7.81403 4.90278 7.84793 2.63059 8.35988L0.778036 5.79016L0.000253424 5.79016L0.554115 8.91458C0.454429 8.94514 0.454429 9.05483 0.554115 9.08539L0.000253144 12.2098L0.778036 12.2098L2.63059 9.64035C4.90278 10.1523 6.37132 10.1857 6.37132 10.1857C6.37132 10.1857 7.0917 10.2102 8.15624 10.2261Z" />
+<path d="M12.0703 11.9318L12.0703 12.7706L8.97041 12.7706L8.97041 11.9318L12.0703 11.9318ZM12.0703 5.23292L12.0703 6.0714L8.97059 6.0714L8.97059 5.23292L12.0703 5.23292ZM9.97892 14.7465L9.97892 15.585L7.11389 15.585L7.11389 14.7465L9.97892 14.7465ZM9.97892 2.41846L9.97892 3.2572L7.11389 3.2572L7.11389 2.41846L9.97892 2.41846Z" />
+</svg>
+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card">
+                        <div class="package-card-img-wrap">
+                            <a href="package-details.php" class="card-img"><img src="assets/img/home1/package-card-img7.png" alt></a>
+                            <div class="batch">
+                                <span class="date">2 Days / 3 Night</span>
+                                <div class="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<path d="M8.99939 0C5.40484 0 2.48047 2.92437 2.48047 6.51888C2.48047 10.9798 8.31426 17.5287 8.56264 17.8053C8.79594 18.0651 9.20326 18.0646 9.43613 17.8053C9.68451 17.5287 15.5183 10.9798 15.5183 6.51888C15.5182 2.92437 12.5939 0 8.99939 0ZM8.99939 9.79871C7.19088 9.79871 5.71959 8.32739 5.71959 6.51888C5.71959 4.71037 7.19091 3.23909 8.99939 3.23909C10.8079 3.23909 12.2791 4.71041 12.2791 6.51892C12.2791 8.32743 10.8079 9.79871 8.99939 9.79871Z"></path>
+</svg>
+                                    <ul class="location-list">
+                                        <li><a href="package-grid.php">Nepal</a></li>
+                                        <li><a href="package-grid.php">Indonesia Tour </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package-card-content">
+                            <div class="card-content-top">
+                                <h5><a href="package-details.php">Exploring ancient ruins, histor landmarks, and cultural.</a></h5>
+                                <div class="location-area">
+                                    <ul class="location-list scrollTextAni">
+                                        <li><a href="package-grid.php">Kathmandu</a></li>
+                                        <li><a href="package-grid.php">Pokhara</a></li>
+                                        <li><a href="package-grid.php">Lalitpur</a></li>
+                                        <li><a href="package-grid.php">Jakarta</a></li>
+                                        <li><a href="package-grid.php">Surabaya</a></li>
+                                        <li><a href="package-grid.php">Bandung</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="price-area">
+                                    <h6>Starting Form:</h6>
+                                    <span>$5,320 <del>$5,500</del></span>
+                                    <p>TAXES INCL/PERS</p>
+                                </div>
+                                <a href="package-details.php" class="primary-btn2">Book a Trip
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+<path d="M8.15624 10.2261L7.70276 12.3534L5.60722 18L6.85097 17.7928L12.6612 10.1948C13.4812 10.1662 14.2764 10.1222 14.9674 10.054C18.1643 9.73783 17.9985 8.99997 17.9985 8.99997C17.9985 8.99997 18.1643 8.26211 14.9674 7.94594C14.2764 7.87745 13.4811 7.8335 12.6611 7.80518L6.851 0.206972L5.60722 -5.41705e-07L7.70276 5.64663L8.15624 7.77386C7.0917 7.78979 6.37132 7.81403 6.37132 7.81403C6.37132 7.81403 4.90278 7.84793 2.63059 8.35988L0.778036 5.79016L0.000253424 5.79016L0.554115 8.91458C0.454429 8.94514 0.454429 9.05483 0.554115 9.08539L0.000253144 12.2098L0.778036 12.2098L2.63059 9.64035C4.90278 10.1523 6.37132 10.1857 6.37132 10.1857C6.37132 10.1857 7.0917 10.2102 8.15624 10.2261Z"></path>
+<path d="M12.0703 11.9318L12.0703 12.7706L8.97041 12.7706L8.97041 11.9318L12.0703 11.9318ZM12.0703 5.23292L12.0703 6.0714L8.97059 6.0714L8.97059 5.23292L12.0703 5.23292ZM9.97892 14.7465L9.97892 15.585L7.11389 15.585L7.11389 14.7465L9.97892 14.7465ZM9.97892 2.41846L9.97892 3.2572L7.11389 3.2572L7.11389 2.41846L9.97892 2.41846Z"></path>
+</svg>
+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card">
+                        <div class="package-card-img-wrap">
+                            <a href="package-details.php" class="card-img"><img src="assets/img/home1/package-card-img8.png" alt></a>
+                            <div class="batch">
+                                <span class="date">3 Days / 4 Night</span>
+                                <div class="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<path d="M8.99939 0C5.40484 0 2.48047 2.92437 2.48047 6.51888C2.48047 10.9798 8.31426 17.5287 8.56264 17.8053C8.79594 18.0651 9.20326 18.0646 9.43613 17.8053C9.68451 17.5287 15.5183 10.9798 15.5183 6.51888C15.5182 2.92437 12.5939 0 8.99939 0ZM8.99939 9.79871C7.19088 9.79871 5.71959 8.32739 5.71959 6.51888C5.71959 4.71037 7.19091 3.23909 8.99939 3.23909C10.8079 3.23909 12.2791 4.71041 12.2791 6.51892C12.2791 8.32743 10.8079 9.79871 8.99939 9.79871Z"></path>
+</svg>
+                                    <ul class="location-list">
+                                        <li><a href="package-grid.php">Nepal</a></li>
+                                        <li><a href="package-grid.php">Indonesia Tour </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package-card-content">
+                            <div class="card-content-top">
+                                <h5><a href="package-details.php">Immersive cultural Expirees, local cuisine.</a></h5>
+                                <div class="location-area">
+                                    <ul class="location-list scrollTextAni">
+                                        <li><a href="package-grid.php">Kathmandu</a></li>
+                                        <li><a href="package-grid.php">Pokhara</a></li>
+                                        <li><a href="package-grid.php">Lalitpur</a></li>
+                                        <li><a href="package-grid.php">Jakarta</a></li>
+                                        <li><a href="package-grid.php">Surabaya</a></li>
+                                        <li><a href="package-grid.php">Bandung</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="price-area">
+                                    <h6>Starting Form:</h6>
+                                    <span>$5,320 <del>$5,500</del></span>
+                                    <p>TAXES INCL/PERS</p>
+                                </div>
+                                <a href="package-details.php" class="primary-btn2">Book a Trip
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+<path d="M8.15624 10.2261L7.70276 12.3534L5.60722 18L6.85097 17.7928L12.6612 10.1948C13.4812 10.1662 14.2764 10.1222 14.9674 10.054C18.1643 9.73783 17.9985 8.99997 17.9985 8.99997C17.9985 8.99997 18.1643 8.26211 14.9674 7.94594C14.2764 7.87745 13.4811 7.8335 12.6611 7.80518L6.851 0.206972L5.60722 -5.41705e-07L7.70276 5.64663L8.15624 7.77386C7.0917 7.78979 6.37132 7.81403 6.37132 7.81403C6.37132 7.81403 4.90278 7.84793 2.63059 8.35988L0.778036 5.79016L0.000253424 5.79016L0.554115 8.91458C0.454429 8.94514 0.454429 9.05483 0.554115 9.08539L0.000253144 12.2098L0.778036 12.2098L2.63059 9.64035C4.90278 10.1523 6.37132 10.1857 6.37132 10.1857C6.37132 10.1857 7.0917 10.2102 8.15624 10.2261Z"></path>
+<path d="M12.0703 11.9318L12.0703 12.7706L8.97041 12.7706L8.97041 11.9318L12.0703 11.9318ZM12.0703 5.23292L12.0703 6.0714L8.97059 6.0714L8.97059 5.23292L12.0703 5.23292ZM9.97892 14.7465L9.97892 15.585L7.11389 15.585L7.11389 14.7465L9.97892 14.7465ZM9.97892 2.41846L9.97892 3.2572L7.11389 3.2572L7.11389 2.41846L9.97892 2.41846Z"></path>
+</svg>
+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card">
+                        <div class="package-card-img-wrap">
+                            <a href="package-details.php" class="card-img"><img src="assets/img/home1/package-card-img9.png" alt></a>
+                            <div class="batch">
+                                <span class="date">3 Days / 4 Night</span>
+                                <div class="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<path d="M8.99939 0C5.40484 0 2.48047 2.92437 2.48047 6.51888C2.48047 10.9798 8.31426 17.5287 8.56264 17.8053C8.79594 18.0651 9.20326 18.0646 9.43613 17.8053C9.68451 17.5287 15.5183 10.9798 15.5183 6.51888C15.5182 2.92437 12.5939 0 8.99939 0ZM8.99939 9.79871C7.19088 9.79871 5.71959 8.32739 5.71959 6.51888C5.71959 4.71037 7.19091 3.23909 8.99939 3.23909C10.8079 3.23909 12.2791 4.71041 12.2791 6.51892C12.2791 8.32743 10.8079 9.79871 8.99939 9.79871Z"></path>
+</svg>
+                                    <ul class="location-list">
+                                        <li><a href="package-grid.php">Nepal</a></li>
+                                        <li><a href="package-grid.php">Indonesia Tour </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package-card-content">
+                            <div class="card-content-top">
+                                <h5><a href="package-details.php">Embracing City Lights, Landm, and Iconic Culture.</a></h5>
+                                <div class="location-area">
+                                    <ul class="location-list scrollTextAni">
+                                        <li><a href="package-grid.php">Kathmandu</a></li>
+                                        <li><a href="package-grid.php">Pokhara</a></li>
+                                        <li><a href="package-grid.php">Lalitpur</a></li>
+                                        <li><a href="package-grid.php">Jakarta</a></li>
+                                        <li><a href="package-grid.php">Surabaya</a></li>
+                                        <li><a href="package-grid.php">Bandung</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="price-area">
+                                    <h6>Starting Form:</h6>
+                                    <span>$5,320 <del>$5,500</del></span>
+                                    <p>TAXES INCL/PERS</p>
+                                </div>
+                                <a href="package-details.php" class="primary-btn2">Book a Trip
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+<path d="M8.15624 10.2261L7.70276 12.3534L5.60722 18L6.85097 17.7928L12.6612 10.1948C13.4812 10.1662 14.2764 10.1222 14.9674 10.054C18.1643 9.73783 17.9985 8.99997 17.9985 8.99997C17.9985 8.99997 18.1643 8.26211 14.9674 7.94594C14.2764 7.87745 13.4811 7.8335 12.6611 7.80518L6.851 0.206972L5.60722 -5.41705e-07L7.70276 5.64663L8.15624 7.77386C7.0917 7.78979 6.37132 7.81403 6.37132 7.81403C6.37132 7.81403 4.90278 7.84793 2.63059 8.35988L0.778036 5.79016L0.000253424 5.79016L0.554115 8.91458C0.454429 8.94514 0.454429 9.05483 0.554115 9.08539L0.000253144 12.2098L0.778036 12.2098L2.63059 9.64035C4.90278 10.1523 6.37132 10.1857 6.37132 10.1857C6.37132 10.1857 7.0917 10.2102 8.15624 10.2261Z"></path>
+<path d="M12.0703 11.9318L12.0703 12.7706L8.97041 12.7706L8.97041 11.9318L12.0703 11.9318ZM12.0703 5.23292L12.0703 6.0714L8.97059 6.0714L8.97059 5.23292L12.0703 5.23292ZM9.97892 14.7465L9.97892 15.585L7.11389 15.585L7.11389 14.7465L9.97892 14.7465ZM9.97892 2.41846L9.97892 3.2572L7.11389 3.2572L7.11389 2.41846L9.97892 2.41846Z"></path>
+</svg>
+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="row">
-                <div class="co-lg-12">
-                    <div class="package-img-group mb-50">
-                        <div class="row align-items-center g-3">
-                            <div class="col-lg-6">
-                                <div class="gallery-img-wrap">
-                                    <img src="assets/img/innerpage/package-01.jpg" alt>
-                                    <a data-fancybox="gallery-01" href="assets/img/innerpage/package-01.jpg"><i class="bi bi-eye"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 h-100">
-                                <div class="row g-3 h-100">
-                                    <div class="col-6">
-                                        <div class="gallery-img-wrap">
-                                            <img src="assets/img/innerpage/package-02.jpg" alt>
-                                            <a data-fancybox="gallery-01" href="assets/img/innerpage/package-02.jpg"><i class="bi bi-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="gallery-img-wrap">
-                                            <img src="assets/img/innerpage/package-03.jpg" alt>
-                                            <a data-fancybox="gallery-01" href="assets/img/innerpage/package-03.jpg"><i class="bi bi-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="gallery-img-wrap active">
-                                            <img src="assets/img/innerpage/package-04.jpg" alt>
-                                            <button class="StartSlideShowFirstImage"><i class="bi bi-plus-lg"></i> View More Images</button>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="gallery-img-wrap active">
-                                            <img src="assets/img/innerpage/package-05.jpg" alt>
-                                            <a data-fancybox="gallery-01" href="https://www.youtube.com/watch?v=u31qwQUeGuM"><i class="bi bi-play-circle"></i> Watch Video</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="others-image-wrap d-none">
-                <a href="assets/img/innerpage/package-01.jpg" data-fancybox="images"><img src="assets/img/innerpage/blog-grid-img3.jpg" alt></a>
-                <a href="assets/img/innerpage/package-02.jpg" data-fancybox="images"><img src="assets/img/innerpage/blog-grid-img3.jpg" alt></a>
-                <a href="assets/img/innerpage/package-03.jpg" data-fancybox="images"><img src="assets/img/innerpage/blog-grid-img3.jpg" alt></a>
-                <a href="assets/img/innerpage/package-04.jpg" data-fancybox="images"><img src="assets/img/innerpage/blog-grid-img3.jpg" alt></a>
-                <a href="assets/img/innerpage/package-05.jpg" data-fancybox="images"><img src="assets/img/innerpage/blog-grid-img3.jpg" alt></a>
-            </div>
-            <div class="row g-xl-4 gy-5">
-                <div class="col-xl-8">
-                    <h2>Experience the tour of excitement with the most adventurous activities.</h2>
-                    <div class="tour-price">
-                        <h3>$175/</h3><span>per person</span>
-                    </div>
-                    <ul class="tour-info-metalist">
-                        <li>
-                            <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
-<path d="M14 7C14 8.85652 13.2625 10.637 11.9497 11.9497C10.637 13.2625 8.85652 14 7 14C5.14348 14 3.36301 13.2625 2.05025 11.9497C0.737498 10.637 0 8.85652 0 7C0 5.14348 0.737498 3.36301 2.05025 2.05025C3.36301 0.737498 5.14348 0 7 0C8.85652 0 10.637 0.737498 11.9497 2.05025C13.2625 3.36301 14 5.14348 14 7ZM7 3.0625C7 2.94647 6.95391 2.83519 6.87186 2.75314C6.78981 2.67109 6.67853 2.625 6.5625 2.625C6.44647 2.625 6.33519 2.67109 6.25314 2.75314C6.17109 2.83519 6.125 2.94647 6.125 3.0625V7.875C6.12502 7.95212 6.14543 8.02785 6.18415 8.09454C6.22288 8.16123 6.27854 8.2165 6.3455 8.25475L9.408 10.0048C9.5085 10.0591 9.62626 10.0719 9.73611 10.0406C9.84596 10.0092 9.93919 9.93611 9.99587 9.83692C10.0525 9.73774 10.0682 9.62031 10.0394 9.50975C10.0107 9.39919 9.93982 9.30426 9.842 9.24525L7 7.62125V3.0625Z">
-</path>
-</svg> 4 Days / 5 Night
-                        </li>
-                        <li>
-                            <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
-<path d="M7 7C7.92826 7 8.8185 6.63125 9.47487 5.97487C10.1313 5.3185 10.5 4.42826 10.5 3.5C10.5 2.57174 10.1313 1.6815 9.47487 1.02513C8.8185 0.368749 7.92826 0 7 0C6.07174 0 5.1815 0.368749 4.52513 1.02513C3.86875 1.6815 3.5 2.57174 3.5 3.5C3.5 4.42826 3.86875 5.3185 4.52513 5.97487C5.1815 6.63125 6.07174 7 7 7ZM14 12.8333C14 14 12.8333 14 12.8333 14H1.16667C1.16667 14 0 14 0 12.8333C0 11.6667 1.16667 8.16667 7 8.16667C12.8333 8.16667 14 11.6667 14 12.8333Z">
-</path>
-</svg> Max People : 40
-                        </li>
-                        <li>
-                            <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14 0.43748C14 0.372778 13.9856 0.308889 13.9579 0.250418C13.9302 0.191947 13.8898 0.140348 13.8398 0.0993396C13.7897 0.0583312 13.7312 0.0289339 13.6684 0.0132656C13.6057 -0.00240264 13.5402 -0.00395173 13.4768 0.00872996L9.1875 0.86623L4.89825 0.00872996C4.84164 -0.00258444 4.78336 -0.00258444 4.72675 0.00872996L0.35175 0.88373C0.252608 0.903546 0.163389 0.957088 0.099263 1.03525C0.0351366 1.11342 6.10593e-05 1.21138 0 1.31248L0 13.5625C3.90711e-05 13.6272 0.0144289 13.6911 0.0421328 13.7495C0.0698367 13.808 0.110165 13.8596 0.160212 13.9006C0.210259 13.9416 0.268779 13.971 0.331556 13.9867C0.394332 14.0024 0.459803 14.0039 0.52325 13.9912L4.8125 13.1337L9.10175 13.9912C9.15836 14.0025 9.21664 14.0025 9.27325 13.9912L13.6482 13.1162C13.7474 13.0964 13.8366 13.0429 13.9007 12.9647C13.9649 12.8865 13.9999 12.7886 14 12.6875V0.43748ZM4.375 12.3287V0.97123L4.8125 0.88373L5.25 0.97123V12.3287L4.89825 12.2587C4.84165 12.2474 4.78335 12.2474 4.72675 12.2587L4.375 12.3287ZM8.75 13.0287V1.67123L9.10175 1.74123C9.15836 1.75254 9.21664 1.75254 9.27325 1.74123L9.625 1.67123V13.0287L9.1875 13.1162L8.75 13.0287Z">
-</path>
-</svg> Italy & France.
-                        </li>
-                    </ul>
-                    <p>Tour and travel refer to the activities related to planning, organizing, and experiencing trips to various destinations for leisure, exploration, adventure, or relaxation.Choose your destination based on your interests and preferences,
-                        whether it's a cultural experience, a natural adventure, historical exploration, or a beach vacation.</p>
-                    <p>Book suitable accommodation, which can range from hotels, resorts, hostels, vacation rentals, or even camping depending on your travel style and destination.Arrange transportation to and within your destination. This can include flights,
-                        trains, buses, rental cars, or even cruises.</p>
-                    <h4>Included and Excluded</h4>
-                    <div class="includ-and-exclud-area mb-20">
-                        <ul>
-                            <li><i class="bi bi-check-lg"></i> Meal as per hotel Plan and drinks free too.</li>
-                            <li><i class="bi bi-check-lg"></i> Return airport and round trip transfers.</li>
-                            <li><i class="bi bi-check-lg"></i> Accommodation on twin sharing basis.</li>
-                            <li><i class="bi bi-check-lg"></i> The above rates are on per day disposal basi</li>
-                            <li><i class="bi bi-check-lg"></i> Enjoy Brussels day tours. Overnight Brussels</li>
+                <div class="col-lg-12">
+                    <nav class="inner-pagination-area">
+                        <ul class="pagination-list">
+                            <li>
+                                <a href="#" class="shop-pagi-btn"><i class="bi bi-chevron-left"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">1</a>
+                            </li>
+                            <li>
+                                <a href="#" class="active">2</a>
+                            </li>
+                            <li>
+                                <a href="#">3</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="bi bi-three-dots"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">6</a>
+                            </li>
+                            <li>
+                                <a href="#" class="shop-pagi-btn"><i class="bi bi-chevron-right"></i></a>
+                            </li>
                         </ul>
-                        <ul class="exclud">
-                            <li><i class="bi bi-x-lg"></i> AC will not be functional on Hills or Slopes.</li>
-                            <li><i class="bi bi-x-lg"></i> Any other service not mentioned</li>
-                            <li><i class="bi bi-x-lg"></i> Additional entry fees other than specified</li>
-                            <li><i class="bi bi-x-lg"></i> Amsterdam canal cruise not included for basic</li>
-                        </ul>
-                    </div>
-                    <div class="highlight-tour mb-20">
-                        <h4>Highlights of the Tour</h4>
-                        <ul>
-                            <li><span><i class="bi bi-check"></i></span> Our team of knowledgeable guides and travel experts are dedicated to making your journey memorable and worry-free</li>
-                            <li><span><i class="bi bi-check"></i></span> Dive into rich cultures and traditions. Explore historic sites, savor authentic cuisine, and connect with locals.</li>
-                            <li><span><i class="bi bi-check"></i></span> We take care of all the details, so you can focus on creating memories. Rest assured that your journey is in capable hands</li>
-                            <li><span><i class="bi bi-check"></i></span> Sip cocktails on the beach as you watch the sun dip below the horizon.</li>
-                            <li><span><i class="bi bi-check"></i></span> From accommodations to dining experiences, we select the best partners to ensure your comfort and enjoyment throughout your journey.</li>
-                        </ul>
-                    </div>
-                    <h4>Itinerary</h4>
-                    <div class="accordion tour-plan" id="tourPlan">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-<span>Day 01 :</span> Departure
-</button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#tourPlan">
-                                <div class="accordion-body">
-                                    <p>Arrive Cairo airport, welcome greeting by our representative who will assist you and provide tra nsfers to your Hotel in Cairo. (the clients will inform us about their arrival time minimum 7 days before)</p>
-                                    <ul>
-                                        <li><i class="bi bi-check-lg"></i> Admire Big Ben, Buckingham Palace and St Paul’s Cathedral</li>
-                                        <li><i class="bi bi-check-lg"></i> Chance to spot prominent landmarks of the city</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-<span>Day 02 :</span> Adventure Beggins
-</button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#tourPlan">
-                                <div class="accordion-body">
-                                    <p>Arrive Cairo airport, welcome greeting by our representative who will assist you and provide tra nsfers to your Hotel in Cairo. (the clients will inform us about their arrival time minimum 7 days before)</p>
-                                    <ul>
-                                        <li><i class="bi bi-check-lg"></i> Admire Big Ben, Buckingham Palace and St Paul’s Cathedral</li>
-                                        <li><i class="bi bi-check-lg"></i> Chance to spot prominent landmarks of the city</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-<span>Day 03 :</span> Historical Tour
-</button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#tourPlan">
-                                <div class="accordion-body">
-                                    <p>Arrive Cairo airport, welcome greeting by our representative who will assist you and provide tra nsfers to your Hotel in Cairo. (the clients will inform us about their arrival time minimum 7 days before)</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-<span>Day 04 :</span> Rest & Tour
-</button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#tourPlan">
-                                <div class="accordion-body">
-                                    <p>Please go to the London Eye ticket office to exchange your voucher for a ticket. You may be ask ed for identification (driver's license, national identity card or passport). You will receive tickets for the next available
-                                        time slot, but you may request a different date or time, subject to availability.</p>
-                                    <p>The following items are not permitted: alcohol, baseball bats, bicycles (including folding ones), explosives For all ticket holders, the number of people per capsule may vary.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-<span>Day 05 :</span> Return
-</button>
-                            </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#tourPlan">
-                                <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tour-location">
-                        <h4>Location Map</h4>
-                        <div class="map-area mb-30">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193325.0481540361!2d-74.06757856146028!3d40.79052383652264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1660366711448!5m2!1sen!2sbd"
-                                width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
-                    <div class="faq-content-wrap mb-80">
-                        <div class="faq-content-title mb-20">
-                            <h4>Frequently Asked & Question</h4>
-                        </div>
-                        <div class="faq-content">
-                            <div class="accordion" id="accordionTravel">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="travelheadingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#travelcollapseOne" aria-expanded="true" aria-controls="travelcollapseOne">
-01. How do I book a trip on your website?
-</button>
-                                    </h2>
-                                    <div id="travelcollapseOne" class="accordion-collapse collapse show" aria-labelledby="travelheadingOne" data-bs-parent="#accordionTravel">
-                                        <div class="accordion-body">
-                                            Aptent taciti sociosqu ad litora torquent per conubia nostra, per inci only Integer purus onthis felis non aliquam.Mauris nec just vitae ann auctor tol euismod sit amet non ipsul growing this.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="travelheadingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#travelcollapseTwo" aria-expanded="false" aria-controls="travelcollapseTwo">
-02. What payment methods do you accept?
-</button>
-                                    </h2>
-                                    <div id="travelcollapseTwo" class="accordion-collapse collapse" aria-labelledby="travelheadingTwo" data-bs-parent="#accordionTravel">
-                                        <div class="accordion-body">
-                                            Aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos only Integer purus onthis placerat felis non aliquam.Mauris nec justo vitae ante auctor tol euismod sit amet non ipsul growing this Praesent commodo at massa eget suscipit. Utani
-                                            vitae enim velit.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="travelheadingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#travelcollapseThree" aria-expanded="false" aria-controls="travelcollapseThree">
-03. Can I make changes to my reservation after booking?
-</button>
-                                    </h2>
-                                    <div id="travelcollapseThree" class="accordion-collapse collapse" aria-labelledby="travelheadingThree" data-bs-parent="#accordionTravel">
-                                        <div class="accordion-body">
-                                            Aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos only Integer purus onthis placerat felis non aliquam.Mauris nec justo vitae ante auctor tol euismod sit amet non ipsul growing this Praesent commodo at massa eget suscipit. Utani
-                                            vitae enim velit.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="travelheadingFour">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#travelcollapseFour" aria-expanded="false" aria-controls="travelcollapseFour">
-04. What is your cancellation policy?
-</button>
-                                    </h2>
-                                    <div id="travelcollapseFour" class="accordion-collapse collapse" aria-labelledby="travelheadingFour" data-bs-parent="#accordionTravel">
-                                        <div class="accordion-body">
-                                            Aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos only Integer purus onthis placerat felis non aliquam.Mauris nec justo vitae ante auctor tol euismod sit amet non ipsul growing this Praesent commodo at massa eget suscipit. Utani
-                                            vitae enim velit.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="travelheadingFive">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#travelcollapseFive" aria-expanded="false" aria-controls="travelcollapseFive">
-05. Do you offer group booking discounts?
-</button>
-                                    </h2>
-                                    <div id="travelcollapseFive" class="accordion-collapse collapse" aria-labelledby="travelheadingFive" data-bs-parent="#accordionTravel">
-                                        <div class="accordion-body">
-                                            Aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos only Integer purus onthis placerat felis non aliquam.Mauris nec justo vitae ante auctor tol euismod sit amet non ipsul growing this Praesent commodo at massa eget suscipit. Utani
-                                            vitae enim velit.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="review-wrapper">
-                        <h4>Customer Review</h4>
-                        <div class="review-box">
-                            <div class="total-review">
-                                <h2>9.5</h2>
-                                <div class="review-wrap">
-                                    <ul class="star-list">
-                                        <li><i class="bi bi-star-fill"></i></li>
-                                        <li><i class="bi bi-star-fill"></i></li>
-                                        <li><i class="bi bi-star-fill"></i></li>
-                                        <li><i class="bi bi-star-fill"></i></li>
-                                        <li><i class="bi bi-star-half"></i></li>
-                                    </ul>
-                                    <span>2590 Reviews</span>
-                                </div>
-                            </div>
-
-                            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" tabindex="-1">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <div class="modal-body">
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
-                                            <div class="row g-2">
-                                                <div class="col-lg-8">
-                                                    <div class="review-from-wrapper">
-                                                        <h4>Write Your Review</h4>
-                                                        <form>
-                                                            <div class="row">
-                                                                <div class="col-md-6 mb-20">
-                                                                    <div class="form-inner">
-                                                                        <label>Name</label>
-                                                                        <input type="text" placeholder="Enter Your Name:">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 mb-20">
-                                                                    <div class="form-inner">
-                                                                        <label>Email</label>
-                                                                        <input type="email" placeholder="Enter Your Email:">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-12 mb-20">
-                                                                    <div class="form-inner">
-                                                                        <label>Review*</label>
-                                                                        <textarea name="message" placeholder="Enter Your Review..."></textarea>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-12 mb-40">
-                                                                    <div class="star-rating-wrapper">
-                                                                        <ul class="star-rating-list">
-                                                                            <li>
-                                                                                <div class="rating-container" data-rating="0">
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                </div>
-                                                                                <span>Overall</span>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="rating-container" data-rating="0">
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                </div>
-                                                                                <span>Transport</span>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="rating-container" data-rating="0">
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                </div>
-                                                                                <span>Food</span>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="rating-container" data-rating="0">
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                </div>
-                                                                                <span>Destination</span>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="rating-container" data-rating="0">
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                    <i class="bi bi-star-fill star-icon"></i>
-                                                                                </div>
-                                                                                <span>Hospitality</span>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-12">
-                                                                    <button type="submit" class="primary-btn1">Submit
-Now</button>
-                                                                </div>
-                                                            </div>
-                                                        </form>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 d-lg-flex d-none">
-                                                    <div class="modal-form-image">
-                                                        <img src="assets/img/innerpage/form-image.jpg" alt="image" class="img-fluid">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="primary-btn1" data-bs-toggle="modal" href="#exampleModalToggle" role="button">GIVE A
-RATING</a>
-                        </div>
-                        <div class="review-area">
-                            <ul class="comment">
-                                <li>
-                                    <div class="single-comment-area">
-                                        <div class="author-img">
-                                            <img src="assets/img/innerpage/comment-author-01.jpg" alt>
-                                        </div>
-                                        <div class="comment-content">
-                                            <div class="author-name-deg">
-                                                <h6>Mr. Bowmik Haldar,</h6>
-                                                <span>05 June, 2023</span>
-                                            </div>
-                                            <ul class="review-item-list">
-                                                <li>
-                                                    <span>Overall</span>
-                                                    <ul class="star-list">
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-half"></i></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <span>Transport</span>
-                                                    <ul class="star-list">
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-half"></i></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <span>Food</span>
-                                                    <ul class="star-list">
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-half"></i></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <span>Destination</span>
-                                                    <ul class="star-list">
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-half"></i></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <span>Hospitality</span>
-                                                    <ul class="star-list">
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-half"></i></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                            <p>A solution that we came up with is to think of sanitary pads packaging as you would tea. Tea comes individually packaged </p>
-                                            <div class="replay-btn">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11">
-<path d="M8.55126 1.11188C8.52766 1.10118 8.50182 1.09676 8.47612 1.09903C8.45042 1.1013 8.42569 1.11018 8.40419 1.12486C8.3827 1.13954 8.36513 1.15954 8.35311 1.18304C8.34109 1.20653 8.335 1.23276 8.33539 1.25932V2.52797C8.33539 2.67388 8.2791 2.81381 8.17889 2.91698C8.07868 3.02016 7.94277 3.07812 7.80106 3.07812C7.08826 3.07812 5.64984 3.08362 4.27447 3.98257C3.2229 4.66916 2.14783 5.9191 1.50129 8.24735C2.59132 7.16575 3.83632 6.57929 4.92635 6.2679C5.59636 6.07737 6.28492 5.96444 6.97926 5.93121C7.26347 5.91835 7.54815 5.92129 7.83205 5.94001H7.84594L7.85129 5.94111L7.80106 6.48906L7.85449 5.94111C7.98638 5.95476 8.10864 6.01839 8.19751 6.11966C8.28638 6.22092 8.33553 6.35258 8.33539 6.48906V7.75771C8.33539 7.87654 8.45294 7.95136 8.55126 7.90515L12.8088 4.67796C12.8233 4.66692 12.8383 4.65664 12.8537 4.64715C12.8769 4.63278 12.8962 4.61245 12.9095 4.58816C12.9229 4.56386 12.9299 4.53643 12.9299 4.50851C12.9299 4.4806 12.9229 4.45316 12.9095 4.42887C12.8962 4.40458 12.8769 4.38425 12.8537 4.36988C12.8382 4.36039 12.8233 4.35011 12.8088 4.33907L8.55126 1.11188ZM7.26673 7.02381C7.19406 7.02381 7.11391 7.02711 7.02842 7.03041C6.56462 7.05242 5.92342 7.12504 5.21169 7.32859C3.79464 7.7335 2.11684 8.65116 1.00115 10.7175C0.940817 10.8291 0.844683 10.9155 0.729224 10.9621C0.613765 11.0087 0.486168 11.0124 0.368304 10.9728C0.250441 10.9331 0.149648 10.8525 0.0831985 10.7447C0.0167484 10.6369 -0.011219 10.5086 0.0040884 10.3819C0.499949 6.29981 2.01959 4.15202 3.70167 3.05391C5.03215 2.18467 6.40218 2.01743 7.26673 1.98552V1.25932C7.26663 1.03273 7.32593 0.810317 7.43839 0.615545C7.55084 0.420773 7.71227 0.260866 7.90565 0.152696C8.09902 0.0445258 8.31717 -0.00789584 8.53707 0.000962485C8.75698 0.00982081 8.97048 0.0796305 9.15506 0.203025L13.4233 3.43792C13.5998 3.55133 13.7453 3.7091 13.8462 3.8964C13.9471 4.08369 14 4.29434 14 4.50851C14 4.72269 13.9471 4.93333 13.8462 5.12063C13.7453 5.30792 13.5998 5.4657 13.4233 5.57911L9.15506 8.814C8.97048 8.9374 8.75698 9.00721 8.53707 9.01607C8.31717 9.02492 8.09902 8.9725 7.90565 8.86433C7.71227 8.75616 7.55084 8.59626 7.43839 8.40148C7.32593 8.20671 7.26663 7.9843 7.26673 7.75771V7.02381Z">
-</path>
-</svg> Reply (01)
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <ul class="comment-replay">
-                                        <li>
-                                            <div class="single-comment-area">
-                                                <div class="author-img">
-                                                    <img src="assets/img/innerpage/comment-author-02.jpg" alt>
-                                                </div>
-                                                <div class="comment-content">
-                                                    <div class="author-name-deg">
-                                                        <h6>Author Response,</h6>
-                                                        <span>05 June, 2023</span>
-                                                    </div>
-                                                    <p>Thanks for your review.</p>
-                                                    <div class="replay-btn">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11">
-<path d="M8.55126 1.11188C8.52766 1.10118 8.50182 1.09676 8.47612 1.09903C8.45042 1.1013 8.42569 1.11018 8.40419 1.12486C8.3827 1.13954 8.36513 1.15954 8.35311 1.18304C8.34109 1.20653 8.335 1.23276 8.33539 1.25932V2.52797C8.33539 2.67388 8.2791 2.81381 8.17889 2.91698C8.07868 3.02016 7.94277 3.07812 7.80106 3.07812C7.08826 3.07812 5.64984 3.08362 4.27447 3.98257C3.2229 4.66916 2.14783 5.9191 1.50129 8.24735C2.59132 7.16575 3.83632 6.57929 4.92635 6.2679C5.59636 6.07737 6.28492 5.96444 6.97926 5.93121C7.26347 5.91835 7.54815 5.92129 7.83205 5.94001H7.84594L7.85129 5.94111L7.80106 6.48906L7.85449 5.94111C7.98638 5.95476 8.10864 6.01839 8.19751 6.11966C8.28638 6.22092 8.33553 6.35258 8.33539 6.48906V7.75771C8.33539 7.87654 8.45294 7.95136 8.55126 7.90515L12.8088 4.67796C12.8233 4.66692 12.8383 4.65664 12.8537 4.64715C12.8769 4.63278 12.8962 4.61245 12.9095 4.58816C12.9229 4.56386 12.9299 4.53643 12.9299 4.50851C12.9299 4.4806 12.9229 4.45316 12.9095 4.42887C12.8962 4.40458 12.8769 4.38425 12.8537 4.36988C12.8382 4.36039 12.8233 4.35011 12.8088 4.33907L8.55126 1.11188ZM7.26673 7.02381C7.19406 7.02381 7.11391 7.02711 7.02842 7.03041C6.56462 7.05242 5.92342 7.12504 5.21169 7.32859C3.79464 7.7335 2.11684 8.65116 1.00115 10.7175C0.940817 10.8291 0.844683 10.9155 0.729224 10.9621C0.613765 11.0087 0.486168 11.0124 0.368304 10.9728C0.250441 10.9331 0.149648 10.8525 0.0831985 10.7447C0.0167484 10.6369 -0.011219 10.5086 0.0040884 10.3819C0.499949 6.29981 2.01959 4.15202 3.70167 3.05391C5.03215 2.18467 6.40218 2.01743 7.26673 1.98552V1.25932C7.26663 1.03273 7.32593 0.810317 7.43839 0.615545C7.55084 0.420773 7.71227 0.260866 7.90565 0.152696C8.09902 0.0445258 8.31717 -0.00789584 8.53707 0.000962485C8.75698 0.00982081 8.97048 0.0796305 9.15506 0.203025L13.4233 3.43792C13.5998 3.55133 13.7453 3.7091 13.8462 3.8964C13.9471 4.08369 14 4.29434 14 4.50851C14 4.72269 13.9471 4.93333 13.8462 5.12063C13.7453 5.30792 13.5998 5.4657 13.4233 5.57911L9.15506 8.814C8.97048 8.9374 8.75698 9.00721 8.53707 9.01607C8.31717 9.02492 8.09902 8.9725 7.90565 8.86433C7.71227 8.75616 7.55084 8.59626 7.43839 8.40148C7.32593 8.20671 7.26663 7.9843 7.26673 7.75771V7.02381Z">
-</path>
-</svg> Reply
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <div class="single-comment-area">
-                                        <div class="author-img">
-                                            <img src="assets/img/innerpage/comment-author-04.jpg" alt>
-                                        </div>
-                                        <div class="comment-content">
-                                            <div class="author-name-deg">
-                                                <h6>Srileka Panday,</h6>
-                                                <span>05 June, 2023</span>
-                                            </div>
-                                            <ul class="review-item-list">
-                                                <li>
-                                                    <span>Overall</span>
-                                                    <ul class="star-list">
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-half"></i></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <span>Transport</span>
-                                                    <ul class="star-list">
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-half"></i></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <span>Food</span>
-                                                    <ul class="star-list">
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-half"></i></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <span>Destination</span>
-                                                    <ul class="star-list">
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-half"></i></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <span>Hospitality</span>
-                                                    <ul class="star-list">
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-half"></i></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                            <p>A solution that we came up with is to think of sanitary pads packaging as you would tea. Tea comes individually packaged </p>
-                                            <div class="replay-btn">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11">
-<path d="M8.55126 1.11188C8.52766 1.10118 8.50182 1.09676 8.47612 1.09903C8.45042 1.1013 8.42569 1.11018 8.40419 1.12486C8.3827 1.13954 8.36513 1.15954 8.35311 1.18304C8.34109 1.20653 8.335 1.23276 8.33539 1.25932V2.52797C8.33539 2.67388 8.2791 2.81381 8.17889 2.91698C8.07868 3.02016 7.94277 3.07812 7.80106 3.07812C7.08826 3.07812 5.64984 3.08362 4.27447 3.98257C3.2229 4.66916 2.14783 5.9191 1.50129 8.24735C2.59132 7.16575 3.83632 6.57929 4.92635 6.2679C5.59636 6.07737 6.28492 5.96444 6.97926 5.93121C7.26347 5.91835 7.54815 5.92129 7.83205 5.94001H7.84594L7.85129 5.94111L7.80106 6.48906L7.85449 5.94111C7.98638 5.95476 8.10864 6.01839 8.19751 6.11966C8.28638 6.22092 8.33553 6.35258 8.33539 6.48906V7.75771C8.33539 7.87654 8.45294 7.95136 8.55126 7.90515L12.8088 4.67796C12.8233 4.66692 12.8383 4.65664 12.8537 4.64715C12.8769 4.63278 12.8962 4.61245 12.9095 4.58816C12.9229 4.56386 12.9299 4.53643 12.9299 4.50851C12.9299 4.4806 12.9229 4.45316 12.9095 4.42887C12.8962 4.40458 12.8769 4.38425 12.8537 4.36988C12.8382 4.36039 12.8233 4.35011 12.8088 4.33907L8.55126 1.11188ZM7.26673 7.02381C7.19406 7.02381 7.11391 7.02711 7.02842 7.03041C6.56462 7.05242 5.92342 7.12504 5.21169 7.32859C3.79464 7.7335 2.11684 8.65116 1.00115 10.7175C0.940817 10.8291 0.844683 10.9155 0.729224 10.9621C0.613765 11.0087 0.486168 11.0124 0.368304 10.9728C0.250441 10.9331 0.149648 10.8525 0.0831985 10.7447C0.0167484 10.6369 -0.011219 10.5086 0.0040884 10.3819C0.499949 6.29981 2.01959 4.15202 3.70167 3.05391C5.03215 2.18467 6.40218 2.01743 7.26673 1.98552V1.25932C7.26663 1.03273 7.32593 0.810317 7.43839 0.615545C7.55084 0.420773 7.71227 0.260866 7.90565 0.152696C8.09902 0.0445258 8.31717 -0.00789584 8.53707 0.000962485C8.75698 0.00982081 8.97048 0.0796305 9.15506 0.203025L13.4233 3.43792C13.5998 3.55133 13.7453 3.7091 13.8462 3.8964C13.9471 4.08369 14 4.29434 14 4.50851C14 4.72269 13.9471 4.93333 13.8462 5.12063C13.7453 5.30792 13.5998 5.4657 13.4233 5.57911L9.15506 8.814C8.97048 8.9374 8.75698 9.00721 8.53707 9.01607C8.31717 9.02492 8.09902 8.9725 7.90565 8.86433C7.71227 8.75616 7.55084 8.59626 7.43839 8.40148C7.32593 8.20671 7.26663 7.9843 7.26673 7.75771V7.02381Z">
-</path>
-</svg> Reply
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-comment-area">
-                                        <div class="author-img">
-                                            <img src="assets/img/innerpage/comment-author-05.jpg" alt>
-                                        </div>
-                                        <div class="comment-content">
-                                            <div class="author-name-deg">
-                                                <h6>Mr. Bowmik Haldar,</h6>
-                                                <span>05 June, 2023</span>
-                                            </div>
-                                            <ul class="review-item-list">
-                                                <li>
-                                                    <span>Overall</span>
-                                                    <ul class="star-list">
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-half"></i></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <span>Transport</span>
-                                                    <ul class="star-list">
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-half"></i></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <span>Food</span>
-                                                    <ul class="star-list">
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-half"></i></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <span>Destination</span>
-                                                    <ul class="star-list">
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-half"></i></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <span>Hospitality</span>
-                                                    <ul class="star-list">
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-half"></i></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                            <p>However, here are some well-regarded car dealerships known for their customer service, inventory, and overall reputation. It's always a good idea to research and read reviews specific...</p>
-                                            <div class="replay-btn">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11">
-<path d="M8.55126 1.11188C8.52766 1.10118 8.50182 1.09676 8.47612 1.09903C8.45042 1.1013 8.42569 1.11018 8.40419 1.12486C8.3827 1.13954 8.36513 1.15954 8.35311 1.18304C8.34109 1.20653 8.335 1.23276 8.33539 1.25932V2.52797C8.33539 2.67388 8.2791 2.81381 8.17889 2.91698C8.07868 3.02016 7.94277 3.07812 7.80106 3.07812C7.08826 3.07812 5.64984 3.08362 4.27447 3.98257C3.2229 4.66916 2.14783 5.9191 1.50129 8.24735C2.59132 7.16575 3.83632 6.57929 4.92635 6.2679C5.59636 6.07737 6.28492 5.96444 6.97926 5.93121C7.26347 5.91835 7.54815 5.92129 7.83205 5.94001H7.84594L7.85129 5.94111L7.80106 6.48906L7.85449 5.94111C7.98638 5.95476 8.10864 6.01839 8.19751 6.11966C8.28638 6.22092 8.33553 6.35258 8.33539 6.48906V7.75771C8.33539 7.87654 8.45294 7.95136 8.55126 7.90515L12.8088 4.67796C12.8233 4.66692 12.8383 4.65664 12.8537 4.64715C12.8769 4.63278 12.8962 4.61245 12.9095 4.58816C12.9229 4.56386 12.9299 4.53643 12.9299 4.50851C12.9299 4.4806 12.9229 4.45316 12.9095 4.42887C12.8962 4.40458 12.8769 4.38425 12.8537 4.36988C12.8382 4.36039 12.8233 4.35011 12.8088 4.33907L8.55126 1.11188ZM7.26673 7.02381C7.19406 7.02381 7.11391 7.02711 7.02842 7.03041C6.56462 7.05242 5.92342 7.12504 5.21169 7.32859C3.79464 7.7335 2.11684 8.65116 1.00115 10.7175C0.940817 10.8291 0.844683 10.9155 0.729224 10.9621C0.613765 11.0087 0.486168 11.0124 0.368304 10.9728C0.250441 10.9331 0.149648 10.8525 0.0831985 10.7447C0.0167484 10.6369 -0.011219 10.5086 0.0040884 10.3819C0.499949 6.29981 2.01959 4.15202 3.70167 3.05391C5.03215 2.18467 6.40218 2.01743 7.26673 1.98552V1.25932C7.26663 1.03273 7.32593 0.810317 7.43839 0.615545C7.55084 0.420773 7.71227 0.260866 7.90565 0.152696C8.09902 0.0445258 8.31717 -0.00789584 8.53707 0.000962485C8.75698 0.00982081 8.97048 0.0796305 9.15506 0.203025L13.4233 3.43792C13.5998 3.55133 13.7453 3.7091 13.8462 3.8964C13.9471 4.08369 14 4.29434 14 4.50851C14 4.72269 13.9471 4.93333 13.8462 5.12063C13.7453 5.30792 13.5998 5.4657 13.4233 5.57911L9.15506 8.814C8.97048 8.9374 8.75698 9.00721 8.53707 9.01607C8.31717 9.02492 8.09902 8.9725 7.90565 8.86433C7.71227 8.75616 7.55084 8.59626 7.43839 8.40148C7.32593 8.20671 7.26663 7.9843 7.26673 7.75771V7.02381Z">
-</path>
-</svg> Reply
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4">
-                    <div class="booking-form-wrap mb-40">
-                        <h4>Book Your Tour</h4>
-                        <p>Reserve your ideal trip early for a hassle-free trip; secure comfort and convenience!</p>
-                        <div class="nav nav-pills mb-40" role="tablist">
-                            <button class="nav-link show active" id="v-pills-booking-tab" data-bs-toggle="pill" data-bs-target="#v-pills-booking" type="button" role="tab" aria-controls="v-pills-booking" aria-selected="true">Online Booking</button>
-                            <button class="nav-link" id="v-pills-contact-tab" data-bs-toggle="pill" data-bs-target="#v-pills-contact" type="button" role="tab" aria-controls="v-pills-contact" aria-selected="false">Inquiry Form</button>
-                        </div>
-                        <div class="tab-content" id="v-pills-tabContent2">
-                            <div class="tab-pane fade active show" id="v-pills-booking" role="tabpanel" aria-labelledby="v-pills-booking-tab">
-                                <div class="sidebar-booking-form">
-                                    <form>
-                                        <div class="tour-date-wrap mb-50">
-                                            <h6>Select Your Booking Date:</h6>
-                                            <div class="form-check mb-25">
-                                                <input class="form-check-input" type="radio" name="tourDate" id="checkIn" value="option1" checked>
-                                                <label class="form-check-label" for="checkIn">
-<span class="tour-date">
-<span class="start-date">
-<span>Check In</span>
-<span> Jan 1, 2024 </span>
-</span>
-<i class="bi bi-arrow-right"></i>
-<span class="end-date text-end">
-<span>Check Out</span>
-<span>Jan 5, 2024</span>
-</span>
-</span>
-</label>
-                                            </div>
-                                            <div class="form-check mb-25">
-                                                <input class="form-check-input" type="radio" name="tourDate" id="checkOut" value="option2">
-                                                <label class="form-check-label" for="checkOut">
-<span class="tour-date">
-<span class="start-date">
-<span>Check In</span>
-<span> Jan 10, 2024 </span>
-</span>
-<i class="bi bi-arrow-right"></i>
-<span class="end-date text-end">
-<span>Check Out</span>
-<span>Jan 15, 2024</span>
-</span>
-</span>
-</label>
-                                            </div>
-                                            <div class="form-check customdate">
-                                                <input class="form-check-input" type="radio" name="tourDate" id="Coustom" value="option1" checked>
-                                                <label class="form-check-label" for="Coustom">
-</label>
-                                                <span class="form-group">
-<input type="text" readonly name="daterange" placeholder="5 Jan, 2024">
-<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
-<path d="M10.3125 7.03125C10.3125 6.90693 10.3619 6.7877 10.4498 6.69979C10.5377 6.61189 10.6569 6.5625 10.7812 6.5625H11.7188C11.8431 6.5625 11.9623 6.61189 12.0502 6.69979C12.1381 6.7877 12.1875 6.90693 12.1875 7.03125V7.96875C12.1875 8.09307 12.1381 8.2123 12.0502 8.30021C11.9623 8.38811 11.8431 8.4375 11.7188 8.4375H10.7812C10.6569 8.4375 10.5377 8.38811 10.4498 8.30021C10.3619 8.2123 10.3125 8.09307 10.3125 7.96875V7.03125Z" />
-<path d="M3.28125 0C3.40557 0 3.5248 0.049386 3.61271 0.137294C3.70061 0.225201 3.75 0.34443 3.75 0.46875V0.9375H11.25V0.46875C11.25 0.34443 11.2994 0.225201 11.3873 0.137294C11.4752 0.049386 11.5944 0 11.7188 0C11.8431 0 11.9623 0.049386 12.0502 0.137294C12.1381 0.225201 12.1875 0.34443 12.1875 0.46875V0.9375H13.125C13.6223 0.9375 14.0992 1.13504 14.4508 1.48667C14.8025 1.83831 15 2.31522 15 2.8125V13.125C15 13.6223 14.8025 14.0992 14.4508 14.4508C14.0992 14.8025 13.6223 15 13.125 15H1.875C1.37772 15 0.900806 14.8025 0.549175 14.4508C0.197544 14.0992 0 13.6223 0 13.125V2.8125C0 2.31522 0.197544 1.83831 0.549175 1.48667C0.900806 1.13504 1.37772 0.9375 1.875 0.9375H2.8125V0.46875C2.8125 0.34443 2.86189 0.225201 2.94979 0.137294C3.0377 0.049386 3.15693 0 3.28125 0V0ZM1.875 1.875C1.62636 1.875 1.3879 1.97377 1.21209 2.14959C1.03627 2.3254 0.9375 2.56386 0.9375 2.8125V13.125C0.9375 13.3736 1.03627 13.6121 1.21209 13.7879C1.3879 13.9637 1.62636 14.0625 1.875 14.0625H13.125C13.3736 14.0625 13.6121 13.9637 13.7879 13.7879C13.9637 13.6121 14.0625 13.3736 14.0625 13.125V2.8125C14.0625 2.56386 13.9637 2.3254 13.7879 2.14959C13.6121 1.97377 13.3736 1.875 13.125 1.875H1.875Z" />
-<path d="M2.34375 3.75C2.34375 3.62568 2.39314 3.50645 2.48104 3.41854C2.56895 3.33064 2.68818 3.28125 2.8125 3.28125H12.1875C12.3118 3.28125 12.431 3.33064 12.519 3.41854C12.6069 3.50645 12.6562 3.62568 12.6562 3.75V4.6875C12.6562 4.81182 12.6069 4.93105 12.519 5.01896C12.431 5.10686 12.3118 5.15625 12.1875 5.15625H2.8125C2.68818 5.15625 2.56895 5.10686 2.48104 5.01896C2.39314 4.93105 2.34375 4.81182 2.34375 4.6875V3.75Z" />
-</svg>
-</span>
-                                            </div>
-                                        </div>
-                                        <div class="booking-form-item-type mb-45">
-                                            <div class="number-input-item adults">
-                                                <label class="number-input-lable">Adult:<span>
-</span><span> $60 <del>$80</del></span></label>
-                                                <div class="quantity-counter">
-                                                    <a href="#" class="quantity__minus"><i class="bi bi-dash"></i></a>
-                                                    <input name="quantity" type="text" class="quantity__input" value="04">
-                                                    <a href="#" class="quantity__plus"><i class="bi bi-plus"></i></a>
-                                                </div>
-                                            </div>
-                                            <div class="number-input-item children">
-                                                <label class="number-input-lable">Children:<span>
-</span><span>$15</span></label>
-                                                <div class="quantity-counter">
-                                                    <a href="#" class="quantity__minus"><i class="bi bi-dash"></i></a>
-                                                    <input name="quantity" type="text" class="quantity__input" value="04">
-                                                    <a href="#" class="quantity__plus"><i class="bi bi-plus"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="booking-form-item-type">
-                                            <h5>Other Extra Services</h5>
-                                            <div class="checkbox-container">
-                                                <label class="check-container">Home Pickup
-<input type="checkbox" class="services_check" name="services_list[]" value="0">
-<span class="checkmark"></span>
-<span class="price">$10 </span>
-</label>
-                                                <label class="check-container">Night Food
-<input type="checkbox" class="services_check" name="services_list[]" value="1">
-<span class="checkmark"></span>
-<span class="price">$15 </span>
-</label>
-                                                <label class="check-container">Seaplane Fyling
-<input type="checkbox" class="services_check" name="services_list[]" value="2">
-<span class="checkmark"></span>
-<span class="price">$20 </span>
-</label>
-                                            </div>
-                                        </div>
-                                        <div class="booking-form-item-type">
-                                            <div class="single-total mb-30">
-                                                <span>Adult</span>
-                                                <ul>
-                                                    <li><strong>$195</strong> PRICE</li>
-                                                    <li><i class="bi bi-x-lg"></i></li>
-                                                    <li><strong>02</strong> QTY</li>
-                                                    <li><i class="bi bi-x-lg"></i></li>
-                                                    <li><strong>04</strong> DAYS</li>
-                                                </ul>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="15" viewBox="0 0 27 15">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.999 5.44668L25.6991 7.4978L23.9991 9.54878H0V10.5743H23.1491L20.0135 14.3575L20.7834 14.9956L26.7334 7.81687L26.9979 7.4978L26.7334 7.17873L20.7834 0L20.0135 0.638141L23.149 4.42114H0V5.44668H23.999Z" />
-</svg>
-                                                <div class="total">$390</div>
-                                            </div>
-                                            <div class="single-total mb-30">
-                                                <span>Children</span>
-                                                <ul>
-                                                    <li><strong>$195</strong> PRICE</li>
-                                                    <li><i class="bi bi-x-lg"></i></li>
-                                                    <li><strong>02</strong> QTY</li>
-                                                    <li><i class="bi bi-x-lg"></i></li>
-                                                    <li><strong>04</strong> DAYS</li>
-                                                </ul>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="15" viewBox="0 0 27 15">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.999 5.44668L25.6991 7.4978L23.9991 9.54878H0V10.5743H23.1491L20.0135 14.3575L20.7834 14.9956L26.7334 7.81687L26.9979 7.4978L26.7334 7.17873L20.7834 0L20.0135 0.638141L23.149 4.42114H0V5.44668H23.999Z" />
-</svg>
-                                                <div class="total">$390</div>
-                                            </div>
-                                        </div>
-                                        <div class="total-price"><span>Total Price:</span> $470</div>
-                                        <button type="submit" class="primary-btn1 two">Book Now</button>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-contact-tab">
-                                <div class="sidebar-booking-form">
-                                    <form>
-                                        <div class="form-inner mb-20">
-                                            <label>Full Name <span>*</span></label>
-                                            <input type="text" placeholder="Enter your full name">
-                                        </div>
-                                        <div class="form-inner mb-20">
-                                            <label>Email Address <span>*</span></label>
-                                            <input type="email" placeholder="Enter your email address">
-                                        </div>
-                                        <div class="form-inner mb-20">
-                                            <label>Phone Number <span>*</span></label>
-                                            <input type="text" placeholder="Enter your phone number">
-                                        </div>
-                                        <div class="form-inner mb-30">
-                                            <label>Write Your Massage <span>*</span></label>
-                                            <textarea placeholder="Write your quiry"></textarea>
-                                        </div>
-                                        <div class="form-inner">
-                                            <button type="submit" class="primary-btn1 two">Submit Now</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="banner2-card">
-                        <img src="assets/img/innerpage/support-img.jpg" alt>
-                        <div class="banner2-content-wrap">
-                            <div class="banner2-content">
-                                <div class="hotline-area">
-                                    <div class="icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-<path d="M27.2653 21.5995L21.598 17.8201C20.8788 17.3443 19.9147 17.5009 19.383 18.1798L17.7322 20.3024C17.6296 20.4377 17.4816 20.5314 17.3154 20.5664C17.1492 20.6014 16.9759 20.5752 16.8275 20.4928L16.5134 20.3196C15.4725 19.7522 14.1772 19.0458 11.5675 16.4352C8.95784 13.8246 8.25001 12.5284 7.6826 11.4893L7.51042 11.1753C7.42683 11.0269 7.39968 10.8532 7.43398 10.6864C7.46827 10.5195 7.56169 10.3707 7.69704 10.2673L9.81816 8.61693C10.4968 8.08517 10.6536 7.1214 10.1784 6.40198L6.39895 0.734676C5.91192 0.00208106 4.9348 -0.21784 4.18082 0.235398L1.81096 1.65898C1.06634 2.09672 0.520053 2.80571 0.286612 3.63733C-0.56677 6.74673 0.0752209 12.1131 7.98033 20.0191C14.2687 26.307 18.9501 27.9979 22.1677 27.9979C22.9083 28.0011 23.6459 27.9048 24.3608 27.7115C25.1925 27.4783 25.9016 26.932 26.3391 26.1871L27.7641 23.8187C28.218 23.0645 27.9982 22.0868 27.2653 21.5995ZM26.9601 23.3399L25.5384 25.7098C25.2242 26.2474 24.7142 26.6427 24.1152 26.8128C21.2447 27.6009 16.2298 26.9482 8.64053 19.3589C1.0513 11.7697 0.398595 6.75515 1.18669 3.88421C1.35709 3.28446 1.75283 2.77385 2.2911 2.45921L4.66096 1.03749C4.98811 0.840645 5.41221 0.93606 5.62354 1.25397L7.67659 4.3363L9.39976 6.92078C9.60612 7.23283 9.53831 7.65108 9.24392 7.88199L7.1223 9.53232C6.47665 10.026 6.29227 10.9193 6.68979 11.6283L6.85826 11.9344C7.45459 13.0281 8.19599 14.3887 10.9027 17.095C13.6095 19.8012 14.9696 20.5427 16.0628 21.139L16.3694 21.3079C17.0783 21.7053 17.9716 21.521 18.4653 20.8753L20.1157 18.7537C20.3466 18.4595 20.7647 18.3918 21.0769 18.5979L26.7437 22.3773C27.0618 22.5885 27.1572 23.0128 26.9601 23.3399ZM15.8658 4.66809C20.2446 4.67296 23.7931 8.22149 23.798 12.6003C23.798 12.858 24.0069 13.0669 24.2646 13.0669C24.5223 13.0669 24.7312 12.858 24.7312 12.6003C24.7257 7.7063 20.7598 3.74029 15.8658 3.73494C15.6081 3.73494 15.3992 3.94381 15.3992 4.20151C15.3992 4.45922 15.6081 4.66809 15.8658 4.66809Z"></path>
-<path d="M15.865 7.46746C18.6983 7.4708 20.9943 9.76678 20.9976 12.6001C20.9976 12.7238 21.0468 12.8425 21.1343 12.93C21.2218 13.0175 21.3404 13.0666 21.4642 13.0666C21.5879 13.0666 21.7066 13.0175 21.7941 12.93C21.8816 12.8425 21.9308 12.7238 21.9308 12.6001C21.9269 9.2516 19.2134 6.53813 15.865 6.5343C15.6073 6.5343 15.3984 6.74318 15.3984 7.00088C15.3984 7.25859 15.6073 7.46746 15.865 7.46746Z"></path>
-<path d="M15.865 10.267C17.1528 10.2686 18.1964 11.3122 18.198 12.6C18.198 12.7238 18.2472 12.8424 18.3347 12.9299C18.4222 13.0174 18.5409 13.0666 18.6646 13.0666C18.7883 13.0666 18.907 13.0174 18.9945 12.9299C19.082 12.8424 19.1312 12.7238 19.1312 12.6C19.1291 10.797 17.668 9.33589 15.865 9.33386C15.6073 9.33386 15.3984 9.54274 15.3984 9.80044C15.3984 10.0581 15.6073 10.267 15.865 10.267Z"></path>
-</svg>
-                                    </div>
-                                    <div class="content">
-                                        <span>To More Inquiry</span>
-                                        <h6><a href="tel:+990737621432">+990-737 621 432</a></h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -1468,114 +1108,7 @@ RATING</a>
         </div>
     </div>
 
-
-    <footer class="footer-section">
-        <div class="container">
-            <div class="footer-top">
-                <div class="row g-lg-4 gy-5 justify-content-center">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="footer-widget">
-                            <div class="footer-logo">
-                                <a href="index.html"><img src="assets/img/logo2.svg" alt></a>
-                            </div>
-                            <h3>Want <span>to Take <br></span> Tour Packages<span>?</span></h3>
-                            <a href="package-grid.html" class="primary-btn1">Book A Tour</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 d-flex justify-content-lg-center justify-content-sm-start">
-                        <div class="footer-widget">
-                            <div class="widget-title">
-                                <h5>Quick Link</h5>
-                            </div>
-                            <ul class="widget-list">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="destination1.html">Destinations</a></li>
-                                <li><a href="package-grid.html">Tour Package</a></li>
-                                <li><a href="guide2.html">Tour Guide</a></li>
-                                <li><a href="blog-grid.html">Article</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex justify-content-lg-center justify-content-md-start">
-                        <div class="footer-widget">
-                            <div class="single-contact mb-30">
-                                <div class="widget-title">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-<g clip-path="url(#clip0_1139_225)">
-<path d="M17.5107 13.2102L14.9988 10.6982C14.1016 9.80111 12.5765 10.16 12.2177 11.3262C11.9485 12.1337 11.0514 12.5822 10.244 12.4028C8.44974 11.9542 6.0275 9.62168 5.57894 7.73772C5.3098 6.93027 5.84808 6.03314 6.65549 5.76404C7.82176 5.40519 8.18061 3.88007 7.28348 2.98295L4.77153 0.470991C4.05382 -0.156997 2.97727 -0.156997 2.34929 0.470991L0.644745 2.17553C-1.0598 3.96978 0.82417 8.72455 5.04066 12.941C9.25716 17.1575 14.0119 19.1313 15.8062 17.337L17.5107 15.6324C18.1387 14.9147 18.1387 13.8382 17.5107 13.2102Z" />
-</g>
-</svg>
-                                    <h5>More Inquiry</h5>
-                                </div>
-                                <a href="tel:999858624984">+999-858 624 984</a>
-                            </div>
-                            <div class="single-contact mb-35">
-                                <div class="widget-title">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-<g clip-path="url(#clip0_1139_218)">
-<path d="M6.56266 13.2091V16.6876C6.56324 16.8058 6.60099 16.9208 6.67058 17.0164C6.74017 17.112 6.83807 17.1832 6.9504 17.22C7.06274 17.2569 7.18382 17.2574 7.29648 17.2216C7.40915 17.1858 7.5077 17.1155 7.57817 17.0206L9.61292 14.2516L6.56266 13.2091ZM17.7639 0.104306C17.6794 0.044121 17.5799 0.00848417 17.4764 0.00133654C17.3729 -0.00581108 17.2694 0.015809 17.1774 0.0638058L0.302415 8.87631C0.205322 8.92762 0.125322 9.00617 0.0722333 9.1023C0.0191447 9.19844 -0.00472288 9.30798 0.00355981 9.41749C0.0118425 9.52699 0.0519151 9.6317 0.11886 9.71875C0.185804 9.80581 0.276708 9.87143 0.380415 9.90756L5.07166 11.5111L15.0624 2.96856L7.33141 12.2828L15.1937 14.9701C15.2717 14.9963 15.3545 15.0051 15.4363 14.996C15.5181 14.9868 15.5969 14.9599 15.6672 14.9171C15.7375 14.8743 15.7976 14.8167 15.8433 14.7482C15.8889 14.6798 15.9191 14.6021 15.9317 14.5208L17.9942 0.645806C18.0094 0.543093 17.996 0.438159 17.9554 0.342598C17.9147 0.247038 17.8485 0.164569 17.7639 0.104306Z" />
-</g>
-</svg>
-                                    <h5>Send Mail</h5>
-                                </div>
-                                <a href="https://demo-egenslab.b-cdn.net/cdn-cgi/l/email-protection#9df4f3fbf2ddf8e5fcf0edf1f8b3fef2f0"><span class="__cf_email__" data-cfemail="761f18101936130e171b061a135815191b">[email&#160;protected]</span></a>
-                            </div>
-                            <div class="single-contact">
-                                <div class="widget-title">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-<g clip-path="url(#clip0_1137_183)">
-<path d="M14.3281 3.08241C13.2357 1.19719 11.2954 0.0454395 9.13767 0.00142383C9.04556 -0.000474609 8.95285 -0.000474609 8.86071 0.00142383C6.70303 0.0454395 4.76268 1.19719 3.67024 3.08241C2.5536 5.0094 2.52305 7.32408 3.5885 9.27424L8.05204 17.4441C8.05405 17.4477 8.05605 17.4513 8.05812 17.4549C8.25451 17.7963 8.60632 18 8.99926 18C9.39216 18 9.74397 17.7962 9.94032 17.4549C9.94239 17.4513 9.9444 17.4477 9.9464 17.4441L14.4099 9.27424C15.4753 7.32408 15.4448 5.0094 14.3281 3.08241ZM8.99919 8.15627C7.60345 8.15627 6.46794 7.02076 6.46794 5.62502C6.46794 4.22928 7.60345 3.09377 8.99919 3.09377C10.3949 3.09377 11.5304 4.22928 11.5304 5.62502C11.5304 7.02076 10.395 8.15627 8.99919 8.15627Z" />
-</g>
-</svg>
-                                    <h5>Address</h5>
-                                </div>
-                                <a href="https://www.google.com/maps/place/Egens+Lab/@23.8340712,90.3631117,17z/data=!3m1!4b1!4m6!3m5!1s0x3755c14c8682a473:0xa6c74743d52adb88!8m2!3d23.8340663!4d90.3656866!16s%2Fg%2F11rs9vlwsk?entry=ttu">House 168/170, Avenue 01, Mirpur <br> DOHS, Dhaka Bangladesh</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 d-flex justify-content-lg-end justify-content-sm-end">
-                        <div class="footer-widget">
-                            <div class="widget-title">
-                                <h5>We Are Here</h5>
-                            </div>
-                            <p>Quisque purus augue, facilisis andi neque idont accumsan fringilla massa. Vivamusol id nibhom condimentum.</p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="row">
-                    <div class="col-lg-12 d-flex flex-md-row flex-column align-items-center justify-content-md-between justify-content-center flex-wrap gap-3">
-                        <ul class="social-list">
-                            <li>
-                                <a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-<path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
-</svg></a>
-                            </li>
-                            <li>
-                                <a href="https://www.pinterest.com/"><i class="bx bxl-pinterest-alt"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a>
-                            </li>
-                        </ul>
-                        <p>©Copyright 2024 TripRex | Design By <a href="https://www.egenslab.com/">Egens Lab</a></p>
-                        <div class="footer-right">
-                            <ul>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Terms & Condition</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+    <?php include 'assets/footer.php' ?>
 
     <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="assets/js/jquery-3.7.1.min.js"></script>
@@ -1607,6 +1140,6 @@ RATING</a>
     <script src="assets/js/custom.js"></script>
 </body>
 
-<!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/package-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:14 GMT -->
+<!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/package-grid.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:10 GMT -->
 
 </html>
