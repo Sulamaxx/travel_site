@@ -1,4 +1,3 @@
-    <header class="header-area style-1">
         <div class="header-logo d-lg-none d-flex">
             <a href="index.php"><img alt="image" class="img-fluid" src="assets/img/logo.svg"></a>
         </div>
@@ -16,7 +15,7 @@
             </div>
             <ul class="menu-list">
                 <li class="menu-item-has-children">
-                    <a href="index.php" class="drop-down">Home</a><i class="bi bi-plus dropdown-icon"></i>
+                    <a href="#" class="drop-down">Home</a><i class="bi bi-plus dropdown-icon"></i>
                     <ul class="sub-menu">
                         <li><a href="index.php">Home 01</a></li>
                         <li><a href="index2.php">Home 02</a></li>
@@ -29,10 +28,10 @@
                 <li>
                     <a href="about.php" class="drop-down">About</a>
                 </li>
-                <li class="menu-item-has-children active">
+                <li class="menu-item-has-children">
                     <a href="package-grid.php" class="drop-down">Tours</a><i class="bi bi-plus dropdown-icon"></i>
                     <ul class="sub-menu">
-                        <li class="active"><a href="package-grid.php">Package Grid</a></li>
+                        <li><a href="package-grid.php">Package Grid</a></li>
                         <li>
                             <a href="package-sidebar.php">Package Sidebar</a>
                         </li>
@@ -146,7 +145,7 @@
                         <li><a href="error.php">Error</a></li>
                     </ul>
                 </li>
-                <li>
+                <li class="active">
                     <a href="contact.php" class="drop-down">Contact</a>
                 </li>
             </ul>
@@ -203,7 +202,7 @@
                 </div>
                 <div class="content">
                     <span>To More Inquiry</span>
-                    <h6><a href="tel:+990737621432">+990-737 621 432</a></h6>
+                    <h6><a href="tel:+990737621432">+990-737 621 4322</a></h6>
                 </div>
             </div>
             <div class="sidebar-button mobile-menu-btn">
@@ -212,4 +211,4 @@
                 </svg>
             </div>
         </div>
-    </header>
+        </header>
