@@ -62,7 +62,7 @@ if (isset($_SESSION['user'])) {
                 <div class="col-xl-12">
                     <div class="main-content-title-profile mb-50">
                         <div class="main-content-title">
-                            <h3>Add New Hotel</h3>
+                            <h3>Add New Photo</h3>
                         </div>
                     </div>
                     <div class="dashboard-profile-wrapper two">
@@ -71,17 +71,11 @@ if (isset($_SESSION['user'])) {
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-inner mb-30">
-                                            <label>Add Name</label>
-                                            <input type="text" placeholder="Name here..." id="name">
+                                            <label>Add Title</label>
+                                            <input type="text" placeholder="Title here..." id="title">
                                         </div>
                                     </div>
 
-                                    <div class="col-md-12 mb-30">
-                                        <div class="form-inner">
-                                            <label>Description</label>
-                                            <textarea placeholder="Description here" id="description"></textarea>
-                                        </div>
-                                    </div>
                                 </div>
 
                                 <div class="upload-img-area">
@@ -89,7 +83,7 @@ if (isset($_SESSION['user'])) {
                                 </div>
 
                                 <div class="form-inner">
-                                    <button type="button" class="primary-btn3" onclick="addHotel();">Publish Now</button>
+                                    <button type="button" class="primary-btn3" onclick="addImage();">Publish Now</button>
                                 </div>
                             </form>
                         </div>
@@ -103,24 +97,22 @@ if (isset($_SESSION['user'])) {
     </div>
 
     <script>
-        function addHotel() {
-            const name = document.getElementById('name').value;
-            const desc = document.getElementById('description').value;
+        function addImage() {
+            const title = document.getElementById('title').value;
             const mainImage = document.getElementById('mainImage').files[0];
 
             const formData = new FormData();
 
-            formData.append('name', name);
-            formData.append('desc', desc);
+            formData.append('title', title);
             formData.append('mainImage', mainImage);
-            fetch('addHotelProcess.php', {
+            fetch('addImageProcess.php', {
                     method: "POST",
                     body: formData
                 })
                 .then(res => res.text())
                 .then(data => {
                     alert(data)
-                    if(data==="Hotel added successfully"){
+                    if (data === "Image added successfully") {
                         window.location.reload();
                     }
                 })

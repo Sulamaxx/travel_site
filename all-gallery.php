@@ -46,7 +46,7 @@ if (isset($_SESSION['user'])) {
     <link rel="icon" href="assets/img/sm-logo.svg" type="image/gif" sizes="20x20">
 </head>
 
-<body class="tt-magic-cursor style-2" onload="loadDriverData()">
+<body class="tt-magic-cursor style-2" onload="loadImageData()">
 
     <?php
     include "include/admin/dashboard-others.php";
@@ -63,7 +63,7 @@ if (isset($_SESSION['user'])) {
                 <div class="col-xl-12">
                     <div class="main-content-title-profile mb-50">
                         <div class="main-content-title">
-                            <h3>All Drivers</h3>
+                            <h3>All Events</h3>
                         </div>
                         <div class="profile">
                             <a href="#">
@@ -85,10 +85,10 @@ if (isset($_SESSION['user'])) {
                                         </svg>
                                     </div>
                                     <div class="counter-content">
-                                        <p>Total Drivers</p>
+                                        <p>Total Images</p>
                                         <div class="number">
                                             <?php
-                                            $result = Database::search("SELECT * FROM event")
+                                            $result = Database::search("SELECT * FROM gallery")
 
                                             ?>
                                             <h3 class="counter"><?= $result->num_rows; ?></h3>
@@ -102,11 +102,11 @@ if (isset($_SESSION['user'])) {
                     </div>
                     <div class="recent-listing-area">
                         <div class="title-and-tab">
-                            <h6>Drivers Info</h6>
+                            <h6>Images Info</h6>
                             <div class="search-area">
                                 <form>
                                     <div class="search-box">
-                                        <input type="text" placeholder="Search Here" id="searchTour" onkeyup="loadDriverData()">
+                                        <input type="text" placeholder="Search Here" id="searchTour" onkeyup="loadImageData()">
                                         <button type="submit"><i class="bx bx-search"></i></button>
                                     </div>
                                 </form>
@@ -116,13 +116,13 @@ if (isset($_SESSION['user'])) {
                             <table class="eg-table2">
                                 <thead>
                                     <tr>
-                                        <th>Driver Name</th>
-                                        <th>description</th>
+                                        <th>Image</th>
+                                        <th>Title</th>
                                         <th>Status</th>
                                         <th></th>
                                     </tr>
                                 </thead>
-                                <tbody id="driversLoadingArea">
+                                <tbody id="imagesLoadingArea">
 
 
 
@@ -169,17 +169,17 @@ if (isset($_SESSION['user'])) {
     </div>
 
     <script>
-        function loadDriverData() {
+        function loadImageData() {
 
             var searchTour = document.getElementById('searchTour').value;
 
-            fetch('loadDriverDataProcess.php?key=' + searchTour, {
+            fetch('loadImageDataProcess.php?key=' + searchTour, {
                     method: 'GET',
                 })
                 .then(res => res.text())
                 .then(data => {
                     // alert(data)
-                    document.getElementById('driversLoadingArea').innerHTML = data;
+                    document.getElementById('imagesLoadingArea').innerHTML = data;
 
                 })
                 .catch(err => {
@@ -191,7 +191,7 @@ if (isset($_SESSION['user'])) {
         }
 
         function changeStatus(x, y) {
-            fetch('changeDriverStatusProcess.php?key=' + x + "&id=" + y, {
+            fetch('changeImageStatusProcess.php?key=' + x + "&id=" + y, {
                     method: "GET",
                 })
                 .then(res => res.text())

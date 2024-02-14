@@ -1,3 +1,10 @@
+<?php
+session_start();
+require "libs/connection.php";
+if (isset($_SESSION['user'])) {
+
+
+?>
 <!doctype html>
 <html lang="en">
 
@@ -236,3 +243,8 @@
 <!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/tour-upload.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:50 GMT -->
 
 </html>
+<?php
+} else {
+    header('Location:admin-login.php');
+}
+?>

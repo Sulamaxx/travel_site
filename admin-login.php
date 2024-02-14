@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Login</title>
+
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -87,10 +88,39 @@
                 <input type="password" id="password" name="password" required>
             </div>
             <div class="form-group">
-                <button type="submit">Login</button>
+                <button type="button" onclick="logIn()">Login</button>
             </div>
         </form>
     </div>
+    <script>
+        function logIn() {
+
+            const username = document.getElementById('username').value;
+            const passowrd = document.getElementById('password').value;
+            // alert('ok')
+
+            const form = new FormData();
+
+            form.append('username', username);
+            form.append('password', passowrd);
+            fetch('adminLoginProcess.php', {
+                    method: 'POST',
+                    body: form
+                })
+                .then(res => res.text())
+                .then(data => {
+                    alert(data)
+                    if (data == "Success") {
+                        window.location.replace('dashboard.php');
+                    }
+                })
+                .catch(error => {
+                    console.error("Error :", error);
+                    alert("Some thing went wrong try again later");
+                });
+
+        }
+    </script>
 </body>
 
 </html>

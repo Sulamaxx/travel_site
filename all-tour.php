@@ -1,6 +1,9 @@
 <?php
-
+session_start();
 require "libs/connection.php";
+if (isset($_SESSION['user'])) {
+
+
 ?>
 
 <!doctype html>
@@ -297,3 +300,8 @@ require "libs/connection.php";
 <!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/all-tour.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:50 GMT -->
 
 </html>
+<?php
+} else {
+    header('Location:admin-login.php');
+}
+?>
