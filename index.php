@@ -366,16 +366,8 @@
                 </div>
             </div>
             <ul class="menu-list">
-                <li class="menu-item-has-children active">
-                    <a href="#" class="drop-down">Home</a><i class="bi bi-plus dropdown-icon"></i>
-                    <ul class="sub-menu">
-                        <li><a href="index.php">Home 01</a></li>
-                        <li class="active"><a href="index2.php">Home 02</a></li>
-                        <li><a href="index3.php">Home 03</a></li>
-                        <li><a href="index4.php">Home 04</a></li>
-                        <li><a href="index5.php">Home 05</a></li>
-                        <li><a href="index6.php">Home 06</a></li>
-                    </ul>
+                <li class=" active">
+                    <a href="index.php" class="drop-down">Home</a>
                 </li>
                 <li>
                     <a href="about.php" class="drop-down">About</a>
@@ -383,7 +375,7 @@
                 <li class="menu-item-has-children">
                     <a href="package-grid.php" class="drop-down">Tours</a><i class="bi bi-plus dropdown-icon"></i>
                     <ul class="sub-menu">
-                        <li><a href="package-grid.php">Package Grid</a></li>
+                        <li><a href="package-grid.php">Packages</a></li>
                         <li>
                             <a href="package-sidebar.php">Package Sidebar</a>
                         </li>
