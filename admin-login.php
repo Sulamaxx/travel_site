@@ -1,4 +1,4 @@
-<div class="nav-right d-flex jsutify-content-end align-items-center">
+<!-- <div class="nav-right d-flex jsutify-content-end align-items-center">
     <ul class="icon-list">
         <li class="d-lg-flex d-none">
             <a href="#" data-bs-toggle="modal" data-bs-target="#user-login">
@@ -18,7 +18,7 @@
             </svg>
         </li>
     </ul>
-    <!-- <div class="hotline-area d-xl-flex d-none">
+    <div class="hotline-area d-xl-flex d-none">
                 <div class="icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
                         <path d="M27.2653 21.5995L21.598 17.8201C20.8788 17.3443 19.9147 17.5009 19.383 18.1798L17.7322 20.3024C17.6296 20.4377 17.4816 20.5314 17.3154 20.5664C17.1492 20.6014 16.9759 20.5752 16.8275 20.4928L16.5134 20.3196C15.4725 19.7522 14.1772 19.0458 11.5675 16.4352C8.95784 13.8246 8.25001 12.5284 7.6826 11.4893L7.51042 11.1753C7.42683 11.0269 7.39968 10.8532 7.43398 10.6864C7.46827 10.5195 7.56169 10.3707 7.69704 10.2673L9.81816 8.61693C10.4968 8.08517 10.6536 7.1214 10.1784 6.40198L6.39895 0.734676C5.91192 0.00208106 4.9348 -0.21784 4.18082 0.235398L1.81096 1.65898C1.06634 2.09672 0.520053 2.80571 0.286612 3.63733C-0.56677 6.74673 0.0752209 12.1131 7.98033 20.0191C14.2687 26.307 18.9501 27.9979 22.1677 27.9979C22.9083 28.0011 23.6459 27.9048 24.3608 27.7115C25.1925 27.4783 25.9016 26.932 26.3391 26.1871L27.7641 23.8187C28.218 23.0645 27.9982 22.0868 27.2653 21.5995ZM26.9601 23.3399L25.5384 25.7098C25.2242 26.2474 24.7142 26.6427 24.1152 26.8128C21.2447 27.6009 16.2298 26.9482 8.64053 19.3589C1.0513 11.7697 0.398595 6.75515 1.18669 3.88421C1.35709 3.28446 1.75283 2.77385 2.2911 2.45921L4.66096 1.03749C4.98811 0.840645 5.41221 0.93606 5.62354 1.25397L7.67659 4.3363L9.39976 6.92078C9.60612 7.23283 9.53831 7.65108 9.24392 7.88199L7.1223 9.53232C6.47665 10.026 6.29227 10.9193 6.68979 11.6283L6.85826 11.9344C7.45459 13.0281 8.19599 14.3887 10.9027 17.095C13.6095 19.8012 14.9696 20.5427 16.0628 21.139L16.3694 21.3079C17.0783 21.7053 17.9716 21.521 18.4653 20.8753L20.1157 18.7537C20.3466 18.4595 20.7647 18.3918 21.0769 18.5979L26.7437 22.3773C27.0618 22.5885 27.1572 23.0128 26.9601 23.3399ZM15.8658 4.66809C20.2446 4.67296 23.7931 8.22149 23.798 12.6003C23.798 12.858 24.0069 13.0669 24.2646 13.0669C24.5223 13.0669 24.7312 12.858 24.7312 12.6003C24.7257 7.7063 20.7598 3.74029 15.8658 3.73494C15.6081 3.73494 15.3992 3.94381 15.3992 4.20151C15.3992 4.45922 15.6081 4.66809 15.8658 4.66809Z" />
@@ -30,43 +30,43 @@
                     <span>To More Inquiry</span>
                     <h6><a href="tel:+990737621432">+990-737 621 432</a></h6>
                 </div>
-            </div> -->
-</div>
+            </div>
+</div> -->
 
-
+<!-- conver it to login it is a sigin page -->
 
 <!-- Log In -->
-<!-- <div class="modal login-modal" id="user-login" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-clode-btn" data-bs-dismiss="modal"></div>
-                <div class="modal-header">
-                    <img src="assets/img/home1/login-modal-header-img.jpg" alt>
-                </div>
-                <div class="modal-body">
-                    <div class="login-registration-form">
-                        <div class="form-title">
-                            <h2>Sign in to continue</h2>
-                            <p>Enter your email address for Login.</p>
-                        </div>
-                        <form>
-                            <div class="form-inner mb-20">
-                                <input type="text" placeholder="User name or Email *">
-                            </div>
-                            <a href="#" class="login-btn mb-25">Sign In</a>
-                            <div class="divider">
-                                <span>or</span>
-                            </div>
-                            <a href="#" class="google-login-btn">
-                                <div class="icon">
-                                    <img src="assets/img/home1/icon/google-icon.svg" alt>
-                                </div>
-                                Sign in with Google
-                            </a>
-                        </form>
+<div class="modal login-modal" id="user-login" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-clode-btn" data-bs-dismiss="modal"></div>
+            <div class="modal-header">
+                <img src="assets/img/home1/login-modal-header-img.jpg" alt>
+            </div>
+            <div class="modal-body">
+                <div class="login-registration-form">
+                    <div class="form-title">
+                        <h2>Sign in to continue</h2>
+                        <p>Enter your email address for Login.</p>
                     </div>
+                    <form>
+                        <div class="form-inner mb-20">
+                            <input type="text" placeholder="User name or Email *">
+                        </div>
+                        <a href="#" class="login-btn mb-25">Sign In</a>
+                        <div class="divider">
+                            <span>or</span>
+                        </div>
+                        <a href="#" class="google-login-btn">
+                            <div class="icon">
+                                <img src="assets/img/home1/icon/google-icon.svg" alt>
+                            </div>
+                            Sign in with Google
+                        </a>
+                    </form>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
+</div>
 <!-- Log In -->
