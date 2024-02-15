@@ -22,7 +22,7 @@
 
 <header class="header-area style-2">
     <div class="header-logo">
-        <a href="index.php"><img alt="image" class="img-fluid" src="assets/img/logo2.png"></a>
+        <a href="index.php"><img alt="image" class="img-fluid" src="assets/img/logo.png"></a>
     </div>
     <div class="main-menu">
         <div class="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
