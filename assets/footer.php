@@ -5,7 +5,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer-widget">
                         <div class="footer-logo">
-                            <a href="index.php"><img src="assets/img/logo2.svg" alt></a>
+                            <a href="index.php"><img src="assets/img/logo2.png" alt></a>
                         </div>
                         <h3>Want <span>to Take <br></span> Tour Packages<span>?</span></h3>
                         <a href="package-grid.php" class="primary-btn1">Book A Tour</a>

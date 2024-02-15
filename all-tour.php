@@ -44,7 +44,7 @@ if (isset($_SESSION['user'])) {
     <link rel="stylesheet" href="assets/css/dashboard.css">
 
     <title>TripRex - Tour & Travel Agency HTML Template</title>
-    <link rel="icon" href="assets/img/sm-logo.svg" type="image/gif" sizes="20x20">
+    <link rel="icon" href="assets/img/sm-logo.png" type="image/gif" sizes="20x20">
 </head>
 
 <body class="tt-magic-cursor style-2" onload="loadToursData()">

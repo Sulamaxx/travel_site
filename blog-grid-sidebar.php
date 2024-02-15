@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>TripRex - Tour & Travel Agency HTML Template</title>
-    <link rel="icon" href="assets/img/sm-logo.svg" type="image/gif" sizes="20x20">
+    <link rel="icon" href="assets/img/sm-logo.png" type="image/gif" sizes="20x20">
 </head>
 
 <body>
@@ -64,7 +64,7 @@
     <div class="right-sidebar-menu">
         <div class="sidebar-logo-area d-flex justify-content-between align-items-center">
             <div class="sidebar-logo-wrap">
-                <a href="index.php"><img alt="image" src="assets/img/logo.svg"></a>
+                <a href="index.php"><img alt="image" src="assets/img/logo.png"></a>
             </div>
             <div class="right-sidebar-close-btn">
                 <i class="bi bi-x"></i>
@@ -355,7 +355,7 @@
         <div class="topbar-left">
             <a href="https://www.tripadvisor.com/" class="rating-area">
                 <div class="icon">
-                    <img src="assets/img/home3/icon/tripadvisor-sm-logo.svg" alt>
+                    <img src="assets/img/home3/icon/tripadvisor-sm-logo.png" alt>
                 </div>
                 <div class="content">
                     <div class="text-logo">

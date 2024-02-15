@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="assets/css/dashboard.css">
 
     <title>TripRex - Tour & Travel Agency HTML Template</title>
-    <link rel="icon" href="assets/img/sm-logo.svg" type="image/gif" sizes="20x20">
+    <link rel="icon" href="assets/img/sm-logo.png" type="image/gif" sizes="20x20">
 </head>
 
 <body class="tt-magic-cursor style-2">
@@ -65,7 +65,7 @@
     <div class="right-sidebar-menu">
         <div class="sidebar-logo-area d-flex justify-content-between align-items-center">
             <div class="sidebar-logo-wrap">
-                <a href="index.php"><img alt="image" src="assets/img/logo.svg"></a>
+                <a href="index.php"><img alt="image" src="assets/img/logo.png"></a>
             </div>
             <div class="right-sidebar-close-btn">
                 <i class="bi bi-x"></i>
@@ -356,7 +356,7 @@
     <header class="header-area style-1 dashboard">
         <div class="header-log-and-sb-btn">
             <div class="header-logo">
-                <a href="index.php"><img alt="image" class="img-fluid" src="assets/img/logo.svg"></a>
+                <a href="index.php"><img alt="image" class="img-fluid" src="assets/img/logo.png"></a>
             </div>
             <div class="dashboard-sb-btn">
                 <svg class="sidebar-toggle-button" width="25" height="25" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
@@ -370,7 +370,7 @@
         <div class="main-menu">
             <div class="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
                 <div class="mobile-logo-wrap">
-                    <a href="index.php"><img alt="image" src="assets/img/logo.svg"></a>
+                    <a href="index.php"><img alt="image" src="assets/img/logo.png"></a>
                 </div>
                 <div class="menu-close-btn">
                     <i class="bi bi-x"></i>

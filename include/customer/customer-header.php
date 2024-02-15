@@ -1,4 +1,3 @@
-
 <div class="egns-preloader">
     <div class="preloader-close-btn">
         <span><i class="bi bi-x-lg"></i> Close</span>
@@ -23,12 +22,12 @@
 
 <header class="header-area style-2">
     <div class="header-logo">
-        <a href="index.php"><img alt="image" class="img-fluid" src="assets/img/logo2.svg"></a>
+        <a href="index.php"><img alt="image" class="img-fluid" src="assets/img/logo2.png"></a>
     </div>
     <div class="main-menu">
         <div class="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
             <div class="mobile-logo-wrap">
-                <a href="index.php"><img alt="image" src="assets/img/logo2.svg"></a>
+                <a href="index.php"><img alt="image" src="assets/img/logo2.png"></a>
             </div>
             <div class="menu-close-btn">
                 <i class="bi bi-x"></i>
