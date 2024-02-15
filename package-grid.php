@@ -38,7 +38,7 @@ require "libs/connection.php";
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>TripRex - Tour & Travel Agency HTML Template</title>
-    <link rel="icon" href="assets/img/sm-logo.svg" type="image/gif" sizes="20x20">
+    <link rel="icon" href="assets/img/logo2.png" type="image/gif" sizes="20x20">
 </head>
 
 <body>
@@ -85,7 +85,7 @@ require "libs/connection.php";
                     <div class="col-lg-4 col-md-6">
                         <div class="package-card">
                             <div class="package-card-img-wrap">
-                                <a href="package-details.php" class="card-img"><img src="assets/img/home1/package-card-img1.png" alt></a>
+                            <a href="package-details.php" class="card-img"><img src="<?= $data['img'] ?>" alt="" width="100%" style="height: 300px;"></a>
                                 <div class="batch">
                                     <span class="date"><?= $data['days'] ?> Days / <?= $data['days'] - 1 ?> Night</span>
                                 </div>
