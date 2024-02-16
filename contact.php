@@ -148,34 +148,6 @@
         </div>
     </div>
 
-    <div class="contact-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.5647631857846!2d90.36311167605992!3d23.83407118555764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c14c8682a473%3A0xa6c74743d52adb88!2sEgens%20Lab!5e0!3m2!1sen!2sbd!4v1700138349574!5m2!1sen!2sbd" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="banner3-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="banner3-content">
-                            <h2>Join The Newsletter</h2>
-                            <p>To receive our best monthly deals</p>
-                            <form>
-                                <div class="from-inner">
-                                    <input type="email" placeholder="Enter Your Gmail...">
-                                    <button type="submit" class="from-arrow">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17">
-                                            <path d="M7 1L16 8.5M16 8.5L7 16M16 8.5H0.5" stroke-width="1.5" />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </form>
-                            <img src="assets/img/home1/banner3-vector1.png" alt class="vector1">
-                            <img src="assets/img/home1/banner3-vector2.png" alt class="vector2">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <?php include 'include/customer/customer-footer.php' ?>
 
 
