@@ -1,4 +1,4 @@
-    <?php include 'assets/header.php' ?>
+    <?php include 'include/customer/customer-header.php' ?>
 
 
 
@@ -12,6 +12,23 @@
     </head>
 
     <body class="render" style="overflow: visible;">
+
+        <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3) 101.02%), url(assets/img/innerpage/inner-banner-bg.png);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <div class="banner-content">
+                            <h1>Tailormade</h1>
+                            <ul class="breadcrumb-list">
+                                <li><a href="index.php">Home</a></li>
+                                <li>Tailormade</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <div class="content">
             <!--Travel search engine-->
@@ -223,6 +240,7 @@
             </form>
         </div>
 
+        <?php include 'include/customer/customer-footer.php' ?>
     </body>
 
     </html>

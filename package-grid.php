@@ -7,38 +7,7 @@ require "libs/connection.php";
 <!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/package-grid.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:10 GMT -->
 
 <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/jquery-ui.css" rel="stylesheet">
-
-    <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
-
-    <link href="assets/css/all.min.css" rel="stylesheet">
-
-    <link href="assets/css/animate.min.css" rel="stylesheet">
-
-    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
-
-    <link href="assets/css/fontawesome.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/daterangepicker.css">
-
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/slick-theme.css">
-
-    <link href="assets/css/boxicons.min.css" rel="stylesheet">
-
-    <link href="assets/css/select2.css" rel="stylesheet">
-    <link href="assets/css/nice-select.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/style.css">
-
     <title>TripRex - Tour & Travel Agency HTML Template</title>
-    <link rel="icon" href="assets/img/logo2.png" type="image/gif" sizes="20x20">
 </head>
 
 <body>
@@ -85,7 +54,7 @@ require "libs/connection.php";
                     <div class="col-lg-4 col-md-6">
                         <div class="package-card">
                             <div class="package-card-img-wrap">
-                            <a href="package-details.php" class="card-img"><img src="<?= $data['img'] ?>" alt="" width="100%" style="height: 300px;"></a>
+                                <a href="package-details.php" class="card-img"><img src="<?= $data['img'] ?>" alt="" width="100%" style="height: 300px;"></a>
                                 <div class="batch">
                                     <span class="date"><?= $data['days'] ?> Days / <?= $data['days'] - 1 ?> Night</span>
                                 </div>
@@ -172,7 +141,7 @@ require "libs/connection.php";
         </div>
     </div>
 
-    <?php include 'assets/footer.php' ?>
+    <?php include 'include/customer/customer-footer.php' ?>
 
     <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="assets/js/jquery-3.7.1.min.js"></script>
