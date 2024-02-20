@@ -19,10 +19,10 @@ require "libs/connection.php";
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <div class="banner-content">
-                        <h1>Package Grid</h1>
+                        <h1>Tours</h1>
                         <ul class="breadcrumb-list">
                             <li><a href="index.php">Home</a></li>
-                            <li>Package Grid</li>
+                            <li>Tours</li>
                         </ul>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ require "libs/connection.php";
                 <?php
                 $limit = 6;
 
-                $totalToursResult = Database::search("SELECT COUNT(*) as total FROM `tour`");
+                $totalToursResult = Database::search("SELECT COUNT(*) as total FROM `tour` WHERE `status_id`='1'");
                 $totalTours = $totalToursResult->fetch_assoc()['total'];
 
                 $totalPages = ceil($totalTours / $limit);
@@ -46,9 +46,9 @@ require "libs/connection.php";
 
                 $offset = ($page - 1) * $limit;
 
-                $result = Database::search("SELECT * FROM `tour` LIMIT $limit OFFSET $offset");
+                $result = Database::search("SELECT * FROM `tour`  WHERE `status_id`='1' LIMIT $limit OFFSET $offset");
                 while ($data = $result->fetch_assoc()) {
-
+                    
                 ?>
 
                     <div class="col-lg-4 col-md-6">
@@ -66,16 +66,19 @@ require "libs/connection.php";
 
                                         <ul class="location-list scrollTextAni">
                                             <?php
+                                            
                                             $result1 = Database::search("SELECT * FROM `day` WHERE tour_id='" . $data['id'] . "'");
                                             while ($data1 = $result1->fetch_assoc()) {
+                                               
                                             ?>
-                                                <li><a href="package-grid.php"><?= $data1['name'] ?></a></li>
+                                                <li><?= $data1['name'] ?></li>
                                             <?php } ?>
                                         </ul>
                                     </div>
                                 </div>
+                                <!-- package-details.php -->
                                 <div class="card-content-bottom">
-                                    <a href="package-details.php" class="primary-btn2">Book a Tour</a>
+                                    <button class="primary-btn2" onclick="openSingleTour('<?= $data['id'] ?>')">Book a Tour</button>
                                 </div>
                             </div>
                         </div>
@@ -117,7 +120,14 @@ require "libs/connection.php";
 
 
     <?php include 'include/customer/customer-footer.php' ?>
+    <script>
+        function openSingleTour(id) {
 
+            window.location.href = "package-details.php?id=" + id;
+
+
+        }
+    </script>
     <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <script src="assets/js/jquery-ui.js"></script>

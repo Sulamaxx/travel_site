@@ -31,69 +31,35 @@
     <div class="destination-gallery pt-120 mb-120">
         <div class="container">
             <div class="row g-4 mb-70">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="gallery-img-wrap">
-                        <img src="assets/img/innerpage/gallery-06.jpg" alt>
-                        <a data-fancybox="gallery-01" href="assets/img/innerpage/gallery-06.jpg"><i class="bi bi-eye"></i> Discover Island</a>
+
+                <?php
+                require "libs/connection.php";
+
+              
+                $restult = Database::search("SELECT * FROM gallery WHERE status_id='1'");
+
+                while ($data = $restult->fetch_assoc()) {
+                ?>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="gallery-img-wrap">
+                            <img src="<?= $data['path'] ?>" width="100%" alt>
+                            <a data-fancybox="gallery-01" href="assets/img/innerpage/gallery-06.jpg"><i class="bi bi-eye"></i><?= $data['title'] ?></a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-5 col-sm-6">
-                    <div class="gallery-img-wrap">
-                        <img src="assets/img/innerpage/gallery-01.jpg" alt>
-                        <a data-fancybox="gallery-01" href="assets/img/innerpage/gallery-01.jpg"><i class="bi bi-eye"></i> Discover Island</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="gallery-img-wrap">
-                        <img src="assets/img/innerpage/gallery-02.jpg" alt>
-                        <a data-fancybox="gallery-01" href="assets/img/innerpage/gallery-02.jpg"><i class="bi bi-eye"></i> Discover Island</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="gallery-img-wrap">
-                        <img src="assets/img/innerpage/gallery-03.jpg" alt>
-                        <a data-fancybox="gallery-01" href="assets/img/innerpage/gallery-03.jpg"><i class="bi bi-eye"></i> Discover Island</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="gallery-img-wrap">
-                        <img src="assets/img/innerpage/gallery-04.jpg" alt>
-                        <a data-fancybox="gallery-01" href="assets/img/innerpage/gallery-04.jpg"><i class="bi bi-eye"></i> Discover Island</a>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-sm-6">
-                    <div class="gallery-img-wrap">
-                        <img src="assets/img/innerpage/gallery-05.jpg" alt>
-                        <a data-fancybox="gallery-01" href="assets/img/innerpage/gallery-05.jpg"><i class="bi bi-eye"></i> Discover Island</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="gallery-img-wrap">
-                        <img src="assets/img/innerpage/gallery-07.jpg" alt>
-                        <a data-fancybox="gallery-01" href="assets/img/innerpage/gallery-06.jpg"><i class="bi bi-eye"></i> Discover Island</a>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-sm-6">
-                    <div class="gallery-img-wrap">
-                        <img src="assets/img/innerpage/gallery-08.jpg" alt>
-                        <a data-fancybox="gallery-01" href="assets/img/innerpage/gallery-01.jpg"><i class="bi bi-eye"></i> Discover
-                            Island</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="gallery-img-wrap">
-                        <img src="assets/img/innerpage/gallery-09.jpg" alt>
-                        <a data-fancybox="gallery-01" href="assets/img/innerpage/gallery-02.jpg"><i class="bi bi-eye"></i> Discover Island</a>
-                    </div>
-                </div>
+
+                <?php } ?>
+
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
-                    <a href="#" class="primary-btn1">Load More</a>
+                    <button class="primary-btn1">Load More</button>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
+
+   
+
 
 
     <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>

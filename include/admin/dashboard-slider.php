@@ -78,8 +78,8 @@
                 </a>
                 <i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
-                    <li><a href="gallery-upload.php">Add Sopper Driver</a></li>
-                    <li><a href="all-gallery.php">All Sopper Drivers</a></li>
+                    <li><a href="gallery-upload.php">Add Image</a></li>
+                    <li><a href="all-gallery.php">All Images</a></li>
                 </ul>
             </li>
             <li>
