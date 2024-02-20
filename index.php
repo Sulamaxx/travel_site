@@ -4,7 +4,7 @@
 <!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/index2.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:06:08 GMT -->
 
 <head>
-    <title>TripRex - Tour & Travel Agency HTML Template</title>
+    <title>Travel Zoom Lanka</title>
 </head>
 
 <body>
@@ -1745,7 +1745,7 @@
                                 <span>About Us</span>
                             </div>
                             <h2>We provide the best tour facilities.</h2>
-                            <p>Etiam ac tortor id purus commodo vulputate. Vestibulum porttitor erat felis and sed vehicula tortor malesuada gravida. Mauris volutpat enim quis pulv gont congue. Suspendisse ullamcorper.</p>
+                            <p>Since 2010, we've been your guide to Sri Lanka's beauty. Explore ancient ruins in Anuradhapura, relax on Mirissa's beaches, or wander Matale's spice gardens. Let our words inspire your adventure in the teardrop paradise that is Sri Lanka.<br><br>Join us on this virtual journey!</p>
                         </div>
                         <div class="row g-4 mb-50">
                             <div class="col-md-6">
@@ -1788,20 +1788,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="content-bottom-area">
-                            <a href="about.php" class="primary-btn3">Find Out More</a>
-                            <a data-fancybox="popup-video" href="https://www.youtube.com/watch?v=MLpWrANjFbI&amp;ab_channel=eidelchteinadvogados" class="video-area">
-                                <div class="icon">
-                                    <svg class="video-circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="51px" viewBox="0 0 206 206" style="enable-background:new 0 0 206 206;" xml:space="preserve">
-                                        <circle class="circle" stroke-miterlimit="10" cx="103" cy="103" r="100"></circle>
-                                        <path class="circle-half top-half" stroke-width="4" stroke-miterlimit="10" d="M16.4,53C44,5.2,105.2-11.2,153,16.4s64.2,88.8,36.6,136.6"></path>
-                                        <path class="circle-half bottom-half" stroke-width="4" stroke-miterlimit="10" d="M189.6,153C162,200.8,100.8,217.2,53,189.6S-11.2,100.8,16.4,53"></path>
-                                    </svg>
-                                    <i class="bi bi-play"></i>
-                                </div>
-                                <h6>Watch Tour</h6>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -2331,8 +2317,8 @@
                             </svg>
                         </div>
                         <div class="feature-card-content">
-                            <h6>Worldwide Coverage</h6>
-                            <p>Curabitur convallis enim atnora ullamcorper sagittis.</p>
+                            <h6>Sri Lanka Exclusive Tours</h6>
+                            <p>Embark on an unforgettable journey through Sri Lanka with us, your local tour guide. We specialize in showcasing the wonders within the borders of Sri Lanka.</p>
                         </div>
                     </div>
                 </div>
@@ -2345,8 +2331,8 @@
                             </svg>
                         </div>
                         <div class="feature-card-content">
-                            <h6>Competitive Pricing</h6>
-                            <p>Burabitur convallis enim atnora. Morbi nug scelerisque for thana.</p>
+                            <h6>Affordable Packages</h6>
+                            <p>Our prices are competitive, ensuring the best value for your Sri Lankan adventure.</p>
                         </div>
                     </div>
                 </div>
@@ -2362,8 +2348,8 @@
                             </svg>
                         </div>
                         <div class="feature-card-content">
-                            <h6>Fast Booking</h6>
-                            <p>Fermentum eitorx quis maximum Etiam urnan posuere convallis.</p>
+                            <h6>Quick and Easy Booking</h6>
+                            <p>Experience swift booking with our efficient system.</p>
                         </div>
                     </div>
                 </div>
@@ -2377,8 +2363,8 @@
                             </svg>
                         </div>
                         <div class="feature-card-content">
-                            <h6>Guided Tours</h6>
-                            <p>Pellentesque venenatis egestasoi diam Proin velgorat elit porttitor metus convallis.</p>
+                            <h6>Expertly Guided Tours</h6>
+                            <p>Uncover Sri Lanka's treasures with our expertly guided tours.</p>
                         </div>
                     </div>
                 </div>
@@ -2396,7 +2382,7 @@
                         </div>
                         <div class="feature-card-content">
                             <h6>Best Support 24/7</h6>
-                            <p>Sed venenatis mauris nec nulla euismod, accounv varius lectus viverra oncen.</p>
+                            <p>Rely on our support round the clock.</p>
                         </div>
                     </div>
                 </div>
@@ -2415,8 +2401,8 @@
                             </svg>
                         </div>
                         <div class="feature-card-content">
-                            <h6>Ultimate flexibility</h6>
-                            <p>Duis leo sapien, lacinia utorrent efficitur utom suscipit quis nulla Sed auctor eu</p>
+                            <h6>Tailored Sri Lankan Experiences</h6>
+                            <p>Enjoy ultimate flexibility in your travels.</p>
                         </div>
                     </div>
                 </div>
@@ -2848,7 +2834,7 @@
         </div>
     </div>
 
-
+    <!-- 
     <div class="teams-section mb-120">
         <div class="container">
             <div class="row mb-50">
@@ -3084,14 +3070,16 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <div class="video-section">
         <video autoplay loop muted playsinline src="assets/video/production_.mp4">
         </video>
     </div>
-    <div class="banner5-section mb-120">
+
+    <!-- Offer  -->
+    <!-- <div class="banner5-section mb-120">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -3278,7 +3266,7 @@
                 </svg>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <div class="home2-blog-section mb-120">

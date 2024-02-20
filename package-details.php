@@ -9,7 +9,7 @@ if (isset($_GET['id'])) {
     <!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/package-details.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:11 GMT -->
 
     <head>
-        <title>TripRex - Tour & Travel Agency HTML Template</title>
+        <title>Travel Zoom Lanka - Packeges</title>
     </head>
 
     <body>
@@ -112,10 +112,10 @@ if (isset($_GET['id'])) {
                                 $key = "";
                                 $id++;
                             } ?>
-                            
+
                         </div>
 
-                        
+
 
                     </div>
                     <div class="col-xl-4">
@@ -280,7 +280,7 @@ if (isset($_GET['id'])) {
                                 </div>
                             </div>
                         </div>
-                       
+
                     </div>
                 </div>
             </div>

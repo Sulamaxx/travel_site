@@ -7,7 +7,7 @@ require "libs/connection.php";
 <!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/package-grid.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:10 GMT -->
 
 <head>
-    <title>TripRex - Tour & Travel Agency HTML Template</title>
+    <title>Travel Zoom Lanka - Packeges</title>
 </head>
 
 <body>
@@ -48,7 +48,7 @@ require "libs/connection.php";
 
                 $result = Database::search("SELECT * FROM `tour`  WHERE `status_id`='1' LIMIT $limit OFFSET $offset");
                 while ($data = $result->fetch_assoc()) {
-                    
+
                 ?>
 
                     <div class="col-lg-4 col-md-6">
@@ -66,10 +66,10 @@ require "libs/connection.php";
 
                                         <ul class="location-list scrollTextAni">
                                             <?php
-                                            
+
                                             $result1 = Database::search("SELECT * FROM `day` WHERE tour_id='" . $data['id'] . "'");
                                             while ($data1 = $result1->fetch_assoc()) {
-                                               
+
                                             ?>
                                                 <li><?= $data1['name'] ?></li>
                                             <?php } ?>

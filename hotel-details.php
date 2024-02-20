@@ -5,7 +5,7 @@
 
 <head>
 
-    <title>TripRex - Tour & Travel Agency HTML Template</title>
+    <title>Travel Zoom Lanka - Hotel Details</title>
 </head>
 
 <body>

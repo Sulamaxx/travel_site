@@ -4,7 +4,7 @@
 <!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/gallery.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:46 GMT -->
 
 <head>
-    <title>TripRex - Tour & Travel Agency HTML Template</title>
+    <title>Travel Zoom Lanka - Gallery</title>
 </head>
 
 <body>
@@ -35,7 +35,7 @@
                 <?php
                 require "libs/connection.php";
 
-              
+
                 $restult = Database::search("SELECT * FROM gallery WHERE status_id='1'");
 
                 while ($data = $restult->fetch_assoc()) {
@@ -58,7 +58,7 @@
         </div>
     </div>
 
-   
+
 
 
 

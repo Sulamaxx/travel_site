@@ -4,7 +4,7 @@
 <!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/blog-grid.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:30 GMT -->
 
 <head>
-    <title>TripRex - Tour & Travel Agency HTML Template</title>
+    <title>Travel Zoom Lanka - </title>
 </head>
 
 <body>

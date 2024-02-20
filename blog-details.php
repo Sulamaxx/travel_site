@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>TripRex - Tour & Travel Agency HTML Template</title>
+    <title>Travel Zoom Lanka - Blog</title>
 </head>
 
 <body>
