@@ -86,17 +86,9 @@
             <li class="menu-item-has-children">
                 <a href="#" class="drop-down">Pages</a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
-                    <li>
-                        <a href="hotel-suits.php">Hotel</a>
-                        <i class="d-lg-flex d-none bi bi-chevron-right dropdown-icon"></i>
-                        <i class="d-lg-none d-flex bi bi-plus dropdown-icon"></i>
-                        <ul class="sub-menu">
-                            <li><a href="hotel-suits.php">Hotel</a></li>
-                            <li><a href="hotel-details.php">Hotel Details</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="gallery.php">Event</a></li>
-                    <li><a href="transport.php">Shocker Drive</a></li>
+                    <li><a href="hotel-suits.php">Hotel</a></li>
+                    <li><a href="event-suits.php">Event</a></li>
+                    <li><a href="driver-suits.php">Shocker Drive</a></li>
                 </ul>
             </li>
             <li> <a href="blog-grid.php" class="drop-down">Blog</a> </li>

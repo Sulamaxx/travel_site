@@ -38,8 +38,8 @@ require "libs/connection.php";
 
                 <div class="col-xl-4" id="form_data">
                     <div class="booking-form-wrap mb-40">
-                        <h4>Book Your Hotel</h4>
-                        <p>Reserve your ideal trip early for a hassle-free trip; secure comfort and convenience!</p>
+                        <h4>Book Your Event</h4>
+                        <!-- <p>Reserve your ideal trip early for a hassle-free trip; secure comfort and convenience!</p> -->
 
                         <div class="tab-content" id="v-pills-tabContent2">
                             <div class="tab-pane fade active show" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-contact-tab">
@@ -68,8 +68,8 @@ require "libs/connection.php";
 
                                         <div class="form-inner  mb-20">
                                             <span hidden id="hotel_id"></span>
-                                            <label>Select Hotel <span>*</span></label>
-                                            <input id="hotel_name" type="text" readonly placeholder="See and Select Your Hotel">
+                                            <label>Select Event <span>*</span></label>
+                                            <input id="hotel_name" type="text" readonly placeholder="See and Select Your Event">
                                         </div>
 
                                         <div class="form-inner mb-30">
@@ -91,7 +91,7 @@ require "libs/connection.php";
                     <?php
                     $limit = 6;
 
-                    $totalToursResult = Database::search("SELECT COUNT(*) as total FROM `hotel` WHERE `status_id`='1'");
+                    $totalToursResult = Database::search("SELECT COUNT(*) as total FROM `event` WHERE `status_id`='1'");
                     $totalTours = $totalToursResult->fetch_assoc()['total'];
 
                     $totalPages = ceil($totalTours / $limit);
@@ -100,8 +100,8 @@ require "libs/connection.php";
 
                     $offset = ($page - 1) * $limit;
 
-                    $rs_hotel = Database::search("SELECT * FROM hotel WHERE status_id='1' LIMIT $limit OFFSET $offset");
-                    while ($data = $rs_hotel->fetch_assoc()) {
+                    $rs_event = Database::search("SELECT * FROM event WHERE status_id='1' LIMIT $limit OFFSET $offset");
+                    while ($data = $rs_event->fetch_assoc()) {
                     ?>
                         <div class="room-suits-card mb-30">
                             <div class="row g-0">
@@ -150,7 +150,7 @@ require "libs/connection.php";
                                         </div>
                                         <div class="col-12">
                                             <div class="row justify-content-center ">
-                                                <button class="book-btn primary-btn2 mt-2 col-6" onclick="selectHotel('<?= $data['id'] ?>','<?= $data['name'] ?>');">Select Hotel</button>
+                                                <button class="book-btn primary-btn2 mt-2 col-6" onclick="selectEvent('<?= $data['id'] ?>','<?= $data['name'] ?>');">Select Event</button>
                                             </div>
                                         </div>
                                     </div>
@@ -191,7 +191,7 @@ require "libs/connection.php";
 
     <?php include 'include/customer/customer-footer.php' ?>
     <script>
-        function selectHotel(id, name) {
+        function selectEvent(id, name) {
             document.getElementById('hotel_id').innerHTML = id;
             document.getElementById('hotel_name').value = name;
             document.getElementById('form_data').scrollIntoView({
@@ -202,7 +202,7 @@ require "libs/connection.php";
     <script>
         document.querySelector('.primary-btn1').addEventListener('click', function() {
             var formData = {
-                subject: 'Hotel',
+                subject: 'Event',
                 name: document.getElementById('c_name').value,
                 email: document.getElementById('c_email').value,
                 contact: document.getElementById('c_contact').value,
@@ -226,18 +226,15 @@ require "libs/connection.php";
                 .then(response => response.text())
                 .then(data => {
                     alert(data);
-
                     if (data == "Message has been sent") {
                         window.location.reload();
                     }
-
                 })
                 .catch((error) => {
                     console.error('Error:', error);
                 });
         }
     </script>
-
     <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <script src="assets/js/jquery-ui.js"></script>

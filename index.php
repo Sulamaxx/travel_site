@@ -1,3 +1,4 @@
+<?php include "include/customer/customer-header.php" ?>
 <!doctype html>
 <html lang="en">
 
@@ -9,7 +10,6 @@
 
 <body>
 
-    <?php include "include/customer/customer-header.php" ?>
 
 
     <div class="home2-banner-area">

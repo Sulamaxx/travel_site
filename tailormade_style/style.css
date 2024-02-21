@@ -1,16 +1,9 @@
-.header-area {
-  background-color: #aaaaa3 !important;
-}
 
 .travel_search_engine {
   float: left;
   width: 100%;
   background: #fff;
   position: relative;
-}
-
-.container {
-  /* height: 100%; */
 }
 
 .travel_search_engine .container {
