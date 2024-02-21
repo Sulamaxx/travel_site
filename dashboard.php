@@ -43,7 +43,7 @@ if (isset($_SESSION['user'])) {
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/dashboard.css">
 
-        <title>TripRex - Tour & Travel Agency HTML Template</title>
+        <title>Travel Zoom Lanka - dashboard</title>
         <link rel="icon" href="assets/img/sm-logo.png" type="image/gif" sizes="20x20">
     </head>
 

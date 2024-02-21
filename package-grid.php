@@ -7,38 +7,7 @@ require "libs/connection.php";
 <!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/package-grid.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:10 GMT -->
 
 <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/jquery-ui.css" rel="stylesheet">
-
-    <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
-
-    <link href="assets/css/all.min.css" rel="stylesheet">
-
-    <link href="assets/css/animate.min.css" rel="stylesheet">
-
-    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
-
-    <link href="assets/css/fontawesome.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/daterangepicker.css">
-
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/slick-theme.css">
-
-    <link href="assets/css/boxicons.min.css" rel="stylesheet">
-
-    <link href="assets/css/select2.css" rel="stylesheet">
-    <link href="assets/css/nice-select.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <title>TripRex - Tour & Travel Agency HTML Template</title>
-    <link rel="icon" href="assets/img/logo2.png" type="image/gif" sizes="20x20">
+    <title>Travel Zoom Lanka - Packeges</title>
 </head>
 
 <body>
@@ -50,10 +19,10 @@ require "libs/connection.php";
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <div class="banner-content">
-                        <h1>Package Grid</h1>
+                        <h1>Tours</h1>
                         <ul class="breadcrumb-list">
                             <li><a href="index.php">Home</a></li>
-                            <li>Package Grid</li>
+                            <li>Tours</li>
                         </ul>
                     </div>
                 </div>
@@ -68,7 +37,7 @@ require "libs/connection.php";
                 <?php
                 $limit = 6;
 
-                $totalToursResult = Database::search("SELECT COUNT(*) as total FROM `tour`");
+                $totalToursResult = Database::search("SELECT COUNT(*) as total FROM `tour` WHERE `status_id`='1'");
                 $totalTours = $totalToursResult->fetch_assoc()['total'];
 
                 $totalPages = ceil($totalTours / $limit);
@@ -77,7 +46,7 @@ require "libs/connection.php";
 
                 $offset = ($page - 1) * $limit;
 
-                $result = Database::search("SELECT * FROM `tour` LIMIT $limit OFFSET $offset");
+                $result = Database::search("SELECT * FROM `tour`  WHERE `status_id`='1' LIMIT $limit OFFSET $offset");
                 while ($data = $result->fetch_assoc()) {
 
                 ?>
@@ -85,7 +54,7 @@ require "libs/connection.php";
                     <div class="col-lg-4 col-md-6">
                         <div class="package-card">
                             <div class="package-card-img-wrap">
-                            <a href="package-details.php" class="card-img"><img src="<?= $data['img'] ?>" alt="" width="100%" style="height: 300px;"></a>
+                                <a href="package-details.php" class="card-img"><img src="<?= $data['img'] ?>" alt="" width="100%" style="height: 300px;"></a>
                                 <div class="batch">
                                     <span class="date"><?= $data['days'] ?> Days / <?= $data['days'] - 1 ?> Night</span>
                                 </div>
@@ -97,16 +66,19 @@ require "libs/connection.php";
 
                                         <ul class="location-list scrollTextAni">
                                             <?php
+
                                             $result1 = Database::search("SELECT * FROM `day` WHERE tour_id='" . $data['id'] . "'");
                                             while ($data1 = $result1->fetch_assoc()) {
+
                                             ?>
-                                                <li><a href="package-grid.php"><?= $data1['name'] ?></a></li>
+                                                <li><?= $data1['name'] ?></li>
                                             <?php } ?>
                                         </ul>
                                     </div>
                                 </div>
+                                <!-- package-details.php -->
                                 <div class="card-content-bottom">
-                                    <a href="package-details.php" class="primary-btn2">Book a Tour</a>
+                                    <button class="primary-btn2" onclick="openSingleTour('<?= $data['id'] ?>')">Book a Tour</button>
                                 </div>
                             </div>
                         </div>
@@ -147,33 +119,15 @@ require "libs/connection.php";
     </div>
 
 
-    <div class="banner3-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="banner3-content">
-                        <h2>Join The Newsletter</h2>
-                        <p>To receive our best monthly deals</p>
-                        <form>
-                            <div class="from-inner">
-                                <input type="email" placeholder="Enter Your Gmail...">
-                                <button type="submit" class="from-arrow">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17">
-                                        <path d="M7 1L16 8.5M16 8.5L7 16M16 8.5H0.5" stroke-width="1.5" />
-                                    </svg>
-                                </button>
-                            </div>
-                        </form>
-                        <img src="assets/img/home1/banner3-vector1.png" alt class="vector1">
-                        <img src="assets/img/home1/banner3-vector2.png" alt class="vector2">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include 'include/customer/customer-footer.php' ?>
+    <script>
+        function openSingleTour(id) {
 
-    <?php include 'assets/footer.php' ?>
+            window.location.href = "package-details.php?id=" + id;
 
+
+        }
+    </script>
     <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <script src="assets/js/jquery-ui.js"></script>

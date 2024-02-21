@@ -4,38 +4,7 @@
 <!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/index2.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:06:08 GMT -->
 
 <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/jquery-ui.css" rel="stylesheet">
-
-    <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
-
-    <link href="assets/css/all.min.css" rel="stylesheet">
-
-    <link href="assets/css/animate.min.css" rel="stylesheet">
-
-    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
-
-    <link href="assets/css/fontawesome.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/daterangepicker.css">
-
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/slick-theme.css">
-
-    <link href="assets/css/boxicons.min.css" rel="stylesheet">
-
-    <link href="assets/css/select2.css" rel="stylesheet">
-    <link href="assets/css/nice-select.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <title>TripRex - Tour & Travel Agency HTML Template</title>
-    <link rel="icon" href="assets/img/sm-logo.png" type="image/gif" sizes="20x20">
+    <title>Travel Zoom Lanka</title>
 </head>
 
 <body>
@@ -70,7 +39,7 @@
                     <div class="col-lg-12">
                         <div class="home2-banner-content">
                             <div class="eg-tag">
-                                <span>New York</span>
+                                <span>Sri Lanka</span>
                             </div>
                             <h1 class="animate-text">Let’s Explore Your
                                 <span>Holiday</span>
@@ -1335,7 +1304,7 @@
                                 <i class="bi bi-arrow-right"></i>
                             </div>
                         </div>
-                        <a href="destination2.php" class="secondary-btn2">View All Destination</a>
+                        <!--<a href="destination2.php" class="secondary-btn2">View All Destination</a> -->
                     </div>
                 </div>
             </div>
@@ -1776,7 +1745,7 @@
                                 <span>About Us</span>
                             </div>
                             <h2>We provide the best tour facilities.</h2>
-                            <p>Etiam ac tortor id purus commodo vulputate. Vestibulum porttitor erat felis and sed vehicula tortor malesuada gravida. Mauris volutpat enim quis pulv gont congue. Suspendisse ullamcorper.</p>
+                            <p>Since 2010, we've been your guide to Sri Lanka's beauty. Explore ancient ruins in Anuradhapura, relax on Mirissa's beaches, or wander Matale's spice gardens. Let our words inspire your adventure in the teardrop paradise that is Sri Lanka.<br><br>Join us on this virtual journey!</p>
                         </div>
                         <div class="row g-4 mb-50">
                             <div class="col-md-6">
@@ -1819,20 +1788,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="content-bottom-area">
-                            <a href="about.php" class="primary-btn3">Find Out More</a>
-                            <a data-fancybox="popup-video" href="https://www.youtube.com/watch?v=MLpWrANjFbI&amp;ab_channel=eidelchteinadvogados" class="video-area">
-                                <div class="icon">
-                                    <svg class="video-circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="51px" viewBox="0 0 206 206" style="enable-background:new 0 0 206 206;" xml:space="preserve">
-                                        <circle class="circle" stroke-miterlimit="10" cx="103" cy="103" r="100"></circle>
-                                        <path class="circle-half top-half" stroke-width="4" stroke-miterlimit="10" d="M16.4,53C44,5.2,105.2-11.2,153,16.4s64.2,88.8,36.6,136.6"></path>
-                                        <path class="circle-half bottom-half" stroke-width="4" stroke-miterlimit="10" d="M189.6,153C162,200.8,100.8,217.2,53,189.6S-11.2,100.8,16.4,53"></path>
-                                    </svg>
-                                    <i class="bi bi-play"></i>
-                                </div>
-                                <h6>Watch Tour</h6>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -2362,8 +2317,8 @@
                             </svg>
                         </div>
                         <div class="feature-card-content">
-                            <h6>Worldwide Coverage</h6>
-                            <p>Curabitur convallis enim atnora ullamcorper sagittis.</p>
+                            <h6>Sri Lanka Exclusive Tours</h6>
+                            <p>Embark on an unforgettable journey through Sri Lanka with us, your local tour guide. We specialize in showcasing the wonders within the borders of Sri Lanka.</p>
                         </div>
                     </div>
                 </div>
@@ -2376,8 +2331,8 @@
                             </svg>
                         </div>
                         <div class="feature-card-content">
-                            <h6>Competitive Pricing</h6>
-                            <p>Burabitur convallis enim atnora. Morbi nug scelerisque for thana.</p>
+                            <h6>Affordable Packages</h6>
+                            <p>Our prices are competitive, ensuring the best value for your Sri Lankan adventure.</p>
                         </div>
                     </div>
                 </div>
@@ -2393,8 +2348,8 @@
                             </svg>
                         </div>
                         <div class="feature-card-content">
-                            <h6>Fast Booking</h6>
-                            <p>Fermentum eitorx quis maximum Etiam urnan posuere convallis.</p>
+                            <h6>Quick and Easy Booking</h6>
+                            <p>Experience swift booking with our efficient system.</p>
                         </div>
                     </div>
                 </div>
@@ -2408,8 +2363,8 @@
                             </svg>
                         </div>
                         <div class="feature-card-content">
-                            <h6>Guided Tours</h6>
-                            <p>Pellentesque venenatis egestasoi diam Proin velgorat elit porttitor metus convallis.</p>
+                            <h6>Expertly Guided Tours</h6>
+                            <p>Uncover Sri Lanka's treasures with our expertly guided tours.</p>
                         </div>
                     </div>
                 </div>
@@ -2427,7 +2382,7 @@
                         </div>
                         <div class="feature-card-content">
                             <h6>Best Support 24/7</h6>
-                            <p>Sed venenatis mauris nec nulla euismod, accounv varius lectus viverra oncen.</p>
+                            <p>Rely on our support round the clock.</p>
                         </div>
                     </div>
                 </div>
@@ -2446,8 +2401,8 @@
                             </svg>
                         </div>
                         <div class="feature-card-content">
-                            <h6>Ultimate flexibility</h6>
-                            <p>Duis leo sapien, lacinia utorrent efficitur utom suscipit quis nulla Sed auctor eu</p>
+                            <h6>Tailored Sri Lankan Experiences</h6>
+                            <p>Enjoy ultimate flexibility in your travels.</p>
                         </div>
                     </div>
                 </div>
@@ -2879,7 +2834,7 @@
         </div>
     </div>
 
-
+    <!-- 
     <div class="teams-section mb-120">
         <div class="container">
             <div class="row mb-50">
@@ -3115,14 +3070,16 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <div class="video-section">
         <video autoplay loop muted playsinline src="assets/video/production_.mp4">
         </video>
     </div>
-    <div class="banner5-section mb-120">
+
+    <!-- Offer  -->
+    <!-- <div class="banner5-section mb-120">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -3309,7 +3266,7 @@
                 </svg>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <div class="home2-blog-section mb-120">
@@ -3407,66 +3364,6 @@
         </div>
     </div>
 
-
-    <div class="banner6-section">
-        <img src="assets/img/home2/home2-newsletter-vector1.png" alt class="vector1">
-        <img src="assets/img/home2/home2-newsletter-vector2.png" alt class="vector2">
-        <div class="container-fluid">
-            <div class="row g-lg-0 gy-5">
-                <div class="col-lg-3 col-sm-6 d-flex align-items-center justify-content-lg-start justify-content-center order-lg-1 order-2">
-                    <div class="single-contact">
-                        <div class="icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
-                                <g clip-path="url(#clip0_1381_27)">
-                                    <path d="M34.5478 26.1865L29.6634 21.3021C27.919 19.5577 24.9535 20.2555 24.2557 22.5232C23.7324 24.0932 21.988 24.9655 20.418 24.6165C16.9292 23.7443 12.2193 19.2088 11.3471 15.5456C10.8237 13.9755 11.8704 12.2311 13.4404 11.7078C15.7081 11.0101 16.4059 8.04458 14.6615 6.30017L9.7771 1.41582C8.38157 0.194728 6.28828 0.194728 5.06719 1.41582L1.7528 4.7302C-1.56158 8.21902 2.10169 17.4644 10.3004 25.6631C18.4992 33.8619 27.7445 37.6997 31.2334 34.2108L34.5478 30.8964C35.7689 29.5009 35.7689 27.4076 34.5478 26.1865Z" />
-                                </g>
-                            </svg>
-                        </div>
-                        <div class="content">
-                            <span>More Inquiry</span>
-                            <a href="tel:+999858624984">+999-858 624 984</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 order-lg-2 order-1">
-                    <div class="banner6-content">
-                        <h2>Join The Newsletter</h2>
-                        <p>To receive our best monthly deals</p>
-                        <form>
-                            <div class="from-inner">
-                                <input type="email" placeholder="Enter Your Gmail...">
-                                <button type="submit" class="from-arrow">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17">
-                                        <path d="M7 1L16 8.5M16 8.5L7 16M16 8.5H0.5" stroke-width="1.5" />
-                                    </svg>
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 d-flex align-items-center justify-content-lg-end justify-content-center order-3">
-                    <div class="single-contact green">
-                        <div class="icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="36" viewBox="0 0 35 36">
-                                <g clip-path="url(#clip0_1381_80)">
-                                    <path d="M12.7608 25.8093V32.573C12.762 32.8029 12.8354 33.0266 12.9707 33.2124C13.106 33.3982 13.2964 33.5368 13.5148 33.6084C13.7332 33.68 13.9686 33.6811 14.1877 33.6115C14.4068 33.5419 14.5984 33.4051 14.7354 33.2205L18.6919 27.8364L12.7608 25.8093ZM34.541 0.327817C34.3767 0.210791 34.1832 0.141497 33.982 0.127599C33.7807 0.113701 33.5795 0.15574 33.4006 0.249067L0.588138 17.3845C0.399345 17.4843 0.24379 17.637 0.140562 17.8239C0.0373342 18.0108 -0.00907488 18.2238 0.00703036 18.4368C0.0231356 18.6497 0.101054 18.8533 0.231224 19.0226C0.361394 19.1919 0.538152 19.3194 0.739805 19.3897L9.86168 22.5076L29.2881 5.89719L14.2556 24.0082L29.5433 29.2334C29.695 29.2844 29.856 29.3016 30.0151 29.2838C30.1741 29.266 30.3274 29.2137 30.4641 29.1305C30.6007 29.0473 30.7176 28.9352 30.8064 28.8021C30.8953 28.669 30.9539 28.5181 30.9783 28.3599L34.9888 1.38073C35.0184 1.18101 34.9923 0.976977 34.9133 0.791164C34.8343 0.605351 34.7055 0.444996 34.541 0.327817Z" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_1381_80">
-                                        <rect width="35" height="35" fill="white" transform="translate(0 0.125)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                        </div>
-                        <div class="content">
-                            <span>Send Mail</span>
-                            <a href="https://demo-egenslab.b-cdn.net/cdn-cgi/l/email-protection#9bf2f5fdf4dbfee3faf6ebf7feb5f8f4f6"><span class="__cf_email__" data-cfemail="ed84838b82ad88958c809d8188c38e8280">[email&#160;protected]</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <?php include 'include/customer/customer-footer.php' ?>
 
