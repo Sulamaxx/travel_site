@@ -84,11 +84,12 @@ if (isset($_SESSION['user'])) {
                                                 <path d="M43.1261 34.5332L37.7784 41.584L34.9752 38.2913C34.8277 38.1141 34.6158 38.0028 34.3861 37.9818C34.1564 37.9608 33.9277 38.0318 33.7505 38.1793C33.5732 38.3267 33.4618 38.5385 33.4407 38.768C33.4197 38.9976 33.4908 39.2261 33.6383 39.4032L37.0884 43.5234C37.1694 43.618 37.2699 43.6939 37.3831 43.746C37.4962 43.7981 37.6193 43.825 37.7439 43.825C37.8734 43.8211 38.0004 43.7881 38.1154 43.7284C38.2303 43.6687 38.3304 43.5839 38.4081 43.4803L44.4026 35.5762C44.5149 35.5015 44.6082 35.4014 44.6748 35.2841C44.7415 35.1669 44.7796 35.0356 44.7862 34.9009C44.7929 34.7662 44.7678 34.6318 44.713 34.5085C44.6582 34.3853 44.5752 34.2766 44.4707 34.1912C44.3662 34.1059 44.2431 34.0462 44.1114 34.017C43.9796 33.9878 43.8428 33.99 43.7121 34.0232C43.5813 34.0565 43.4601 34.12 43.3583 34.2085C43.2566 34.2971 43.177 34.4083 43.1261 34.5332Z" />
                                             </svg>
                                         </div>
+
                                         <div class="counter-content">
                                             <p>Total Drivers</p>
                                             <div class="number">
                                                 <?php
-                                                $result = Database::search("SELECT * FROM event")
+                                                $result = Database::search("SELECT * FROM rental_car")
 
                                                 ?>
                                                 <h3 class="counter"><?= $result->num_rows; ?></h3>
@@ -112,6 +113,19 @@ if (isset($_SESSION['user'])) {
                                     </form>
                                 </div>
                             </div>
+                            <?php
+                            $limit = 6;
+
+                            $totalToursResult = Database::search("SELECT COUNT(*) as total FROM `rental_car` WHERE `status_id`='1'");
+                            $totalTours = $totalToursResult->fetch_assoc()['total'];
+
+                            $totalPages = ceil($totalTours / $limit);
+
+                            $page = isset($_GET['page']) ? intval($_GET['page']) : 1;
+
+                            $offset = ($page - 1) * $limit;
+
+                            ?>
                             <div class="recent-listing-table">
                                 <table class="eg-table2">
                                     <thead>
@@ -129,33 +143,21 @@ if (isset($_SESSION['user'])) {
                                     </tbody>
                                 </table>
                                 <div class="pagination-area">
-                                    <ul class="paginations">
-                                        <li class="page-item active">
-                                            <a href="#">1</a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a href="#">2</a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a href="#">3</a>
-                                        </li>
-                                    </ul>
-                                    <ul class="paginations-buttons">
+                                    <?php if ($page > 1) : ?>
                                         <li>
-                                            <a href="#">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="14" viewBox="0 0 7 14">
-                                                    <path d="M0 7.00008L7 0L2.54545 7.00008L7 14L0 7.00008Z"></path>
-                                                </svg> Prev
-                                            </a>
+                                            <a href="?page=<?= $page - 1 ?>" class="shop-pagi-btn"><i class="bi bi-chevron-left"></i></a>
                                         </li>
+                                    <?php endif; ?>
+                                    <?php for ($i = 1; $i <= $totalPages; $i++) : ?>
                                         <li>
-                                            <a href="#">
-                                                Next
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="14" viewBox="0 0 7 14" fill="none">
-                                                    <path d="M7 7.00008L0 0L4.45455 7.00008L0 14L7 7.00008Z"></path>
-                                                </svg>
-                                            </a>
+                                            <a href="?page=<?= $i ?>" <?= $i === $page ? 'class="active"' : '' ?>><?= $i ?></a>
                                         </li>
+                                    <?php endfor; ?>
+                                    <?php if ($page < $totalPages) : ?>
+                                        <li>
+                                            <a href="?page=<?= $page + 1 ?>" class="shop-pagi-btn"><i class="bi bi-chevron-right"></i></a>
+                                        </li>
+                                    <?php endif; ?>
                                     </ul>
                                 </div>
                             </div>
@@ -173,7 +175,7 @@ if (isset($_SESSION['user'])) {
 
                 var searchTour = document.getElementById('searchTour').value;
 
-                fetch('loadDriverDataProcess.php?key=' + searchTour, {
+                fetch('loadDriverDataProcess.php?key=' + searchTour+ "&limit=" + <?= $limit; ?> + "&offset=" + <?= $offset; ?>, {
                         method: 'GET',
                     })
                     .then(res => res.text())

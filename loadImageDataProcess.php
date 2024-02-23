@@ -2,11 +2,13 @@
 require "libs/connection.php";
 
 $key = $_GET['key'];
-$query = "SELECT *,gallery.id AS h_id,status.name AS s_name FROM `gallery` INNER JOIN `status` ON `gallery`.`status_id`=`status`.`id`";
+$limit = $_GET['limit'];
+$offset = $_GET['offset'];
+$query = "SELECT *,gallery.id AS h_id,status.name AS s_name FROM `gallery` INNER JOIN `status` ON `gallery`.`status_id`=`status`.`id` ";
 if (!empty($key)) {
     $query .= " WHERE gallery.title LIKE '" . $key . "%'";
 }
-
+$query .= " LIMIT $limit OFFSET $offset";
 $result = Database::search($query);
 
 

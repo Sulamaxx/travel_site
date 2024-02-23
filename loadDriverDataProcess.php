@@ -2,11 +2,13 @@
 require "libs/connection.php";
 
 $key = $_GET['key'];
-$query = "SELECT *,rental_car.name AS h_name,rental_car.id AS h_id,status.name AS s_name FROM `rental_car` INNER JOIN `status` ON `rental_car`.`status_id`=`status`.`id`";
+$limit = $_GET['limit'];
+$offset = $_GET['offset'];
+$query = "SELECT *,rental_car.name AS h_name,rental_car.id AS h_id,status.name AS s_name FROM `rental_car` INNER JOIN `status` ON `rental_car`.`status_id`=`status`.`id` ";
 if (!empty($key)) {
     $query .= " WHERE rental_car.name LIKE '" . $key . "%'";
 }
-
+$query .= " LIMIT $limit OFFSET $offset";
 $result = Database::search($query);
 
 

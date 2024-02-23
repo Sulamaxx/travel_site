@@ -2,13 +2,15 @@
 require "libs/connection.php";
 
 $key = $_GET['key'];
+$limit = $_GET['limit'];
+$offset = $_GET['offset'];
 
-$query = "SELECT *,tour.id AS t_id FROM `tour` INNER JOIN `status` ON `tour`.`status_id`=`status`.`id`";
+$query = "SELECT *,tour.id AS t_id FROM `tour` INNER JOIN `status` ON `tour`.`status_id`=`status`.`id` ";
 
 if (!empty($key)) {
     $query .= " WHERE title LIKE '" . $key . "%'";
 }
-
+$query .= " LIMIT $limit OFFSET $offset";
 $result = Database::search($query);
 
 while ($data = $result->fetch_assoc()) {

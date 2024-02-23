@@ -106,36 +106,36 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="contact-form-area">
-                        <h3>Reach Us Anytime</h3>
+                        <h3>Comment Your Satisfaction</h3>
                         <form>
                             <div class="row">
                                 <div class="col-lg-12 mb-20">
                                     <div class="form-inner">
                                         <label>Name*</label>
-                                        <input type="text" placeholder="Daniel Scoot">
+                                        <input id="name" type="text" placeholder="Daniel Scoot">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 mb-20">
                                     <div class="form-inner">
                                         <label>Phone</label>
-                                        <input type="text" placeholder="Phone Number...">
+                                        <input id="contact" type="text" placeholder="Phone Number...">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 mb-20">
                                     <div class="form-inner">
                                         <label>Email</label>
-                                        <input type="email" placeholder="Email Us....">
+                                        <input id="email" type="email" placeholder="Email....">
                                     </div>
                                 </div>
                                 <div class="col-lg-12 mb-30">
                                     <div class="form-inner">
                                         <label>Write Your Massage*</label>
-                                        <textarea placeholder="What’s on your mind"></textarea>
+                                        <textarea id="message" placeholder="What’s on your mind"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-inner">
-                                        <button class="primary-btn1 btn-hover" type="submit">
+                                        <button class="primary-btn1 btn-hover" id="comment" type="button">
                                             Submit Now
                                         </button>
                                     </div>
@@ -149,7 +149,58 @@
     </div>
 
     <?php include 'include/customer/customer-footer.php' ?>
+    <script>
+        document.getElementById('comment').addEventListener("click", async () => {
+            var formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                contact: document.getElementById('contact').value,
+                message: document.getElementById('message').value,
 
+            };
+            await sendEmail(formData);
+            await saveComment(formData);
+        });
+
+        function sendEmail(data) {
+            fetch('send_email_comment.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data)
+                })
+                .then(response => response.text())
+                .then(data => {
+                    alert(data);
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+        }
+
+        function saveComment(data) {
+            fetch('commentSaveProcess.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data)
+                })
+                .then(response => response.text())
+                .then(data => {
+                    alert(data);
+
+                    if (data == "Message has been sent") {
+                        window.location.reload();
+                    }
+
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+        }
+    </script>
 
     <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="assets/js/jquery-3.7.1.min.js"></script>

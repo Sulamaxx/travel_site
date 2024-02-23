@@ -5,10 +5,11 @@ if (isset($_SESSION['user'])) {
 
 
 ?>
+
     <!doctype html>
     <html lang="en">
 
-    <!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/all-hotel.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:50 GMT -->
+    <!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/all-tour.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:50 GMT -->
 
     <head>
 
@@ -46,24 +47,24 @@ if (isset($_SESSION['user'])) {
         <link rel="icon" href="assets/img/sm-logo.png" type="image/gif" sizes="20x20">
     </head>
 
-    <body class="tt-magic-cursor style-2" onload="loadImageData()">
+    <body class="tt-magic-cursor style-2" onload="loadBlogsData()">
 
         <?php
         include "include/admin/dashboard-others.php";
         ?>
-
 
         <div class="dashboard-wrapper">
 
             <?php
             include "include/admin/dashboard-slider.php";
             ?>
+
             <div class="main-content">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="main-content-title-profile mb-50">
                             <div class="main-content-title">
-                                <h3>All Events</h3>
+                                <h3>All Tour Package</h3>
                             </div>
                             <div class="profile">
                                 <a href="#">
@@ -85,28 +86,30 @@ if (isset($_SESSION['user'])) {
                                             </svg>
                                         </div>
                                         <div class="counter-content">
-                                            <p>Total Images</p>
+                                            <p>Total Blogs</p>
+                                            <?php
+                                            $query = "SELECT * FROM blog";
+                                            $result = Database::search($query);
+                                            $rowsCount = $result->num_rows;
+                                            ?>
                                             <div class="number">
-                                                <?php
-                                                $result = Database::search("SELECT * FROM gallery")
-
-                                                ?>
-                                                <h3 class="counter"><?= $result->num_rows; ?></h3>
+                                                <h3 class="counter"><?= $rowsCount ?></h3>
                                                 <span>+</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
+
                             </div>
                         </div>
                         <div class="recent-listing-area">
                             <div class="title-and-tab">
-                                <h6>Images Info</h6>
+                                <h6>Blog Info</h6>
                                 <div class="search-area">
                                     <form>
                                         <div class="search-box">
-                                            <input type="text" placeholder="Search Here" id="searchTour" onkeyup="loadImageData()">
+                                            <input type="text" placeholder="Search Here" id="searchTour" onkeyup="loadBlogsData()">
                                             <button type="submit"><i class="bx bx-search"></i></button>
                                         </div>
                                     </form>
@@ -115,7 +118,7 @@ if (isset($_SESSION['user'])) {
                             <?php
                             $limit = 6;
 
-                            $totalToursResult = Database::search("SELECT COUNT(*) as total FROM `gallery` WHERE `status_id`='1'");
+                            $totalToursResult = Database::search("SELECT COUNT(*) as total FROM `tour` WHERE `status_id`='1'");
                             $totalTours = $totalToursResult->fetch_assoc()['total'];
 
                             $totalPages = ceil($totalTours / $limit);
@@ -129,21 +132,21 @@ if (isset($_SESSION['user'])) {
                                 <table class="eg-table2">
                                     <thead>
                                         <tr>
-                                            <th>Image</th>
-                                            <th>Title</th>
+                                            <th>Tour Package</th>
+                                            <th>days</th>
+                                            <th>description</th>
                                             <th>Status</th>
                                             <th></th>
                                         </tr>
                                     </thead>
-                                    <tbody id="imagesLoadingArea">
-
+                                    <tbody id="toursLoadingArea">
 
 
                                     </tbody>
                                 </table>
                                 <div class="pagination-area">
                                     <ul class="paginations">
-                                    <?php if ($page > 1) : ?>
+                                        <?php if ($page > 1) : ?>
                                             <li>
                                                 <a href="?page=<?= $page - 1 ?>" class="shop-pagi-btn"><i class="bi bi-chevron-left"></i></a>
                                             </li>
@@ -165,23 +168,25 @@ if (isset($_SESSION['user'])) {
                     </div>
                 </div>
             </div>
+
             <?php
             include "include/admin/dashboard-footer.php";
             ?>
+
         </div>
 
         <script>
-            function loadImageData() {
+            function loadBlogsData() {
 
                 var searchTour = document.getElementById('searchTour').value;
 
-                fetch('loadImageDataProcess.php?key=' + searchTour+ "&limit=" + <?= $limit; ?> + "&offset=" + <?= $offset; ?>, {
+                fetch('loadBlogsDataProcess.php?key=' + searchTour + "&limit=" + <?= $limit; ?> + "&offset=" + <?= $offset; ?>, {
                         method: 'GET',
                     })
                     .then(res => res.text())
                     .then(data => {
                         // alert(data)
-                        document.getElementById('imagesLoadingArea').innerHTML = data;
+                        document.getElementById('toursLoadingArea').innerHTML = data;
 
                     })
                     .catch(err => {
@@ -193,7 +198,7 @@ if (isset($_SESSION['user'])) {
             }
 
             function changeStatus(x, y) {
-                fetch('changeImageStatusProcess.php?key=' + x + "&id=" + y, {
+                fetch('changeBlogStatusProcess.php?key=' + x + "&id=" + y, {
                         method: "GET",
                     })
                     .then(res => res.text())
@@ -241,7 +246,7 @@ if (isset($_SESSION['user'])) {
         <script src="assets/js/custom.js"></script>
     </body>
 
-    <!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/all-hotel.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:50 GMT -->
+    <!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/all-tour.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:50 GMT -->
 
     </html>
 <?php

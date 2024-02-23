@@ -112,6 +112,19 @@ if (isset($_SESSION['user'])) {
                                     </form>
                                 </div>
                             </div>
+                            <?php
+                            $limit = 6;
+
+                            $totalToursResult = Database::search("SELECT COUNT(*) as total FROM `hotel` WHERE `status_id`='1'");
+                            $totalTours = $totalToursResult->fetch_assoc()['total'];
+
+                            $totalPages = ceil($totalTours / $limit);
+
+                            $page = isset($_GET['page']) ? intval($_GET['page']) : 1;
+
+                            $offset = ($page - 1) * $limit;
+
+                            ?>
                             <div class="recent-listing-table">
                                 <table class="eg-table2">
                                     <thead>
@@ -130,32 +143,21 @@ if (isset($_SESSION['user'])) {
                                 </table>
                                 <div class="pagination-area">
                                     <ul class="paginations">
-                                        <li class="page-item active">
-                                            <a href="#">1</a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a href="#">2</a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a href="#">3</a>
-                                        </li>
-                                    </ul>
-                                    <ul class="paginations-buttons">
-                                        <li>
-                                            <a href="#">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="14" viewBox="0 0 7 14">
-                                                    <path d="M0 7.00008L7 0L2.54545 7.00008L7 14L0 7.00008Z"></path>
-                                                </svg> Prev
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Next
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="14" viewBox="0 0 7 14" fill="none">
-                                                    <path d="M7 7.00008L0 0L4.45455 7.00008L0 14L7 7.00008Z"></path>
-                                                </svg>
-                                            </a>
-                                        </li>
+                                    <?php if ($page > 1) : ?>
+                                            <li>
+                                                <a href="?page=<?= $page - 1 ?>" class="shop-pagi-btn"><i class="bi bi-chevron-left"></i></a>
+                                            </li>
+                                        <?php endif; ?>
+                                        <?php for ($i = 1; $i <= $totalPages; $i++) : ?>
+                                            <li>
+                                                <a href="?page=<?= $i ?>" <?= $i === $page ? 'class="active"' : '' ?>><?= $i ?></a>
+                                            </li>
+                                        <?php endfor; ?>
+                                        <?php if ($page < $totalPages) : ?>
+                                            <li>
+                                                <a href="?page=<?= $page + 1 ?>" class="shop-pagi-btn"><i class="bi bi-chevron-right"></i></a>
+                                            </li>
+                                        <?php endif; ?>
                                     </ul>
                                 </div>
                             </div>
@@ -173,7 +175,7 @@ if (isset($_SESSION['user'])) {
 
                 var searchTour = document.getElementById('searchTour').value;
 
-                fetch('loadHotelDataProcess.php?key=' + searchTour, {
+                fetch('loadHotelDataProcess.php?key=' + searchTour+ "&limit=" + <?= $limit; ?> + "&offset=" + <?= $offset; ?>, {
                         method: 'GET',
                     })
                     .then(res => res.text())

@@ -128,27 +128,32 @@ if (isset($_GET['id'])) {
                                     <div class="sidebar-booking-form">
                                         <form>
                                             <div class="form-inner mb-20">
+                                                <label hidden id="tour_name"><?= $data['title'] ?></label>
                                                 <label>Full Name <span>*</span></label>
-                                                <input type="text" placeholder="Enter your full name">
+                                                <input id="c_name" type="text" placeholder="Enter your full name">
                                             </div>
                                             <div class="form-inner mb-20">
                                                 <label>Email Address <span>*</span></label>
-                                                <input type="email" placeholder="Enter your email address">
+                                                <input id="c_email" type="email" placeholder="Enter your email address">
                                             </div>
                                             <div class="form-inner mb-20">
                                                 <label>Phone Number <span>*</span></label>
-                                                <input type="text" placeholder="Enter your phone number">
+                                                <input id="c_contact" type="text" placeholder="Enter your phone number">
                                             </div>
                                             <div class="form-inner mb-20">
                                                 <label>Your Country <span>*</span></label>
-                                                <input type="text" placeholder="Enter Your Country">
+                                                <input id="c_country" type="text" placeholder="Enter Your Country">
+                                            </div>
+                                            <div class="form-inner mb-20">
+                                                <label>Number of Members<span>*</span></label>
+                                                <input id="c_members" type="number" placeholder="Enter Your member count">
                                             </div>
                                             <div class="form-inner mb-30">
                                                 <label>Write Your Massage <span>*</span></label>
-                                                <textarea placeholder="Write your quiry"></textarea>
+                                                <textarea id="c_message" placeholder="Write your quiry"></textarea>
                                             </div>
                                             <div class="form-inner">
-                                                <button type="submit" class="primary-btn1 two">Submit Now</button>
+                                                <button type="button" class="primary-btn1 two">Submit Now</button>
                                             </div>
                                         </form>
                                     </div>
@@ -165,7 +170,43 @@ if (isset($_GET['id'])) {
 
 
         <?php include 'include/customer/customer-footer.php' ?>
+        <script>
+            document.querySelector('.primary-btn1').addEventListener('click', function() {
+                var formData = {
+                    name: document.getElementById('c_name').value,
+                    email: document.getElementById('c_email').value,
+                    contact: document.getElementById('c_contact').value,
+                    country: document.getElementById('c_country').value,
+                    members: document.getElementById('c_members').value,
+                    message: document.getElementById('c_message').value,
+                    tour: document.getElementById('tour_name').innerHTML
+                };
 
+                sendEmail(formData);
+            });
+
+            function sendEmail(data) {
+                fetch('send_email_tour.php', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(data)
+                    })
+                    .then(response => response.text())
+                    .then(data => {
+                        alert(data);
+
+                        if (data == "Message has been sent") {
+                            window.location.reload();
+                        }
+
+                    })
+                    .catch((error) => {
+                        console.error('Error:', error);
+                    });
+            }
+        </script>
         <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
         <script src="assets/js/jquery-3.7.1.min.js"></script>
         <script src="assets/js/jquery-ui.js"></script>
