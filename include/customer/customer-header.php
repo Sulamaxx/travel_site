@@ -1,33 +1,35 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Travel Zoom Lanka" />
+    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+    <meta name="twitter:title" content="Travel Zoom Lanka" />
+    <meta name="twitter:description" content="Travel Zoom Lanka" />
+    <meta name="twitter:image" content="assets/img/logo2.png" />
+    <link rel="canonical" href="https://travelzoomlanka.com" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Travel Zoom Lanka" />
+    <meta property="og:description" content="Travel Zoom Lanka" />
+    <meta property="og:url" content="https://travelzoomlanka.com" />
+    <meta property="og:site_name" content="Travel Zoom Lanka" />
+    <meta Property="og:image" content="assets/img/logo2.png" />
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/jquery-ui.css" rel="stylesheet">
-
     <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
-
     <link href="assets/css/all.min.css" rel="stylesheet">
-
     <link href="assets/css/animate.min.css" rel="stylesheet">
-
     <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
-
     <link href="assets/css/fontawesome.min.css" rel="stylesheet">
-
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/daterangepicker.css">
-
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/slick-theme.css">
-
     <link href="assets/css/boxicons.min.css" rel="stylesheet">
-
     <link href="assets/css/select2.css" rel="stylesheet">
     <link href="assets/css/nice-select.css" rel="stylesheet">
-
     <link rel="stylesheet" href="assets/css/style.css">
-
     <link rel="icon" href="assets/img/logo2.png" type="image/gif" sizes="20x20">
 
 </head>
@@ -75,7 +77,7 @@
                 <a href="about.php" class="drop-down">About</a>
             </li>
             <li class="menu-item-has-children">
-                <a href="package-grid.php" class="drop-down">Tours</a><i class="bi bi-plus dropdown-icon"></i>
+                <a href="" class="drop-down">Tours</a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
                     <li><a href="package-grid.php">Packages</a></li>
                     <li>
@@ -84,11 +86,11 @@
                 </ul>
             </li>
             <li class="menu-item-has-children">
-                <a href="#" class="drop-down">Pages</a><i class="bi bi-plus dropdown-icon"></i>
+                <a href="" class="drop-down">Pages</a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
                     <li><a href="hotel-suits.php">Hotel</a></li>
                     <li><a href="event-suits.php">Event</a></li>
-                    <li><a href="driver-suits.php">Shocker Drive</a></li>
+                    <li><a href="driver-suits.php">Rent a Driver</a></li>
                 </ul>
             </li>
             <li> <a href="blog-grid.php" class="drop-down">Blog</a> </li>

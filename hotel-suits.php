@@ -63,7 +63,7 @@ require "libs/connection.php";
                                         </div>
                                         <div class="form-inner mb-20">
                                             <label>Number of Members<span>*</span></label>
-                                            <input id="c_members" type="number" placeholder="Enter Your member count">
+                                            <input id="c_members" min="1" oninput="validity.valid||(value='');" type="number" placeholder="Enter Your member count">
                                         </div>
 
                                         <div class="form-inner  mb-20">
@@ -201,6 +201,7 @@ require "libs/connection.php";
     </script>
     <script>
         document.querySelector('.primary-btn1').addEventListener('click', function() {
+            this.innerHTML = "Waiting";
             var formData = {
                 subject: 'Hotel',
                 name: document.getElementById('c_name').value,
@@ -226,7 +227,7 @@ require "libs/connection.php";
                 .then(response => response.text())
                 .then(data => {
                     alert(data);
-
+                    document.querySelector('.primary-btn1').innerHTML = "Submit Now";
                     if (data == "Message has been sent") {
                         window.location.reload();
                     }

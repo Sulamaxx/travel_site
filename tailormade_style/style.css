@@ -3,7 +3,7 @@
   float: left;
   width: 100%;
   background: #fff;
-  position: relative;
+  position: relative
 }
 
 .travel_search_engine .container {
@@ -31,8 +31,11 @@
   padding-right: 15px;
 }
 
-.content {
-  height: 100%;
+.content-tailer-made {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  margin-bottom: 3%;
 }
 
 .tabs-items li a {

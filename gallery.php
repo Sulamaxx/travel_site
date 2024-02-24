@@ -7,10 +7,10 @@
     <title>Travel Zoom Lanka - Gallery</title>
 </head>
 
+<?php include 'include/customer/customer-header.php' ?>
 <body>
 
 
-    <?php include 'include/customer/customer-header.php' ?>
 
     <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3) 101.02%), url(assets/img/innerpage/inner-banner-bg.png);">
         <div class="container">

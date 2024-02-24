@@ -12,10 +12,11 @@ if (isset($_GET['id'])) {
         <title>Travel Zoom Lanka - Packeges</title>
     </head>
 
+    <?php include 'include/customer/customer-header.php' ?>
+
     <body>
 
 
-        <?php include 'include/customer/customer-header.php' ?>
 
         <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3) 101.02%), url(assets/img/innerpage/inner-banner-bg.png);">
             <div class="container">
@@ -146,7 +147,7 @@ if (isset($_GET['id'])) {
                                             </div>
                                             <div class="form-inner mb-20">
                                                 <label>Number of Members<span>*</span></label>
-                                                <input id="c_members" type="number" placeholder="Enter Your member count">
+                                                <input id="c_members" type="number" min="1" oninput="validity.valid||(value='');" placeholder="Enter Your member count">
                                             </div>
                                             <div class="form-inner mb-30">
                                                 <label>Write Your Massage <span>*</span></label>
@@ -172,6 +173,7 @@ if (isset($_GET['id'])) {
         <?php include 'include/customer/customer-footer.php' ?>
         <script>
             document.querySelector('.primary-btn1').addEventListener('click', function() {
+                this.innerHTML = "Waiting";
                 var formData = {
                     name: document.getElementById('c_name').value,
                     email: document.getElementById('c_email').value,
@@ -196,7 +198,7 @@ if (isset($_GET['id'])) {
                     .then(response => response.text())
                     .then(data => {
                         alert(data);
-
+                        document.querySelector('.primary-btn1').innerHTML = "Submit Now";
                         if (data == "Message has been sent") {
                             window.location.reload();
                         }

@@ -1,5 +1,4 @@
 <?php
-include "include/customer/customer-header.php";
 require "libs/connection.php";
 
 function limit_words($string, $word_limit)
@@ -17,6 +16,8 @@ function limit_words($string, $word_limit)
     <title>Travel Zoom Lanka</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
+
+<?php include "include/customer/customer-header.php"; ?>
 
 <body>
 
@@ -1348,7 +1349,7 @@ function limit_words($string, $word_limit)
                                     <div class="swiper-slide">
                                         <div class="package-card3">
                                             <a href="package-details.php?id=<?= $data['id'] ?>" class="package-card-img">
-                                                <img src="<?= $data['img'] ?>" alt width="100%" style="height: 700px;">
+                                                <img src="<?= $data['img'] ?>" alt width="100%" style="height: 400px;">
 
                                             </a>
                                             <div class="package-card-content">
@@ -1364,8 +1365,7 @@ function limit_words($string, $word_limit)
 
                                                     </div>
                                                     <h5><a href="package-details.php?id=<?= $data['id'] ?>"><?= $data['title'] ?></a></h5>
-                                                    <!-- <p style="height: 150px;"><?= limit_words($data['description'], 100) ?>....</p> -->
-                                                    <p><?= $data['description'] ?></p>
+                                                    <p><?= limit_words($data['description'], 20) ?>...</p>
                                                 </div>
                                                 <div class="card-content-bottom">
                                                     <a href="package-details.php?id=<?= $data['id'] ?>" class="primary-btn2">Book a Tour
@@ -2243,7 +2243,7 @@ function limit_words($string, $word_limit)
                                     <div class="swiper-wrapper">
 
                                         <?php
-                                        $result_comment = Database::search("SELECT * FROM review WHERE status_id='1'");
+                                        $result_comment = Database::search("SELECT * FROM review WHERE status_id='2'");
 
                                         while ($data = $result_comment->fetch_assoc()) {
                                         ?>
@@ -2390,19 +2390,19 @@ function limit_words($string, $word_limit)
                 },
             });
 
-            var swiper = new Swiper('.package-card-slider', {
-                loop: true,
-                autoplay: {
-                    delay: 5000,
-                    disableOnInteraction: false,
+            // var swiper = new Swiper('.package-card-slider', {
+            //     loop: true,
+            //     autoplay: {
+            //         delay: 5000,
+            //         disableOnInteraction: false,
 
-                },
-                navigation: {
-                    nextEl: '.package-card-slider-next',
-                    prevEl: '.package-card-slider-prev',
-                },
-            });
-            
+            //     },
+            //     navigation: {
+            //         nextEl: '.package-card-slider-next',
+            //         prevEl: '.package-card-slider-prev',
+            //     },
+            // });
+
 
 
         });

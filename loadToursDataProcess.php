@@ -24,7 +24,7 @@ while ($data = $result->fetch_assoc()) {
                     <img src="<?= $data['img'] ?>" alt>
                 </div>
                 <div class="product-content">
-                    <h6><a href="package-details.php"><?= $data['title'] ?></a></h6>
+                    <h6><a href=""><?= $data['title'] ?></a></h6>
                 </div>
             </div>
         </td>

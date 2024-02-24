@@ -4,13 +4,13 @@
 <!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/blog-grid.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:30 GMT -->
 
 <head>
-    <title>Travel Zoom Lanka - </title>
+    <title>Travel Zoom Lanka - Blog</title>
 </head>
 
+<?php include 'include/customer/customer-header.php' ?>
 <body>
 
 
-    <?php include 'include/customer/customer-header.php' ?>
 
     <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3) 101.02%), url(assets/img/innerpage/inner-banner-bg.png);">
         <div class="container">

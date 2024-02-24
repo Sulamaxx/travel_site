@@ -1,274 +1,238 @@
   <?php include 'include/customer/customer-header.php' ?>
-<html>
+  <html>
 
-<head>
-    <link href="tailormade_style/bootstrap.min.css" rel="stylesheet">
-    <link href="tailormade_style/selectric.css" rel="stylesheet">
-    <link href="tailormade_style/typography.css" rel="stylesheet">
-    <link href="tailormade_style/style.css" rel="stylesheet">
-
-
-</head>
-
-<body>
-
-    <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3) 101.02%), url(assets/img/innerpage/inner-banner-bg.png);">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 d-flex justify-content-center">
-                    <div class="banner-content">
-                        <h1>Tailormade</h1>
-                        <ul class="breadcrumb-list">
-                            <li><a href="index.php">Home</a></li>
-                            <li>Tailormade</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  <head>
+      <link href="tailormade_style/bootstrap.min.css" rel="stylesheet">
+      <link href="tailormade_style/selectric.css" rel="stylesheet">
+      <link href="tailormade_style/typography.css" rel="stylesheet">
+      <link href="tailormade_style/style.css" rel="stylesheet">
+      <title>Travel Zoom Lanka - Tailer Made Tour</title>
 
 
-    <div class="content">
-        <!--Travel search engine-->
-        <form class="travel_search_engine" style="margin-bottom: 5%; height: auto;">
-            <div class="container">
-                <div class="row">
+  </head>
 
-                    <div class="col-md-12">
-                        <div class="tab-content">
+  <body>
 
-                            <div class="kode_write_detail search-img02 tab-pane fade in active" role="tabpanel" id="tab-2">
-                                <center>
-                                    <br>
-                                    <h3 class="title-icon">Tailor Made Tours</h3>
-                                </center>
-                                <div class="booking_content">
-                                    <!--Travel location finder-->
-                                    <div class="kode_felid">
-                                        <label>Your Name</label>
-                                        <div class="ralative-icon">
-                                            <input type="text" class="location-finder" placeholder="Your Name" id="name">
-                                        </div>
-                                    </div>
-                                    <!--Travel location finder ends-->
-                                    <div class="booking_content">
-                                        <div class="row">
-
-                                            <div class="col-md-4 col-xs-12 col-sm-6">
-                                                <!--Travel check in calender-->
-                                                <div class="kode_felid">
-                                                    <label>Your Email</label>
-                                                    <div class="ralative-icon">
-                                                        <input class="checkin" type="text" placeholder="Your Email" id="email">
-
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-4 col-xs-12 col-sm-6">
-                                                <!--Travel check in calender-->
-                                                <div class="kode_felid">
-                                                    <label>Your Country</label>
-                                                    <div class="ralative-icon">
-                                                        <input class="checkin" type="text" placeholder="Your Country" id="country">
-
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-4 col-xs-12 col-sm-6">
-                                                <!--Travel check in calender-->
-                                                <div class="kode_felid">
-                                                    <label>Your Contact Number</label>
-                                                    <div class="ralative-icon">
-                                                        <input class="checkin" type="text" placeholder="Your Contact Number" id="pno">
-
-                                                    </div>
-                                                </div>
-                                            </div>
+      <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3) 101.02%), url(assets/img/innerpage/inner-banner-bg.png);">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12 d-flex justify-content-center">
+                      <div class="banner-content">
+                          <h1>Tailormade</h1>
+                          <ul class="breadcrumb-list">
+                              <li><a href="index.php">Home</a></li>
+                              <li>Tailormade</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
 
 
+      <div class="content-tailer-made">
+          <!--Travel search engine-->
+          <form class="travel_search_engine">
+              <div class="container">
+                  <div class="row">
+
+                      <div class="col-md-12">
+                          <div class="tab-content">
+
+                              <div class="kode_write_detail search-img02 tab-pane fade in active" role="tabpanel" id="tab-2">
+                                  <center>
+                                      <br>
+                                      <h3 class="title-icon">Tailor Made Tours</h3>
+                                  </center>
+                                  <div class="booking_content">
+                                      <!--Travel location finder-->
+                                      <div class="kode_felid">
+                                          <label>Your Name</label>
+                                          <div class="ralative-icon">
+                                              <input type="text" class="location-finder" placeholder="Your Name" id="name">
+                                          </div>
+                                      </div>
+                                      <!--Travel location finder ends-->
+                                      <div class="booking_content">
+                                          <div class="row">
+
+                                              <div class="col-md-4 col-xs-12 col-sm-6">
+                                                  <!--Travel check in calender-->
+                                                  <div class="kode_felid">
+                                                      <label>Your Email</label>
+                                                      <div class="ralative-icon">
+                                                          <input class="checkin" type="text" placeholder="Your Email" id="email">
+
+                                                      </div>
+                                                  </div>
+                                              </div>
+
+                                              <div class="col-md-4 col-xs-12 col-sm-6">
+                                                  <!--Travel check in calender-->
+                                                  <div class="kode_felid">
+                                                      <label>Your Country</label>
+                                                      <div class="ralative-icon">
+                                                          <input class="checkin" type="text" placeholder="Your Country" id="country">
+
+                                                      </div>
+                                                  </div>
+                                              </div>
+
+                                              <div class="col-md-4 col-xs-12 col-sm-6">
+                                                  <!--Travel check in calender-->
+                                                  <div class="kode_felid">
+                                                      <label>Your Contact Number</label>
+                                                      <div class="ralative-icon">
+                                                          <input class="checkin" type="text" placeholder="Your Contact Number" id="contact">
+
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-md-4 col-xs-12 col-sm-6">
+                                                  <div class="kode_felid">
+                                                      <label>Arrival Date</label>
+                                                      <div class="ralative-icon">
+                                                          <input class="checkin" type="Date" id="date-range0">
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-md-4 col-xs-12 col-sm-6">
+                                                  <div class="kode_felid">
+                                                      <label>Departure Date</label>
+                                                      <div class="ralative-icon">
+                                                          <input class="checkout" type="date" id="date-range1">
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-md-4 col-xs-12 col-sm-6">
+                                                  <div class="kode_felid">
+                                                      <label>Starting Date</label>
+                                                      <div class="ralative-icon">
+                                                          <input class="checkout" type="date" id="date-start">
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-md-4 col-xs-12 col-sm-6">
+                                                  <div class="kode_felid">
+                                                      <label>Number of Members</label>
+                                                      <div class="ralative-icon">
+                                                          <input type="number"  placeholder="Member Count" min="1" oninput="validity.valid||(value='');" id="members">
+                                                      </div>
+                                                  </div>
+                                              </div>
+
+                                              <div class="col-md-4 col-xs-12 col-sm-6 align-items-center mt-50">
+                                                  <div class="kode_felid row justify-content-center">
+                                                      <label class="col-8 text-center" for="vehicle">Is Need Vehicle</label>
+                                                      <div class="col-4">
+                                                          <input type="checkbox" id="vehicle">
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-md-4 col-xs-12 col-sm-6 align-items-center mt-50">
+                                                  <div class="kode_felid row justify-content-center">
+                                                      <label class="col-8 text-center" for="hotel">Is Need Hotel</label>
+                                                      <div class="col-4">
+                                                          <input type="checkbox" id="hotel">
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+
+                                          <div class="col-md-9 col-xs-12 col-sm-12">
+                                              <!--Travel booking procode-->
+                                              <div class="kode_felid">
+                                                  <label>Your Message</label>
+                                                  <textarea class="col-12" name="message" id="message" placeholder="Your Message" cols="30" rows="30"></textarea>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-3 col-xs-12 col-sm-12" id="send_btn">
+                                              <div class="submit-form">
+                                                  <button type="button" id="send_btn_text" class="btn-normal-1 animated effect2-color-1">Submit Now</button>
+                                              </div>
+                                          </div>
+                                      </div>
+
+                                  </div>
+                              </div>
+
+                          </div>
+                      </div>
 
 
-                                            <div class="col-md-4 col-xs-12 col-sm-6">
-                                                <!--Travel check in calender-->
-                                                <div class="kode_felid">
-                                                    <label>Arrival Date</label>
-                                                    <div class="ralative-icon">
-                                                        <input class="checkin" type="Date" id="date-range0">
+                  </div>
+              </div>
 
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 col-xs-12 col-sm-6">
-                                                <!--Travel check out calender-->
-                                                <div class="kode_felid">
-                                                    <label>Departure Date</label>
-                                                    <div class="ralative-icon">
-                                                        <input class="checkout" type="date" id="date-range1">
+          </form>
+      </div>
 
-                                                    </div>
-                                                </div>
-                                            </div>
+      <?php include 'include/customer/customer-footer.php' ?>
+      <script>
+          document.getElementById('send_btn').addEventListener('click', () => {
+              document.getElementById('send_btn_text').innerHTML = "Waiting";
+              var formData = {
+                  name: document.getElementById('name').value,
+                  email: document.getElementById('email').value,
+                  country: document.getElementById('country').value,
+                  contact: document.getElementById('contact').value,
+                  date_range0: document.getElementById('date-range0').value,
+                  date_range1: document.getElementById('date-range1').value,
+                  date_start: document.getElementById('date-start').value,
+                  members: document.getElementById('members').value,
+                  vehicle: document.getElementById('vehicle').checked,
+                  hotel: document.getElementById('hotel').value,
+                  message: document.getElementById('message').value
+              }
 
+              fetch("send_tailer_made_email.php", {
+                      method: "POST",
+                      headers: {
+                          'Content-Type': 'application/json',
+                      },
+                      body: JSON.stringify(formData),
+                  })
+                  .then(response => response.text())
+                  .then(data => {
+                      alert(data)
+                      document.getElementById('send_btn_text').innerHTML = "Submit Now";
+                      if (data == "Message has been sent") {
+                          window.location.reload();
+                      }
+                  })
+                  .catch((error) => {
+                      console.error("Error : ", error);
+                  });
 
-                                            <div class="col-md-12">
-                                                <div class="booking_content">
-                                                    <div class="row">
+          });
+      </script>
+      <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+      <script src="assets/js/jquery-3.7.1.min.js"></script>
+      <script src="assets/js/jquery-ui.js"></script>
+      <script src="assets/js/moment.min.js"></script>
+      <script src="assets/js/daterangepicker.min.js"></script>
 
-                                                        <div class="col-md-3 col-xs-12 col-sm-6">
-                                                            <!--Travel booking procode-->
-                                                            <div class="kode_felid">
-                                                                <label>Child</label>
-                                                                <input type="text" placeholder="Child" id="child">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3 col-xs-12 col-sm-12">
-                                                            <!--Travel booking procode-->
-                                                            <div class="kode_felid">
-                                                                <label>Adult</label>
-                                                                <input type="text" placeholder="Adult" id="adults">
-                                                            </div>
-                                                        </div>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/popper.min.js"></script>
 
-                                                        <div class="col-md-3 col-xs-12 col-sm-12">
-                                                            <!--Travel booking procode-->
-                                                            <div class="kode_felid">
-                                                                <label>Infant</label>
-                                                                <input type="text" placeholder="Infant" id="infant">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3 col-xs-12 col-sm-12">
-                                                            <!--Travel booking adults-->
-                                                            <div class="kode_felid">
-                                                                <label for="vtype">Vehicle Type</label>
-                                                                <select class="select" id="vtype" tabindex="0">
-                                                                    <option selected="">Vehicle Type</option>
-                                                                    <option value="Car">Car</option>
-                                                                    <option value="Mini Car">Mini Car</option>
-                                                                    <option value="Van">Van</option>
-                                                                    <option value="Bus">Bus</option>
-                                                                    <option value="Coach">Coach</option>
-                                                                </select>
-                                                            </div>
+      <script src="assets/js/swiper-bundle.min.js"></script>
+      <script src="assets/js/slick.js"></script>
 
-                                                        </div>
-                                                        <div class="col-md-3 col-xs-12 col-sm-12">
-                                                            <div class="kode_felid">
-                                                                <!--Travel booking children-->
-                                                                <label>Hotel Type</label>
-                                                                <select class="select" id="htype" tabindex="0">
-                                                                    <option selected="">Hotel Type</option>
-                                                                    <option value="Budget">Budget</option>
-                                                                    <option value="Star Class">Star Class</option>
-                                                                    <option value="Standerd">Standerd</option>
-                                                                    <option value="Luxery">Luxery</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
+      <script src="assets/js/waypoints.min.js"></script>
 
+      <script src="assets/js/jquery.counterup.min.js"></script>
 
-                                                        <div class="col-md-3 col-xs-12 col-sm-12">
-                                                            <div class="kode_felid">
+      <script src="assets/js/isotope.pkgd.min.js"></script>
 
-                                                                <label>Attraction &amp; Activities</label>
-                                                                <select class="select" id="htype" tabindex="0">
-                                                                    <option selected="">Hotel Type</option>
-                                                                    <option value="Ancient Sites">Ancient Sites</option>
-                                                                    <option value="Hiking">Hiking</option>
-                                                                    <option value="WaterSports">Water Sports</option>
-                                                                    <option value="Waterfalls">Waterfalls</option>
-                                                                    <option value="Culture">Culture</option>
-                                                                    <option value="Wildlife">Wildlife</option>
-                                                                    <option value="Adventure">Adventure</option>
-                                                                    <option value="Beach">Beach</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
+      <script src="assets/js/jquery.magnific-popup.min.js"></script>
 
-                                                    </div>
-                                                </div>
-                                            </div>
+      <script src="assets/js/jquery.marquee.min.js"></script>
 
-                                            <div class="col-md-3 col-xs-12 col-sm-12">
-                                                <!--Travel booking procode-->
-                                                <div class="kode_felid">
-                                                    <label>Your Budget</label>
-                                                    <input type="text" placeholder="Budget" id="budget">
-                                                </div>
-                                            </div>
+      <script src="assets/js/jquery.nice-select.min.js"></script>
 
-                                            <div class="col-md-6 col-xs-12 col-sm-12">
-                                                <!--Travel booking procode-->
-                                                <div class="kode_felid">
-                                                    <label>Your Message</label>
-                                                    <input type="text" placeholder="Your Message" id="message">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3 col-xs-12 col-sm-12">
-                                                <div class="submit-form">
-                                                    <button type="button" class="btn-normal-1 animated effect2-color-1" id="send_btn">Submit Now</button>
-                                                </div>
-                                            </div>
-                                        </div>
+      <script src="assets/js/select2.min.js"></script>
+      <script src="assets/js/jquery.fancybox.min.js"></script>
 
+      <script src="assets/js/custom.js"></script>
+  </body>
 
-                                    </div>
-
-                                    <div class="col-md-12">
-                                        <div class="alert alert-success" id="success" style="background: green;padding: 20px;color: white;display: none;">
-                                            <strong>Success!</strong> Your request has sent Thank you.
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-12">
-                                        <div class="alert alert-danger" id="error" style="background: red;padding: 20px;color: white;display: none;width: 100%;">
-                                            <strong>Sorry !</strong> Please enter all details.
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </form>
-    </div>
-
-    <?php include 'include/customer/customer-footer.php' ?>
-
-    <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <script src="assets/js/jquery-ui.js"></script>
-    <script src="assets/js/moment.min.js"></script>
-    <script src="assets/js/daterangepicker.min.js"></script>
-
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/slick.js"></script>
-
-    <script src="assets/js/waypoints.min.js"></script>
-
-    <script src="assets/js/jquery.counterup.min.js"></script>
-
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-
-    <script src="assets/js/jquery.marquee.min.js"></script>
-
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-
-    <script src="assets/js/select2.min.js"></script>
-    <script src="assets/js/jquery.fancybox.min.js"></script>
-
-    <script src="assets/js/custom.js"></script>
-</body>
-
-</html>
+  </html>
