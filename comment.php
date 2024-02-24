@@ -151,6 +151,7 @@
     <?php include 'include/customer/customer-footer.php' ?>
     <script>
         document.getElementById('comment').addEventListener("click", async () => {
+            document.getElementById('comment').innerHTML="Waiting";
             var formData = {
                 where:"Comment",
                 name: document.getElementById('name').value,
@@ -174,6 +175,7 @@
                 .then(response => response.text())
                 .then(data => {
                     alert(data);
+                    document.getElementById('comment').innerHTML="Submit Now";
                 })
                 .catch((error) => {
                     console.error('Error:', error);
@@ -191,7 +193,7 @@
                 .then(response => response.text())
                 .then(data => {
                     alert(data);
-
+                    document.getElementById('comment').innerHTML="Submit Now";
                     if (data == "Message has been sent") {
                         window.location.reload();
                     }
