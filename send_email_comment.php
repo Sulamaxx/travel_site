@@ -32,7 +32,7 @@ if (empty($data['name'])) {
         $mail->addAddress('info@travelzoomlanka.com');
 
         $mail->isHTML(true);
-        $mail->Subject = "New Comment Form Submission";
+        $mail->Subject = "New {$data['where']} Form Submission";
 
         $mail->Body = "<html>
                         <head>
@@ -46,7 +46,7 @@ if (empty($data['name'])) {
                         </head>
                         <body>
                         <div class='container'>
-                            <h1>New Comment Form Submission</h1>
+                            <h1>New {$data['where']} Form Submission</h1>
                             <p><span class='label'>Full Name:</span> {$data['name']}</p>
                             <p><span class='label'>Email Address:</span> {$data['email']}</p>
                             <p><span class='label'>Phone Number:</span> {$data['contact']}</p>

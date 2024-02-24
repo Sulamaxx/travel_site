@@ -9,7 +9,6 @@
 </head>
 
 <?php include 'include/customer/customer-header.php' ?>
-
 <body>
 
 
@@ -31,8 +30,8 @@
 
     <div class="contact-page pt-120 mb-120">
         <div class="container">
-            <div class="row g-lg-4 gy-5">
-                <div class="col-lg-5">
+            <div class="row g-lg-4 gy-5 justify-content-center">
+                <!-- <div class="col-lg-5">
                     <div class="single-contact mb-40">
                         <div class="title">
                             <h6>Phone</h6>
@@ -104,10 +103,10 @@
                             <h6><a href="#">8:00Am - 10:Pm, Friday Close</a></h6>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-7">
+                </div> -->
+                <div class="col-lg-12">
                     <div class="contact-form-area">
-                        <h3>Reach Us</h3>
+                        <h3>Comment Your Satisfaction</h3>
                         <form>
                             <div class="row">
                                 <div class="col-lg-12 mb-20">
@@ -153,7 +152,7 @@
     <script>
         document.getElementById('comment').addEventListener("click", async () => {
             var formData = {
-                where: "Contact",
+                where:"Comment",
                 name: document.getElementById('name').value,
                 email: document.getElementById('email').value,
                 contact: document.getElementById('contact').value,
@@ -161,7 +160,7 @@
 
             };
             await sendEmail(formData);
-
+            await saveComment(formData);
         });
 
         function sendEmail(data) {
@@ -175,6 +174,28 @@
                 .then(response => response.text())
                 .then(data => {
                     alert(data);
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+        }
+
+        function saveComment(data) {
+            fetch('commentSaveProcess.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data)
+                })
+                .then(response => response.text())
+                .then(data => {
+                    alert(data);
+
+                    if (data == "Message has been sent") {
+                        window.location.reload();
+                    }
+
                 })
                 .catch((error) => {
                     console.error('Error:', error);

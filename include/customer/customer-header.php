@@ -95,6 +95,7 @@
             </li>
             <li> <a href="blog-grid.php" class="drop-down">Blog</a> </li>
             <li> <a href="gallery.php" class="drop-down">Gallery</a> </li>
+            <li> <a href="comment.php" class="drop-down">Comment Us</a> </li>
             <li> <a href="contact.php" class="drop-down">Contact</a> </li>
         </ul>
         <div class="topbar-right d-lg-none d-block">
