@@ -174,8 +174,7 @@
                 })
                 .then(response => response.text())
                 .then(data => {
-                    alert(data);
-                    document.getElementById('comment').innerHTML="Submit Now";
+                    // alert(data);
                 })
                 .catch((error) => {
                     console.error('Error:', error);
