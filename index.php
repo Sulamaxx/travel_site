@@ -110,13 +110,14 @@ function limit_words($string, $word_limit)
         </div>
     </div>
 
-    <div class="destination-card2-slider-section mb-120">
+    <!-- Trendy Travel Locations -->
+    <!-- <div class="destination-card2-slider-section mb-120">
         <div class="container">
             <div class="row mb-50">
                 <div class="col-lg-12">
                     <div class="section-title2 text-center">
                         <div class="eg-section-tag">
-                            <span>Journey TripRex</span>
+                            <span>Journey Travel Zoom Lanka</span>
                         </div>
                         <h2>Trendy Travel Locations</h2>
                     </div>
@@ -235,12 +236,11 @@ function limit_words($string, $word_limit)
                                 <i class="bi bi-arrow-right"></i>
                             </div>
                         </div>
-                        <!--<a href="destination2.php" class="secondary-btn2">View All Destination</a> -->
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
+    </div>
+    </div>
+    </div>
+    </div> -->
 
     <div class="tour-pack-section">
         <div class="container">
@@ -384,7 +384,7 @@ function limit_words($string, $word_limit)
                             <img src="assets/img/home2/home2-about-img1.png" alt class="about-img">
                         </div>
                         <div class="experience">
-                            <h3>05</h3>
+                            <h3>14</h3>
                             <p>Years of experience</p>
                         </div>
                         <img src="assets/img/home2/vector/plane-vector.svg" alt class="vector">
@@ -500,7 +500,8 @@ function limit_words($string, $word_limit)
                                 <span>Testimonial</span>
                             </div>
                             <h2>Find The Compliments From Our Travelers</h2>
-                            <p>Nunc volutpat sagittis cursus. Praesent sed dolor pellentesque, consectetur velon sit amet, pharetra ipsum. Fusce europ ultrices tortor. Praesent vehicula commodo purus at vulputate one of the most popular tourist place.</p>
+                            <p>Welcome to our Sri Lanka Tour website, where enchanting experiences come to life through the heartfelt words of our cherished travelers. Explore the vivid tapestry of compliments woven by those who have embarked on unforgettable journeys across the resplendent landscapes of Sri Lanka.
+                            </p>
                         </div>
 
                         <div class="review-wrap">
@@ -611,7 +612,7 @@ function limit_words($string, $word_limit)
                         <div class="eg-section-tag">
                             <span>Who We Are</span>
                         </div>
-                        <h2>Why TripRex Is Best</h2>
+                        <h2>Why Travel Zoom Lanka Is Best</h2>
                     </div>
                 </div>
             </div>

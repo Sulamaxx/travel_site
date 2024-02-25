@@ -92,7 +92,7 @@
                             <a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a>
                         </li>
                     </ul>
-                    <p>©Copyright 2024 TripRex | Design By <a href="https://www.egenslab.com/">Egens Lab</a></p>
+                    <p>©Copyright 2024 Travel Zoom Lanka | Design By <a href="https://www.egenslab.com/">Egens Lab</a></p>
                     <div class="footer-right">
                         <ul>
                             <li><a href="#">Privacy Policy</a></li>
