@@ -22,7 +22,7 @@ while ($data = $result->fetch_assoc()) {
                     <img src="<?= $data['img'] ?>" alt>
                 </div>
                 <div class="product-content">
-                    <h6><a href="hotel-details.php"><?= $data['h_name'] ?></a></h6>
+                    <h6><a href="hotel-update.php?id=<?=$data['h_id']?>"><?= $data['h_name'] ?></a></h6>
                 </div>
             </div>
         </td>

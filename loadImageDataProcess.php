@@ -17,11 +17,13 @@ while ($data = $result->fetch_assoc()) {
 
     <tr>
         <td data-label="Tour Package">
-            <div class="">
-                <div class="img" >
-                    <img src="<?= $data['path'] ?>" width="400" alt>
+            <a href="gallery-update.php?id=<?= $data['h_id'] ?>">
+                <div class="">
+                    <div class="img">
+                        <img src="<?= $data['path'] ?>" width="400" alt>
+                    </div>
                 </div>
-            </div>
+            </a>
         </td>
         <td data-label="Price">
             <?= $data['title'] ?>

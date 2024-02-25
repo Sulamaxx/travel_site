@@ -89,7 +89,7 @@ if (isset($_SESSION['user'])) {
                                     </div>
 
                                     <div class="form-inner">
-                                        <button type="button" class="primary-btn3" onclick="addDriver();">Publish Now</button>
+                                        <button type="button" id="btnClick" class="primary-btn3" onclick="addDriver();">Publish Now</button>
                                     </div>
                                 </form>
                             </div>
@@ -104,6 +104,7 @@ if (isset($_SESSION['user'])) {
 
         <script>
             function addDriver() {
+                document.getElementById('btnClick').innerHTML="Waiting";
                 const name = document.getElementById('name').value;
                 const desc = document.getElementById('description').value;
                 const mainImage = document.getElementById('mainImage').files[0];
@@ -120,7 +121,8 @@ if (isset($_SESSION['user'])) {
                     .then(res => res.text())
                     .then(data => {
                         alert(data)
-                        if (data === "Event added successfully") {
+                        document.getElementById('btnClick').innerHTML="Publish Now";
+                        if (data === "Driver added successfully") {
                             window.location.reload();
                         }
                     })

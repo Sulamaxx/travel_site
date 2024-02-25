@@ -15,8 +15,8 @@ if (empty($name)) {
     $uniqueFilename = uniqid('image_') . '_' . time() . '_' . $mainImageName;
     $mainImagePath = "assets/img/events/" . $uniqueFilename;
     move_uploaded_file($mainImageTmpName, $mainImagePath);
-
-    $query = "INSERT INTO `event` (`name`, `description`, img, status_id) VALUES ('" . $name . "', '" . $desc . "', '" . $mainImagePath . "', '1')";
+    Database::setUpConnection();
+    $query = "INSERT INTO `event` (`name`, `description`, img, status_id) VALUES ('" . $name . "', '" . mysqli_real_escape_string(Database::$connection, $desc) . "', '" . $mainImagePath . "', '1')";
     Database::iud($query);
 
     echo "Event added successfully";

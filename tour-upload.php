@@ -101,45 +101,41 @@ if (isset($_SESSION['user'])) {
 
 
         <script>
-            document.getElementById('days').addEventListener('change', () => {
-                const element = document.getElementById('days');
+            document.getElementById('days').addEventListener('change', (event) => {
+                const newDays = parseInt(event.target.value);
                 const body = document.getElementById('optionalArea');
+                const existingDays = body.children.length;
 
-
-                const parentElement = document.getElementById('optionalArea');
-
-
-                while (parentElement.firstChild) {
-                    parentElement.removeChild(parentElement.firstChild);
-                }
-
-
-
-                for (let dayCount = 1; dayCount <= element.value; dayCount++) {
-                    const dayDiv = document.createElement('div');
-                    dayDiv.innerHTML = `<div class="row">
-                                    <label for="name${dayCount}">Day ${dayCount}</label>
-                                    <div class="col-md-6">
-                                        <div class="form-inner mb-30">
-                                            <label>Add Name</label>
-                                            <input type="text" placeholder="Name here..." id="name${dayCount}">
+                if (newDays < existingDays) {
+                    // Remove extra elements
+                    for (let dayCount = existingDays; dayCount > newDays; dayCount--) {
+                        body.removeChild(body.lastElementChild);
+                    }
+                } else if (newDays > existingDays) {
+                    // Add new elements
+                    for (let dayCount = existingDays + 1; dayCount <= newDays; dayCount++) {
+                        const dayDiv = document.createElement('div');
+                        dayDiv.innerHTML = `<div class="row">
+                                            <label for="name${dayCount}">Day ${dayCount}</label>
+                                            <div class="col-md-6">
+                                                <div class="form-inner mb-30">
+                                                    <label>Add Name</label>
+                                                    <input type="text" placeholder="Name here..." id="name${dayCount}">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mb-30">
+                                                <div class="form-inner">
+                                                    <label>Description</label>
+                                                    <textarea placeholder="Description here" id="description${dayCount}"></textarea>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-12 mb-30">
-                                        <div class="form-inner">
-                                            <label>Description</label>
-                                            <textarea placeholder="Description here" id="description${dayCount}"></textarea>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="upload-img-area">
-                                    <input type="file"name="image${dayCount}" id="image${dayCount}" accept="image/*">
-                                </div>`;
-                    body.appendChild(dayDiv);
+                                        <div class="upload-img-area">
+                                            <input type="file" name="image${dayCount}" id="image${dayCount}" accept="image/*">
+                                        </div>`;
+                        body.appendChild(dayDiv);
+                    }
                 }
-
             });
 
             function uploadData() {

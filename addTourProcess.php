@@ -49,8 +49,8 @@ if (empty($title)) {
         move_uploaded_file($mainImageTmpName, $mainImagePath);
 
 
-
-        $query = "INSERT INTO tour (title, description, days, img, status_id) VALUES ('" . $title . "', '" . $desc . "', '" . $days . "', '" . $mainImagePath . "', '1')";
+        Database::setUpConnection();
+        $query = "INSERT INTO tour (title, description, days, img, status_id) VALUES ('" . $title . "', '" . mysqli_real_escape_string(Database::$connection, $desc) . "', '" . $days . "', '" . $mainImagePath . "', '1')";
         Database::iud($query);
 
         $tour_id = mysqli_insert_id(Database::$connection);
@@ -65,7 +65,7 @@ if (empty($title)) {
             $dayImagePath = "assets/img/tours/" . $uniqueDayFilename;
             move_uploaded_file($dayImageTmpName, $dayImagePath);
 
-            $query1 = ("INSERT INTO `day`(`name`,`description`,`img`,`tour_id`) VALUES('" . $dayName . "', '" . $dayDesc . "', '" . $dayImagePath . "', '" . $tour_id . "')");
+            $query1 = ("INSERT INTO `day`(`name`,`description`,`img`,`tour_id`) VALUES('" . $dayName . "', '" . mysqli_real_escape_string(Database::$connection, $dayDesc) . "', '" . $dayImagePath . "', '" . $tour_id . "')");
             Database::iud($query1);
         }
 

@@ -82,7 +82,7 @@ if (isset($_SESSION['user'])) {
                                     </div>
 
                                     <div class="form-inner">
-                                        <button type="button" class="primary-btn3" onclick="addImage();">Publish Now</button>
+                                        <button type="button" id="btnClick" class="primary-btn3" onclick="addImage();">Publish Now</button>
                                     </div>
                                 </form>
                             </div>
@@ -97,6 +97,7 @@ if (isset($_SESSION['user'])) {
 
         <script>
             function addImage() {
+                document.getElementById('btnClick').innerHTML = "Waiting";
                 const title = document.getElementById('title').value;
                 const mainImage = document.getElementById('mainImage').files[0];
 
@@ -111,6 +112,7 @@ if (isset($_SESSION['user'])) {
                     .then(res => res.text())
                     .then(data => {
                         alert(data)
+                        document.getElementById('btnClick').innerHTML = "Publish Now";
                         if (data === "Image added successfully") {
                             window.location.reload();
                         }
