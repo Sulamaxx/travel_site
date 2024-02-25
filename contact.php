@@ -45,8 +45,7 @@
                             </svg>
                         </div>
                         <div class="content">
-                            <h6><a href="tel:">+990-737 621 432</a></h6>
-                            <h6><a href="tel:">+990-737 621 432</a></h6>
+                            <h6><a href="tel:+94777831007">(+94) 777 831 007 </a></h6>
                         </div>
                     </div>
                     <div class="single-contact mb-40">
@@ -59,8 +58,7 @@
                             </svg>
                         </div>
                         <div class="content">
-                            <h6><a href="https://demo-egenslab.b-cdn.net/cdn-cgi/l/email-protection#abc2c5cdc4ebced3cac6dbc7ce85c8c4c6"><span class="__cf_email__" data-cfemail="d9b0b7bfb699bca1b8b4a9b5bcf7bab6b4">[email&#160;protected]</span></a></h6>
-                            <h6><a href="https://demo-egenslab.b-cdn.net/cdn-cgi/l/email-protection#80e5f8e1edf0ece5c0e5f8e1edf0ece5aee3efed"><span class="__cf_email__" data-cfemail="bedbc6dfd3ced2dbfedbc6dfd3ced2db90ddd1d3">[email&#160;protected]</span></a></h6>
+                            <h6><a href="mailto:info@travelzoomlanka.com"><span class="__cf_email__" data-cfemail="d9b0b7bfb699bca1b8b4a9b5bcf7bab6b4">info@travelzoomlanka.com</span></a></h6>
                         </div>
                     </div>
                     <div class="single-contact mb-40">
@@ -74,8 +72,7 @@
                             </svg>
                         </div>
                         <div class="content">
-                            <h6><a href="#">168/170, Avenue 01, Old York
-                                    Drive Rich Mirpur DOHS, Bangladesh</a></h6>
+                            <h6><a href="https://maps.app.goo.gl/5gS7Q8TcTiDDbhjx6">No. 67/2/A, Temple road, Ganemulla.</a></h6>
                         </div>
                     </div>
                     <div class="single-contact">
@@ -101,7 +98,7 @@
                             </svg>
                         </div>
                         <div class="content">
-                            <h6><a href="#">8:00Am - 10:Pm, Friday Close</a></h6>
+                            <h6><a href="#">24 hours open</a></h6>
                         </div>
                     </div>
                 </div>
@@ -152,7 +149,7 @@
     <?php include 'include/customer/customer-footer.php' ?>
     <script>
         document.getElementById('comment').addEventListener("click", async () => {
-            document.getElementById('comment').innerHTML="Waiting";
+            document.getElementById('comment').innerHTML = "Waiting";
             var formData = {
                 where: "Contact",
                 name: document.getElementById('name').value,
@@ -176,7 +173,7 @@
                 .then(response => response.text())
                 .then(data => {
                     alert(data);
-                    document.getElementById('comment').innerHTML="Submit Now";
+                    document.getElementById('comment').innerHTML = "Submit Now";
                     if (data == "Message has been sent") {
                         window.location.reload();
                     }

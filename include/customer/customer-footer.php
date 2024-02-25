@@ -18,10 +18,11 @@
                         </div>
                         <ul class="widget-list">
                             <li><a href="about.php">About Us</a></li>
-                            <li><a href="destination1.php">Destinations</a></li>
                             <li><a href="package-grid.php">Tour Package</a></li>
-                            <li><a href="guide2.php">Tour Guide</a></li>
+                            <li><a href="tailormade.php">Tailormade</a></li>
                             <li><a href="blog-grid.php">Article</a></li>
+                            <li><a href="hotel-suits.php">Hotel</a></li>
+                            <li><a href="event-suits.php">Event</a></li>
                         </ul>
                     </div>
                 </div>
@@ -36,7 +37,7 @@
                                 </svg>
                                 <h5>More Inquiry</h5>
                             </div>
-                            <a href="tel:999858624984">+999-858 624 984</a>
+                            <a href="tel:+94777831007">(+94) 777 831 007</a>
                         </div>
                         <div class="single-contact mb-35">
                             <div class="widget-title">
@@ -47,7 +48,7 @@
                                 </svg>
                                 <h5>Send Mail</h5>
                             </div>
-                            <a href="https://demo-egenslab.b-cdn.net/cdn-cgi/l/email-protection#127b7c747d52776a737f627e773c717d7f"><span class="__cf_email__" data-cfemail="5831363e37183d20393528343d763b3735">[email&#160;protected]</span></a>
+                            <a href="mailto:info@travelzoomlanka.com"><span class="__cf_email__" data-cfemail="5831363e37183d20393528343d763b3735">info@travelzoomlanka.com</span></a>
                         </div>
                         <div class="single-contact">
                             <div class="widget-title">
@@ -58,7 +59,7 @@
                                 </svg>
                                 <h5>Address</h5>
                             </div>
-                            <a href="https://www.google.com/maps/place/Egens+Lab/@23.8340712,90.3631117,17z/data=!3m1!4b1!4m6!3m5!1s0x3755c14c8682a473:0xa6c74743d52adb88!8m2!3d23.8340663!4d90.3656866!16s%2Fg%2F11rs9vlwsk?entry=ttu">House 168/170, Avenue 01, Mirpur <br> DOHS, Dhaka Bangladesh</a>
+                            <a href="https://maps.app.goo.gl/5gS7Q8TcTiDDbhjx6">No. 67/2/A, <br>Temple road, <br>Ganemulla.</a>
                         </div>
                     </div>
                 </div>
@@ -67,7 +68,7 @@
                         <div class="widget-title">
                             <h5>We Are Here</h5>
                         </div>
-                        <p>Quisque purus augue, facilisis andi neque idont accumsan fringilla massa. Vivamusol id nibhom condimentum.</p>
+                        <p>Since 2010, we've been your guide to Sri Lanka's beauty. Explore ancient ruins in Anuradhapura, relax on Mirissa's beaches, or wander Matale's spice gardens. Let our words inspire your adventure in the teardrop paradise that is Sri Lanka. </p>
 
                     </div>
                 </div>
@@ -78,27 +79,24 @@
                 <div class="col-lg-12 d-flex flex-md-row flex-column align-items-center justify-content-md-between justify-content-center flex-wrap gap-3">
                     <ul class="social-list">
                         <li>
-                            <a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61556685745097/"><i class="bx bxl-facebook"></i></a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                            <a href="https://x.com/TravelZoomLanka?t=PlOoi13miCW1Xsdo2mJJZA&s=09"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
                                     <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
                                 </svg></a>
                         </li>
                         <li>
-                            <a href="https://www.pinterest.com/"><i class="bx bxl-pinterest-alt"></i></a>
+                            <a href="http://www.linkedin.com/in/travel-zoom-lanka-54937ba2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                    <circle cx="4.983" cy="5.009" r="2.188" fill="currentColor" />
+                                    <path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118c1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783c-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z" fill="currentColor" />
+                                </svg></a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a>
+                            <a href="https://www.instagram.com/trevrl_zoom_lanka/"><i class="bx bxl-instagram"></i></a>
                         </li>
                     </ul>
-                    <p>©Copyright 2024 Travel Zoom Lanka | Design By <a href="https://www.egenslab.com/">Egens Lab</a></p>
-                    <div class="footer-right">
-                        <ul>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms & Condition</a></li>
-                        </ul>
-                    </div>
+                    <p>©Copyright 2024 Travel Zoom Lanka </p>
                 </div>
             </div>
         </div>
