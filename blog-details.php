@@ -6,6 +6,7 @@ if (isset($_GET['id'])) {
     <html lang="en">
 
     <head>
+        <?php include "include/admin/dashboard-header.php"; ?>
         <title>Travel Zoom Lanka - Blog</title>
     </head>
     <?php include 'include/customer/customer-header.php' ?>

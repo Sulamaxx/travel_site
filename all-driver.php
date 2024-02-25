@@ -12,38 +12,8 @@ if (isset($_SESSION['user'])) {
 
     <head>
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/css/jquery-ui.css" rel="stylesheet">
-
-        <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
-
-        <link href="assets/css/all.min.css" rel="stylesheet">
-
-        <link href="assets/css/animate.min.css" rel="stylesheet">
-
-        <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
-
-        <link href="assets/css/fontawesome.min.css" rel="stylesheet">
-
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        <link rel="stylesheet" href="assets/css/daterangepicker.css">
-
-        <link rel="stylesheet" href="assets/css/slick.css">
-        <link rel="stylesheet" href="assets/css/slick-theme.css">
-
-        <link href="assets/css/boxicons.min.css" rel="stylesheet">
-
-        <link href="assets/css/select2.css" rel="stylesheet">
-        <link href="assets/css/nice-select.css" rel="stylesheet">
-
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/dashboard.css">
-
-        <title>Travel Zoom Lanka - </title>
-        <link rel="icon" href="assets/img/sm-logo.png" type="image/gif" sizes="20x20">
+    <?php include "include/admin/dashboard-header.php"; ?>
+        <title>Travel Zoom Lanka - All Drivers</title>
     </head>
 
     <body class="tt-magic-cursor style-2" onload="loadDriverData()">

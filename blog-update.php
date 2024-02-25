@@ -1,7 +1,7 @@
 <?php
 session_start();
 require "libs/connection.php";
-if (isset($_SESSION['user'])) {
+if (isset($_SESSION['user']) && isset($_GET['id'])) {
 
 
 ?>
@@ -12,7 +12,7 @@ if (isset($_SESSION['user'])) {
 
     <head>
     <?php include "include/admin/dashboard-header.php"; ?>
-        <title>Travel Zoom Lanka - Add Blog</title>
+        <title>Travel Zoom Lanka - Update Blog</title>
     </head>
     <style>
         #imagePreview {
@@ -38,6 +38,8 @@ if (isset($_SESSION['user'])) {
 
             <?php
             include "include/admin/dashboard-slider.php";
+            $result = Database::search("SELECT * FROM blog WHERE id='" . $_GET['id'] . "'");
+            $data = $result->fetch_assoc();
             ?>
 
             <div class="main-content">
@@ -45,9 +47,9 @@ if (isset($_SESSION['user'])) {
                     <div class="col-xl-12">
                         <div class="main-content-title-profile mb-50">
                             <div class="main-content-title">
-                                <h3>Add New Blog</h3>
+                                <h3>Update Blog</h3>
                                 <div class="form-inner" style="right: 2%; position: absolute;">
-                                    <button type="button" class="primary-btn3" id="publishBtn" onclick="uploadData();">Publish Now</button>
+                                    <button type="button" class="primary-btn3" id="updateBtn" onclick="uploadData();">Update Now</button>
                                 </div>
                             </div>
                         </div>
@@ -57,22 +59,22 @@ if (isset($_SESSION['user'])) {
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-inner mb-30">
-                                                <label>Add Title</label>
-                                                <input type="text" placeholder="Title here..." id="title">
+                                                <label>Title</label>
+                                                <input type="text" value="<?=$data['title']?>" id="title">
                                             </div>
                                         </div>
 
                                         <div class="col-md-6">
                                             <div class="form-inner mb-30">
                                                 <label>Paragraph Count</label>
-                                                <input type="number" placeholder="count of paragraph here..." min="1" oninput="validity.valid||(value='');" id="paragraphs">
+                                                <input type="number" value="<?=$data['paragraphs']?>" min="1" oninput="validity.valid||(value='');" id="paragraphs">
                                             </div>
                                         </div>
 
                                         <div class="col-md-12 mb-30">
                                             <div class="form-inner">
                                                 <label>Description</label>
-                                                <textarea placeholder="Description here" id="description"></textarea>
+                                                <textarea id="description"><?=$data['description']?></textarea>
                                             </div>
                                         </div>
 
@@ -98,8 +100,23 @@ if (isset($_SESSION['user'])) {
             ?>
         </div>
 
-
         <script>
+              window.addEventListener('load', async function() {
+                var image_path = "<?= $data['img'] ?>";
+                await fetch(image_path)
+                    .then(response => response.blob())
+                    .then(blob => {
+                        var file = new File([blob], 'image.jpg', {
+                            type: 'image/jpeg'
+                        });
+                        var input = document.getElementById('mainImage');
+                        var dataTransfer = new DataTransfer();
+                        dataTransfer.items.add(file);
+                        input.files = dataTransfer.files;
+                    });
+                // alert(document.getElementById('mainImage').value)
+            });
+
             document.getElementById('paragraphs').addEventListener('change', (event) => {
                 const newDays = parseInt(event.target.value);
                 const body = document.getElementById('optionalArea');
@@ -118,8 +135,8 @@ if (isset($_SESSION['user'])) {
                                             <label for="name${dayCount}">Day ${dayCount}</label>
                                             <div class="col-md-6">
                                                 <div class="form-inner mb-30">
-                                                    <label>Add Name</label>
-                                                    <input type="text" placeholder="Name here..." id="name${dayCount}">
+                                                    <label>Add Title</label>
+                                                    <input type="text" placeholder="Name here..." id="title${dayCount}">
                                                 </div>
                                             </div>
                                             <div class="col-md-12 mb-30">
@@ -138,13 +155,13 @@ if (isset($_SESSION['user'])) {
             });
 
             function uploadData() {
-                document.getElementById('publishBtn').innerHTML = "Waiting";
+                document.getElementById('updateBtn').innerHTML = "Waiting";
                 const title = document.getElementById('title').value;
                 const paragraphs = document.getElementById('paragraphs').value;
                 const desc = document.getElementById('description').value;
                 const mainImage = document.getElementById('mainImage').files[0];
                 const formData = new FormData();
-
+                formData.append('blog_id', <?= $_GET['id'] ?>);
                 formData.append('title', title);
                 formData.append('paragraphs', paragraphs);
                 formData.append('desc', desc);
@@ -157,7 +174,7 @@ if (isset($_SESSION['user'])) {
                 }
 
 
-                fetch('addBlogProcess.php', {
+                fetch('updateBlogProcess.php', {
                         method: 'POST',
                         body: formData
                     })
@@ -165,9 +182,9 @@ if (isset($_SESSION['user'])) {
                     .then(result => {
                         console.log(result);
                         alert(result);
-                        document.getElementById('publishBtn').innerHTML = "Publish Now";
-                        if (result === "Blog added successfully") {
-                            window.location.reload();
+                        document.getElementById('updateBtn').innerHTML = "Update Now";
+                        if (result === "Blog updated successfully") {
+                            window.location.href="all-blog.php";
                         }
                     })
                     .catch((error) => {
@@ -176,6 +193,68 @@ if (isset($_SESSION['user'])) {
                     });
             }
         </script>
+
+        <script>
+            async function LoadDaysData() {
+
+                const element = document.getElementById('days');
+                const body = document.getElementById('optionalArea');
+                <?php
+                $object = [];
+                $dayCount = 1;
+                $result_days = Database::search("SELECT * FROM paragraph WHERE blog_id='" . $_GET['id'] . "'");
+                while ($data = $result_days->fetch_assoc()) {
+                    $object[] = [
+                        'id' => $data['id'],
+                        'name' => $data['title'],
+                        'des' => $data['description'],
+                        'img' => $data['img']
+                    ];
+                    $dayCount++;
+                }
+                $jsonObject = json_encode($object);
+                ?>
+                const data = <?= $jsonObject ?>;
+                for (let dayCount = 0; dayCount < data.length; dayCount++) {
+                    const dayDiv = document.createElement('div');
+                    dayDiv.innerHTML = `<div class="row">
+                                <label for="name${dayCount + 1}">Paragraph ${dayCount + 1}</label>
+                                <div class="col-md-6">
+                                    <div class="form-inner mb-30">
+                                        <label hidden id="old${dayCount + 1}" >${data[dayCount].id}</label>
+                                        <label>Title</label>
+                                        <input type="text" value="${data[dayCount].name}" id="title${dayCount + 1}">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-30">
+                                    <div class="form-inner">
+                                        <label>Description</label>
+                                        <textarea placeholder="Description here" id="description${dayCount + 1}">${data[dayCount].des}</textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="upload-img-area">
+                                <input type="file" name="image${dayCount + 1}" id="image${dayCount + 1}" accept="image/*">
+                            </div>`;
+                    body.appendChild(dayDiv);
+                    await fetch(data[dayCount].img)
+                        .then(response => response.blob())
+                        .then(blob => {
+                            var file = new File([blob], 'image' + (dayCount + 1) + '.jpg', {
+                                type: 'image/jpeg'
+                            });
+                            var input = document.getElementById('image' + (dayCount + 1));
+                            var dataTransfer = new DataTransfer();
+                            dataTransfer.items.add(file);
+                            input.files = dataTransfer.files;
+                            // alert(input.value)
+                        });
+                }
+            }
+            LoadDaysData();
+        </script>
+
+    
         <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
         <script src="assets/js/jquery-3.7.1.min.js"></script>
         <script src="assets/js/jquery-ui.js"></script>

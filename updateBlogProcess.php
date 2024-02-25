@@ -1,6 +1,7 @@
 <?php
 include "libs/connection.php";
 
+$blog_id = $_POST['blog_id'];
 $title = $_POST['title'];
 $paragraphs = $_POST['paragraphs'];
 $desc = $_POST['desc'];
@@ -45,12 +46,11 @@ if (empty($title)) {
         $mainImagePath = "assets/img/tours/" . $uniqueFilename;
         move_uploaded_file($mainImageTmpName, $mainImagePath);
 
-
         Database::setUpConnection();
-        $query = "INSERT INTO blog (title, description, paragraphs, img, status_id) VALUES ('" . $title . "', '" . mysqli_real_escape_string(Database::$connection, $desc) . "', '" . $paragraphs . "', '" . $mainImagePath . "', '1')";
+        $query = "UPDATE blog SET title='" . $title . "', description='" . mysqli_real_escape_string(Database::$connection, $desc) . "', paragraphs='" . $paragraphs . "', img='" . $mainImagePath . "' WHERE id='" . $blog_id . "'";
         Database::iud($query);
 
-        $tour_id = mysqli_insert_id(Database::$connection);
+        Database::iud("DELETE FROM paragraph WHERE blog_id='" . $blog_id . "'");
 
         // Handle paragraph objects
         for ($i = 1; $i <= $paragraphs; $i++) {
@@ -62,10 +62,10 @@ if (empty($title)) {
             $paragraphImagePath = "assets/img/paragraphs/" . $uniqueDayFilename;
             move_uploaded_file($paragraphImageTmpName, $paragraphImagePath);
 
-            $query1 = ("INSERT INTO `paragraph`(`title`,`description`,`img`,`blog_id`) VALUES('" . $paragraphName . "', '" . $paragraphDesc . "', '" . $paragraphImagePath . "', '" . $tour_id . "')");
+            $query1 = ("INSERT INTO `paragraph`(`title`,`description`,`img`,`blog_id`) VALUES('" . $paragraphName . "', '" . $paragraphDesc . "', '" . $paragraphImagePath . "', '" . $blog_id . "')");
             Database::iud($query1);
         }
 
-        echo "Blog added successfully";
+        echo "Blog updated successfully";
     }
 }
