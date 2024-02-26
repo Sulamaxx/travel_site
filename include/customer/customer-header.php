@@ -117,7 +117,7 @@
             </div>
             <div class="content">
                 <span>To More Inquiry</span>
-                <h6><a href="tel:+990737621432">+990-737 621 432</a></h6>
+                <h6><a href="tel:+94777831007">(+94) 777 831 007</a></h6>
             </div>
         </div>
     </div>
