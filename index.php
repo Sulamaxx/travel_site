@@ -718,51 +718,12 @@ function limit_words($string, $word_limit)
             </div>
             <div class="banner4-slider-wrapper">
                 <div class="row g-xl-4 gy-5 mb-60">
-                    <!-- <div class="col-xl-5">
+                    <div class="col-xl-5">
                         <div class="swiper banner4-card-slide">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="banner4-card">
-                                        <img src="assets/img/home2/banner4-card-img1.png" alt>
-                                        <div class="banner4-content-wrapper">
-                                            <div class="banner4-content">
-                                                <span>Savings worldwide</span>
-                                                <h3>20% Off</h3>
-                                                <a href="package-grid.php" class="text">Discover Great Deal</a>
-                                                <a href="package-grid.php" class="primary-btn1">View This Trip</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="banner4-card two">
-                                        <img src="assets/img/home2/banner4-card-img2.png" alt>
-                                        <div class="banner4-content-wrapper">
-                                            <div class="banner4-content">
-                                                <span>Savings worldwide</span>
-                                                <h3>20% Off</h3>
-                                                <a href="package-grid.php" class="text">Discover Great Deal</a>
-                                                <a href="package-grid.php" class="primary-btn1">View This Trip</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="banner4-card three ">
-                                        <img src="assets/img/home2/banner4-card-img3.png" alt>
-                                        <div class="banner4-content-wrapper">
-                                            <div class="banner4-content">
-                                                <span>Savings worldwide</span>
-                                                <h3>20% Off</h3>
-                                                <a href="package-grid.php" class="text">Discover Great Deal</a>
-                                                <a href="package-grid.php" class="primary-btn1">View This Trip</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                     <div class="col-xl-12">
                         <div class="swiper package-card3-slide">
                             <div class="swiper-wrapper">
