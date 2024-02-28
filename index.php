@@ -787,10 +787,10 @@ function limit_words($string, $word_limit)
         </div>
     </div>
 
-    <div class="video-section mb-40">
+    <!-- <div class="video-section mb-40">
         <video autoplay loop muted playsinline src="assets/video/production_.mp4">
         </video>
-    </div>
+    </div> -->
 
     <div class="home2-blog-section mb-120">
         <div class="container">
