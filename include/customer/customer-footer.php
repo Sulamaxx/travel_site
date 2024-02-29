@@ -96,7 +96,7 @@
                             <a href="https://www.instagram.com/trevrl_zoom_lanka/"><i class="bx bxl-instagram"></i></a>
                         </li>
                     </ul>
-                    <p>©Copyright 2024 Travel Zoom Lanka </p>
+                    <p>©Copyright 2024 Travel Zoom Lanka - Designed by <a href="https://c-lento.com/">C_Lento</a></p>
                 </div>
             </div>
         </div>
