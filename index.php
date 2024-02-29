@@ -27,8 +27,12 @@ function limit_words($string, $word_limit)
         <div class="swiper home1-banner-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/home2-banner-img1.jpg);">
-                    </div>
+                    <!-- <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/home2-banner-img1.jpg);"> -->
+                    <video width="320" height="240" autoplay class="home2-banner-wrapper">
+                        <source src="newVideo/video1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <!-- </div> -->
                 </div>
                 <div class="swiper-slide">
                     <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/home2-banner-img2.jpg);">
