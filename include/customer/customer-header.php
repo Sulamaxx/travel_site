@@ -133,5 +133,5 @@
 </header>
 
 <?php
-$tripadvisor_link = "https://www.tripadvisor.com/Attraction_Review-g293962-d14164892-Reviews-Travel_Zoom_Lanka-Colombo_Western_Province.html";
+$tripadvisor_link = "https://www.tripadvisor.com/Attraction_Review-g8819727-d13511050-Reviews-ArtLankaTours-Ganemulla_Western_Province.html";
 ?>
