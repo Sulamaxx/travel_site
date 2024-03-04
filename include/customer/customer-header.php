@@ -1,19 +1,38 @@
 <head>
+    <!--<meta charset="UTF-8">-->
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <!--<meta name="description" content="Travel Zoom Lanka" />-->
+    <!--<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />-->
+    <!--<meta name="twitter:title" content="Travel Zoom Lanka" />-->
+    <!--<meta name="twitter:description" content="Travel Zoom Lanka" />-->
+    <!--<meta name="twitter:image" content="assets/img/logo2.png" />-->
+    <!--<link rel="canonical" href="https://travelzoomlanka.com" />-->
+    <!--<meta property="og:locale" content="en_US" />-->
+    <!--<meta property="og:type" content="website" />-->
+    <!--<meta property="og:title" content="Travel Zoom Lanka" />-->
+    <!--<meta property="og:description" content="Travel Zoom Lanka" />-->
+    <!--<meta property="og:url" content="https://travelzoomlanka.com" />-->
+    <!--<meta property="og:site_name" content="Travel Zoom Lanka" />-->
+    <!--<meta Property="og:image" content="assets/img/logo2.png" />-->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Travel Zoom Lanka" />
-    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
-    <meta name="twitter:title" content="Travel Zoom Lanka" />
-    <meta name="twitter:description" content="Travel Zoom Lanka" />
-    <meta name="twitter:image" content="assets/img/logo2.png" />
-    <link rel="canonical" href="https://travelzoomlanka.com" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Travel Zoom Lanka" />
-    <meta property="og:description" content="Travel Zoom Lanka" />
-    <meta property="og:url" content="https://travelzoomlanka.com" />
-    <meta property="og:site_name" content="Travel Zoom Lanka" />
-    <meta Property="og:image" content="assets/img/logo2.png" />
+    <meta name="description" content="Discover the beauty of Sri Lanka with Travel Zoom Lanka. Explore our guided tours, travel packages, and unique experiences.">
+    <title>Travel Zoom Lanka - Explore Sri Lanka's Beauty</title>
+    <link rel="canonical" href="https://travelzoomlanka.com">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@yourtwitterhandle">
+    <meta name="twitter:title" content="Travel Zoom Lanka - Explore Sri Lanka's Beauty">
+    <meta name="twitter:description" content="Discover the beauty of Sri Lanka with Travel Zoom Lanka. Explore our guided tours, travel packages, and unique experiences.">
+    <meta name="twitter:image" content="https://travelzoomlanka.com/assets/img/logo.png">
+
+    <meta property="og:title" content="Travel Zoom Lanka - Explore Sri Lanka's Beauty">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://travelzoomlanka.com">
+    <meta property="og:image" content="https://travelzoomlanka.com/assets/img/logo.png">
+    <meta property="og:description" content="Discover the beauty of Sri Lanka with Travel Zoom Lanka. Explore our guided tours, travel packages, and unique experiences.">
+    <meta property="og:site_name" content="Travel Zoom Lanka">
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/jquery-ui.css" rel="stylesheet">
@@ -58,12 +77,12 @@
 
 <header class="header-area style-2">
     <div class="header-logo">
-        <a href="index.php"><img alt="image" class="img-fluid" src="assets/img/logo.png"></a>
+        <a href="index.php"><img alt="Travel Zoom Lanka" class="img-fluid" src="assets/img/logo.png"></a>
     </div>
     <div class="main-menu">
         <div class="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
             <div class="mobile-logo-wrap">
-                <a href="index.php"><img alt="image" src="assets/img/logo2.png"></a>
+                <a href="index.php"><img alt="Travel Zoom Lanka" src="assets/img/logo2.png"></a>
             </div>
             <div class="menu-close-btn">
                 <i class="bi bi-x"></i>
@@ -131,7 +150,6 @@
         </div>
     </div>
 </header>
-
 <?php
 $tripadvisor_link = "https://www.tripadvisor.com/Attraction_Review-g8819727-d13511050-Reviews-ArtLankaTours-Ganemulla_Western_Province.html";
 ?>
