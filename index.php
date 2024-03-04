@@ -385,16 +385,7 @@ function limit_words($string, $word_limit)
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="facility-card">
-                                    <div class="icon">
-                                        <img src="assets/img/home2/icon/facility-card-icon3.svg" alt>
-                                    </div>
-                                    <div class="content">
-                                        <h6>Expertise and <br> Experience</h6>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -495,17 +486,7 @@ function limit_words($string, $word_limit)
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 d-flex justify-content-center">
-                    <div class="tripadvisor-review">
-                        <strong>Excellent!</strong>
-                        <img src="assets/img/home2/icon/tripadvisor-star.svg" alt>
-                        <p><strong>5.0</strong> Rating out of <strong>5.0</strong> based on <a href="<?php echo $tripadvisor_link ?>" target="_blank"><strong>245354</strong>
-                                reviews</a></p>
-                        <img src="assets/img/home2/icon/tripadvisor-logo.png" alt>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
 
@@ -530,11 +511,11 @@ function limit_words($string, $word_limit)
                                 <li class="single-rating">
                                     <a href="<?php echo $tripadvisor_link ?>" target="_blank">
                                         <div class="icon">
-                                            <img src="assets/img/home2/icon/tripadvisor-logo2.png" alt>
+                                            <img src="assets/img/home2/icon/tripadvisor-logo2.png" alt="tripadvisor-logo2.png" width="150px">
                                         </div>
                                         <div class="rating">
                                             <div class="star">
-                                                <img src="assets/img/home2/icon/tripadvisor-star2.svg" alt>
+                                                <img src="assets/img/home2/icon/tripadvisor-star2.svg" alt="tripadvisorStar">
                                             </div>
                                             <span>4.5 / 5.0</span>
                                         </div>
@@ -743,7 +724,7 @@ function limit_words($string, $word_limit)
                                     <div class="swiper-slide">
                                         <div class="package-card3 style-2">
                                             <a href="hotel-suits.php" class="package-card-img col-4">
-                                                <img src="<?= $data['img'] ?>" width="100%" alt>
+                                                <img src="<?= $data['img'] ?>" width="100%" alt="img" style="min-width:100%;">
                                                 <div class="eg-tag">
                                                     <span>Featured</span>
                                                 </div>
