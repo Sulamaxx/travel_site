@@ -79,7 +79,7 @@
                 <div class="col-lg-12 d-flex flex-md-row flex-column align-items-center justify-content-md-between justify-content-center flex-wrap gap-3">
                     <ul class="social-list">
                         <li>
-                            <a href="https://www.facebook.com/profile.php?id=61556685745097/"><i class="bx bxl-facebook"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61556685745097"><i class="bx bxl-facebook"></i></a>
                         </li>
                         <li>
                             <a href="https://x.com/TravelZoomLanka?t=PlOoi13miCW1Xsdo2mJJZA&s=09"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
