@@ -91,7 +91,7 @@ function limit_words($string, $word_limit)
                                         <h6><a href="tel:+94777831007">(+94) 777 831 007</a></h6>
                                     </div>
                                 </div>
-                                <a href="https://www.tripadvisor.com/" class="rating-area">
+                                <a href="<?php echo $tripadvisor_link ?>" target="_blank" class="rating-area">
                                     <div class="icon">
                                         <img src="assets/img/home1/icon/tripadvisor-logo.png" alt>
                                     </div>
@@ -500,7 +500,7 @@ function limit_words($string, $word_limit)
                     <div class="tripadvisor-review">
                         <strong>Excellent!</strong>
                         <img src="assets/img/home2/icon/tripadvisor-star.svg" alt>
-                        <p><strong>5.0</strong> Rating out of <strong>5.0</strong> based on <a href="https://www.tripadvisor.com/"><strong>245354</strong>
+                        <p><strong>5.0</strong> Rating out of <strong>5.0</strong> based on <a href="<?php echo $tripadvisor_link ?>" target="_blank"><strong>245354</strong>
                                 reviews</a></p>
                         <img src="assets/img/home2/icon/tripadvisor-logo.png" alt>
                     </div>
@@ -528,20 +528,7 @@ function limit_words($string, $word_limit)
                             <h6>Review On</h6>
                             <ul class="rating-area">
                                 <li class="single-rating">
-                                    <a href="https://www.trustpilot.com/">
-                                        <div class="icon">
-                                            <img src="assets/img/home2/icon/trustpilot-logo.png" alt>
-                                        </div>
-                                        <div class="rating">
-                                            <div class="star">
-                                                <img src="assets/img/home2/icon/trustpilot-star.svg" alt>
-                                            </div>
-                                            <span>5.0 / 5.0</span>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="single-rating">
-                                    <a href="https://www.tripadvisor.com/">
+                                    <a href="<?php echo $tripadvisor_link ?>" target="_blank">
                                         <div class="icon">
                                             <img src="assets/img/home2/icon/tripadvisor-logo2.png" alt>
                                         </div>

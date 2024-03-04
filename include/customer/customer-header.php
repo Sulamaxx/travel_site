@@ -131,3 +131,7 @@
         </div>
     </div>
 </header>
+
+<?php
+$tripadvisor_link = "https://www.tripadvisor.com/Attraction_Review-g293962-d14164892-Reviews-Travel_Zoom_Lanka-Colombo_Western_Province.html";
+?>
