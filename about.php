@@ -71,16 +71,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="facility-card">
-                                    <div class="icon">
-                                        <img src="assets/img/home2/icon/facility-card-icon3.svg" alt>
-                                    </div>
-                                    <div class="content">
-                                        <h6>Expertise and <br> Experience</h6>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
