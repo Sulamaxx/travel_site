@@ -7,7 +7,7 @@ class Database
     public static function setUpConnection()
     {
         if (!isset(Database::$connection)) {
-            Database::$connection = new mysqli("62.72.50.204", "u795678648_travel", "Sulochana_sjr@123@", "u795678648_travel", "3306");
+            Database::$connection = new mysqli("49.12.121.200", "kalanacl_travelzoomlanka", "travelZOOM@24", "kalanacl_travelzoomlanka", "3306");
         }
     }
 
