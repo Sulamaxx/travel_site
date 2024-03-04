@@ -20,10 +20,10 @@ require "libs/connection.php";
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <div class="banner-content">
-                        <h1>Room & Suits</h1>
+                        <h1>Hotels</h1>
                         <ul class="breadcrumb-list">
                             <li><a href="index.php">Home</a></li>
-                            <li>Room & Suits</li>
+                            <li>Hotels</li>
                         </ul>
                     </div>
                 </div>
