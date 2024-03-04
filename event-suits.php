@@ -8,7 +8,7 @@ require "libs/connection.php";
 <!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/hotel-suits.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:20 GMT -->
 
 <head>
-    <title>Travel Zoom Lanka - Hotel Suit</title>
+    <title>Travel Zoom Lanka - Event Suit</title>
 </head>
 
 <body>
@@ -20,10 +20,10 @@ require "libs/connection.php";
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <div class="banner-content">
-                        <h1>Room & Suits</h1>
+                        <h1>Events</h1>
                         <ul class="breadcrumb-list">
                             <li><a href="index.php">Home</a></li>
-                            <li>Room & Suits</li>
+                            <li>Events</li>
                         </ul>
                     </div>
                 </div>
