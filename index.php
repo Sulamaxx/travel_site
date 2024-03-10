@@ -498,6 +498,21 @@ function limit_words($string, $word_limit)
         </div>
     </div>
 
+
+    <section class="kf_summer_offers overlay-blue" style="background-size: cover; background-position: center;background-repeat: no-repeat; background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-a-mesmerizing-drive-through-a-majestic-cityscape-during-sunset-3d-rendered-image_3745060.jpg); ">
+        <div class="container" style="height: 500px;display: flex;flex-direction: column;align-items: center;justify-content: center;">
+            <h1 style="color:white; margin:30px;">
+                Shopper Driver
+            </h1>
+            <button class="btn secondary-btn2">
+                <a href="driver-suits.php">View Vehicles</a>
+            </button>
+
+        </div>
+    </section>
+
+
+
     <div class="home2-testimonial-section mb-120">
         <div class="container-fluid">
             <div class="row g-lg-4 gy-5">
