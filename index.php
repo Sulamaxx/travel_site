@@ -359,7 +359,8 @@ function limit_words($string, $word_limit)
                                 <span>About Us</span>
                             </div>
                             <h2>We provide the best tour facilities.</h2>
-                            <p>Since 2010, we've been your guide to Sri Lanka's beauty. Explore ancient ruins in Anuradhapura, relax on Mirissa's beaches, or wander Matale's spice gardens. Let our words inspire your adventure in the teardrop paradise that is Sri Lanka.<br><br>Join us on this virtual journey!</p>
+                            <p>Get on a journey visit to gorgeous Srilanka with Travel Zoom Lanka, where every moment is meticulously crafted to leave an indelible mark on your heart. We understand that travel is more than just visiting destinations; it’s about creating magical memories that linger long after you’ve returned home. With an unerring passion for detail, we offer bespoke experiences that provide a profound insight into the rich tapestry of Sri Lanka’s vibrant culture, stunning landscapes, and hidden treasures.
+                                Our commitment at Travel Zoom Lanka is to transcend the ordinary. By understanding your unique desires and preferences, we ensure that your Sri Lankan sojourn is not just a trip but a personalized story waiting to be told. From secluded beaches to ancient temples, from lush rainforests to bustling markets, let us guide you through an authentic Sri Lankan experience, tailored just for you. With our expertise and your wanderlust, together we’ll create magical memories that for your lifetime</p>
                         </div>
                         <div class="row g-4 mb-50">
                             <div class="col-md-6">
