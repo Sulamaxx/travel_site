@@ -185,6 +185,11 @@ require "libs/connection.php";
 
                 </div>
             </div>
+
+            <!-- <div class="d-flex justify-content-around cards row g-lg-4 gy-5"> -->
+            <div class="column">
+                <img src="/assets/img/driver/1.jpeg" alt="">
+            </div>
         </div>
     </div>
 
