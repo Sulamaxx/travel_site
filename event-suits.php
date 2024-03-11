@@ -31,8 +31,43 @@ require "libs/connection.php";
         </div>
     </div>
 
-    <div class="room-suits-page pt-120 mb-120">
+    <div class="room-suits-page pt-100 mb-120">
+
         <div class="container">
+
+            <!-- add cards -->
+            <div class="d-flex justify-content-around cards row g-lg-4 gy-5">
+                <div class="card m-3" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/img/events/main/17-Deepavali-01.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Deepavali</h5>
+                        <p class="card-text">Deepavali is a public holiday in Sri Lanka, but it's mostly celebrated by the Sri Lankan Tamils. Traditional rituals include lighting off small lamps to banish evel spirits. The lamps symbolise hope for a bright future. People wear new clothes and exchange gifts. </p>
+                    </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/img/events/main/kandy.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Kandy Esala Perahera </h5>
+                        <p class="card-text">The Kandy Esala Perahera (the Sri Dalada Perahara procession of Kandy) also known as The Festival of the Tooth is a festival held in July and August in Kandy, Sri Lanka.</p>
+                    </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/img/events/main/wesak.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Vesak</h5>
+                        <p class="card-text">Vesak, also known as Buddha Day, is a holiday traditionally observed by Buddhists in South Asia and Southeast Asia, as well as Tibet and Mongolia. It is the most important Buddhist festival. </p>
+                    </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/img/events/main/maha_shivaratri.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Maha Shivratri </h5>
+                        <p class="card-text">Maha Shivaratri is a Hindu festival celebrated annually in honour of the deity Shiva, between February and March. According to the Hindu calendar, the festival is observed on the fourteenth day of the dark half of the lunar month of Phalguna or Magha. </p>
+                    </div>
+                </div>
+            </div>
+
+
             <div class="row g-lg-4 gy-5">
 
 
