@@ -109,7 +109,7 @@
                 <ul class="sub-menu">
                     <li><a href="hotel-suits.php">Hotel</a></li>
                     <li><a href="event-suits.php">Event</a></li>
-                    <li><a href="driver-suits.php">Rent a Driver</a></li>
+                    <li><a href="driver-suits.php">Chauffer Driven</a></li>
                 </ul>
             </li>
             <li> <a href="blog-grid.php" class="drop-down">Blog</a> </li>

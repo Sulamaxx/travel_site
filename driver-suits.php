@@ -182,21 +182,35 @@ require "libs/connection.php";
                             </nav>
                         </div>
                     </div>
-
                 </div>
-            </div>
 
-            <!-- <div class="d-flex justify-content-around cards row g-lg-4 gy-5"> -->
-            <div class="d-flex justify-content-around cards row g-lg-4 gy-5">
-                <div class="card m-3" style="width: 18rem;">
-                    <img src="/assets/img/driver/1.jpeg" alt="">
 
+                <!-- <div class="d-flex justify-content-around cards row g-lg-4 gy-5"> -->
+                <div class="d-flex justify-content-around cards row g-lg-4 gy-5">
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/img/driver/1.jpeg">
+                    </div>
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/img/driver/2.jpeg">
+                    </div>
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/img/driver/3.jpeg">
+                    </div>
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/img/driver/4.jpeg">
+                    </div>
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/img/driver/5.jpeg">
+                    </div>
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/img/driver/6.jpeg">
+                    </div>
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/img/driver/7.jpeg">
+                    </div>
                 </div>
-            </div>
-            <div class="column">
-                <img src="/assets/img/driver/1.jpeg" alt="">
-            </div>
 
+            </div>
         </div>
     </div>
 
