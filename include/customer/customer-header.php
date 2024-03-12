@@ -53,7 +53,7 @@
 
 </head>
 
-<div class="egns-preloader">
+<!-- <div class="egns-preloader">
     <div class="preloader-close-btn">
         <span><i class="bi bi-x-lg"></i> Close</span>
     </div>
@@ -72,7 +72,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
 <header class="header-area style-2">
