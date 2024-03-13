@@ -209,7 +209,7 @@
                         </div>
                         <div class="feature-card-content">
                             <h6>Sri Lanka Exclusive Tours</h6>
-                            <p>Embark on an unforgettable journey through Sri Lanka with us, your local tour guide. We specialize in showcasing the wonders within the borders of Sri Lanka.</p>
+                            <p>Embark on an unforgettable journey through Sri Lanka with us, your local tour guide. </p>
                         </div>
                     </div>
                 </div>
