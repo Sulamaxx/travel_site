@@ -32,9 +32,8 @@
 
 .content-tailer-made {
   max-width: 100vw;
-  height: 100vh;
+  height: 70rem;
   /* overflow-y: scroll; */
-  margin-bottom: 3%;
   overflow: hidden !important;
 }
 
@@ -161,4 +160,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 991px) {
+  .content-tailer-made {
+    height: 90rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .content-tailer-made {
+    height: 130rem;
+  }
 }
