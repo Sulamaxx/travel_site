@@ -3766,8 +3766,8 @@ header.style-2 .main-menu .hotline-area .content h6 a:hover {
         border-bottom: 1px solid transparent;
     }
     header.style-2 .main-menu ul li ul.sub-menu>li a {
-        color: var(--white-color);
         padding: 12px 0;
+        color:black;
     }
     header.style-2 .main-menu ul li ul.sub-menu>li a:hover {
         color: var(--primary-color1);
@@ -28738,6 +28738,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
 }
 
 .room-suits-card.two .hotel-img-slider .swiper-wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
 }
 
@@ -33513,9 +33514,14 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
     fill: var(--primary-color1);
 }
 
-fill: var(--primary-color1);
-
-}
-ill: var(--primary-color1);
-
+.home2-banner-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(16, 12, 8, 0.6) 0%, rgba(16, 12, 8, 0.6) 100%);
+    /* Adjust opacity as needed */
+    z-index: 1;
 }
