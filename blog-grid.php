@@ -8,11 +8,12 @@
 </head>
 
 <?php include 'include/customer/customer-header.php' ?>
+
 <body>
 
 
 
-    <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3) 101.02%), url(assets/img/innerpage/inner-banner-bg.png);">
+    <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3) 101.02%), url(https://hospitalityinsights.ehl.edu/hubfs/Nine%20Arch%20Bridge%20Sri%20Lanka.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
@@ -51,13 +52,13 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-card">
                             <div class="blog-card-img-wrap">
-                                <a href="blog-details.php?id=<?=$data['id']?>" class="card-img"><img src="<?=$data['img']?>" alt></a>
+                                <a href="blog-details.php?id=<?= $data['id'] ?>" class="card-img"><img src="<?= $data['img'] ?>" alt></a>
                             </div>
                             <div class="blog-card-content">
-                                
-                                <h5><a href="blog-details.php?id=<?=$data['id']?>"><?=$data['title']?></a></h5>
+
+                                <h5><a href="blog-details.php?id=<?= $data['id'] ?>"><?= $data['title'] ?></a></h5>
                                 <div class="bottom-area">
-                                    <a href="blog-details.php?id=<?=$data['id']?>">View Post
+                                    <a href="blog-details.php?id=<?= $data['id'] ?>">View Post
                                         <span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
                                                 <path d="M2.07617 8.73272L12.1899 2.89355" stroke-linecap="round"></path>

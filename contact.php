@@ -13,7 +13,7 @@
 <body>
 
 
-    <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3) 101.02%), url(assets/img/innerpage/inner-banner-bg.png);">
+    <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3) 101.02%), url(https://www.sltda.gov.lk/images/contact-us-cover.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
