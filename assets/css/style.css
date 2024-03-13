@@ -16,7 +16,12 @@
     --title-color: #100c08;
     --text-color: #787878;
     /* --primary-color2: #080752; */
+<<<<<<< HEAD
     --primary-color2: #00a945;
+=======
+    /* --primary-color2: #67C6E3; */
+    --primary-color2: #59D5E0;
+>>>>>>> 51f8b2b4080d9509c3105216eb09eb9ff7c50fba
     --primary-color1-opc: 99, 171, 69;
     --primary-color1: #1276bc;
     --primary-color2-opc: 251, 176, 59;
