@@ -31,10 +31,11 @@
 }
 
 .content-tailer-made {
-  width: 100vw;
+  max-width: 100vw;
   height: 100vh;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   margin-bottom: 3%;
+  overflow: hidden !important;
 }
 
 .tabs-items li a {
