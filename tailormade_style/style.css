@@ -1,15 +1,14 @@
-
 .travel_search_engine {
   float: left;
   width: 100%;
   background: #fff;
-  position: relative
+  position: relative;
 }
 
 .travel_search_engine .container {
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: 2px 3px 3px 0 rgba(0, 0, 0, 0.1);
+  /* box-shadow: 2px 3px 3px 0 rgba(0, 0, 0, 0.1); */
   left: 0;
   position: absolute;
   right: 0;

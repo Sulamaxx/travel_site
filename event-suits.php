@@ -41,7 +41,7 @@ require "libs/connection.php";
                     <img class="card-img-top" src="assets/img/events/main/17-Deepavali-01.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Deepavali</h5>
-                        <p class="card-text">Deepavali is a public holiday in Sri Lanka, but it's mostly celebrated by the Sri Lankan Tamils. Traditional rituals include lighting off small lamps to banish evel spirits. The lamps symbolise hope for a bright future. People wear new clothes and exchange gifts. </p>
+                        <p class="card-text">Deepavali is a public holiday in Sri Lanka, but it's mostly celebrated by the Sri Lankan Tamils. Traditional rituals include lighting off small lamps to banish evel spirits. The lamps symbolise hope for a bright future. </p>
                     </div>
                 </div>
                 <div class="card m-3" style="width: 18rem;">
@@ -306,3 +306,9 @@ require "libs/connection.php";
 <!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/hotel-suits.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:20 GMT -->
 
 </html>
+
+<style>
+    .card {
+        padding: 10px;
+    }
+</style>
