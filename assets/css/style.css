@@ -20,18 +20,13 @@
     --title-color: #100c08;
     --text-color: #787878;
     /* --primary-color1: #13b8f0; */
-    --primary-color1: #0482ad;
+    /* --primary-color1: #0482ad; */
+    --primary-color1: #080752;
     --primary-color1-opc: 99, 171, 69;
-    --primary-color2: #00e143;
+    /* --primary-color2: #00e143; */
+    --primary-color2: #00a945;
     --primary-color2-opc: 251, 176, 59;
-    /* --white-color: #fff;
-    --black-color: #000;
-    --title-color: #100C08;
-    --text-color: #787878;
-    --primary-color1: #63AB45;
-    --primary-color1-opc: 99, 171, 69;
-    --primary-color2: #FBB03B;
-    --primary-color2-opc: 251, 176, 59 */
+ 
 }
 
 html {
