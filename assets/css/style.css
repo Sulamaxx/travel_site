@@ -3246,13 +3246,13 @@ header.style-2 .main-menu ul>li:hover i {
 
 header.style-2 .main-menu ul>li a {
     /* color: var(--white-color); */
-    color: #ffffff;
+    color: #000;
     display: block;
     text-transform: uppercase;
     padding: 20px 0;
     position: relative;
     font-family: var(--font-rubik);
-    font-weight: 600;
+    font-weight: 800;
     font-size: 14px;
     transition: all 0.5s ease-out 0s;
     position: relative;
@@ -3273,6 +3273,7 @@ header.style-2 .main-menu ul>li a {
 @media (max-width: 991px) {
     header.style-2 .main-menu ul>li a {
         padding: 32px 0;
+        color: #fff;
     }
 }
 
@@ -33511,5 +33512,8 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
 }
 
 fill: var(--primary-color1);
+
+}
+ill: var(--primary-color1);
 
 }

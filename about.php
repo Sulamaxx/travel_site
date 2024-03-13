@@ -179,7 +179,6 @@
                         <img src="assets/img/home2/icon/tripadvisor-star.svg" alt>
                         <p><strong>5.0</strong> Rating out of <strong>5.0</strong> based on <a href="<?php echo $tripadvisor_link ?>" target="_blank"><strong>245354</strong>
                                 reviews</a></p>
-                        <img src="assets/img/home2/icon/tripadvisor-logo.png" alt>
                     </div>
                 </div>
             </div>
