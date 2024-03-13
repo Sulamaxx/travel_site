@@ -7,7 +7,7 @@ while ($data = $result->fetch_assoc()) {
     <li>
         <div class="single-comment-area">
             <div class="author-img">
-                <img src="assets/img/home1/testi-author-img1.png" alt>
+                <img src="assets/img/home2/testi-author-img1.png" alt>
             </div>
             <div class="comment-content">
                 <div class="author-name-deg">

@@ -100,7 +100,7 @@ function limit_words($string, $word_limit)
                                 </div>
                                 <a href="<?php echo $tripadvisor_link ?>" target="_blank" class="rating-area">
                                     <div class="icon">
-                                        <img src="assets/img/home1/icon/tripadvisor-logo.png" alt>
+                                        <img src="assets/img/home2/icon/tripadvisor-logo.png" alt>
                                     </div>
                                     <div class="content">
                                         <div class="text-logo">
@@ -582,7 +582,7 @@ function limit_words($string, $word_limit)
                                                     </div>
                                                     <div class="author-area">
                                                         <div class="author-img">
-                                                            <img src="assets/img/home1/testi-author-img1.png" alt>
+                                                            <img src="assets/img/home2/testi-author-img1.png" alt>
                                                         </div>
                                                         <div class="author-content">
                                                             <h5><?= $data['name'] ?></h5>
