@@ -16,7 +16,8 @@
     --black-color: #000;
     --title-color: #100c08;
     --text-color: #787878;
-    --primary-color2: #080752;
+    /* --primary-color2: #080752; */
+    --primary-color2: #67C6E3;
     --primary-color1-opc: 99, 171, 69;
     --primary-color1: #00a945;
     --primary-color2-opc: 251, 176, 59;
@@ -11822,7 +11823,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
 }
 
 .footer-section {
-    background-image: url(../img/footer-bg.png), linear-gradient(180deg, #00f564  0%, #1d231f 100%);
+    background-image: url(../img/footer-bg.png), linear-gradient(180deg, #2b3135  0%, #1d231f 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
