@@ -20,10 +20,7 @@
     --primary-color1-opc: 99, 171, 69;
     --primary-color2: #00a945;
     --primary-color2-opc: 251, 176, 59;
-<<<<<<< HEAD
-=======
 
->>>>>>> f170c162c7a70376695fa947d56bd60e34334f8a
 }
 
 html {
@@ -11825,7 +11822,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
 }
 
 .footer-section {
-    background-image: url(../img/footer-bg.png), linear-gradient(180deg, #047a95 0%, #1d231f 100%);
+    background-image: url(../img/footer-bg.png), linear-gradient(180deg, #00f564  0%, #1d231f 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -33679,7 +33676,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient( 180deg, rgba(16, 12, 8, 0.6) 0%, rgba(16, 12, 8, 0.6) 100%);
+    background: linear-gradient(180deg, rgba(16, 12, 8, 0.6) 0%, rgba(16, 12, 8, 0.6) 100%);
     /* Adjust opacity as needed */
     z-index: 1;
 }
