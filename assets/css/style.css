@@ -3273,7 +3273,7 @@ header.style-2 .main-menu ul>li a {
 @media (max-width: 991px) {
     header.style-2 .main-menu ul>li a {
         padding: 32px 0;
-        color: #fff;
+        background-color: #fff;
     }
 }
 
@@ -3716,6 +3716,7 @@ header.style-2 .main-menu .hotline-area .content h6 a:hover {
         box-shadow: 0 2px 20px rgba(0, 0, 0, 0.03);
     }
     header.style-2 .main-menu.show-menu {
+        background-color: white;
         transform: translateX(0);
     }
     header.style-2 .main-menu .mobile-menu-logo {

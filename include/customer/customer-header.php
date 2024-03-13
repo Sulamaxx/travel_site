@@ -82,40 +82,42 @@
     <div class="main-menu">
         <div class="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
             <div class="mobile-logo-wrap">
-                <a href="index.php"><img alt="Travel Zoom Lanka" src="assets/img/logo2.png"></a>
+                <a href="index.php"><img alt="Travel Zoom Lanka" src="assets/img/logo.png"></a>
             </div>
             <div class="menu-close-btn">
                 <i class="bi bi-x"></i>
             </div>
         </div>
         <ul class="menu-list">
-            <li <?php if(basename($_SERVER['PHP_SELF']) == 'index.php') echo 'class="active"'; ?>>
+            <li <?php if (basename($_SERVER['PHP_SELF']) == 'index.php') echo 'class="active"'; ?>>
                 <a href="index.php" class="drop-down">Home</a>
             </li>
-            <li <?php if(basename($_SERVER['PHP_SELF']) == 'about.php') echo 'class="active"'; ?>>
+            <li <?php if (basename($_SERVER['PHP_SELF']) == 'about.php') echo 'class="active"'; ?>>
                 <a href="about.php" class="drop-down">About</a>
             </li>
-            <li <?php if(basename($_SERVER['PHP_SELF']) == 'package-grid.php'||basename($_SERVER['PHP_SELF']) == 'tailormade.php')  echo 'class="active menu-item-has-children"'; else echo 'class="menu-item-has-children"'; ?>>
+            <li <?php if (basename($_SERVER['PHP_SELF']) == 'package-grid.php' || basename($_SERVER['PHP_SELF']) == 'tailormade.php')  echo 'class="active menu-item-has-children"';
+                else echo 'class="menu-item-has-children"'; ?>>
                 <a href="" class="drop-down">Tours</a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
-                    <li <?php if(basename($_SERVER['PHP_SELF']) == 'package-grid.php') echo 'class="active"'; ?>><a href="package-grid.php">Packages</a></li>
-                    <li <?php if(basename($_SERVER['PHP_SELF']) == 'tailormade.php') echo 'class="active"'; ?>>
+                    <li <?php if (basename($_SERVER['PHP_SELF']) == 'package-grid.php') echo 'class="active"'; ?>><a href="package-grid.php">Packages</a></li>
+                    <li <?php if (basename($_SERVER['PHP_SELF']) == 'tailormade.php') echo 'class="active"'; ?>>
                         <a href="tailormade.php">Package Tailormade</a>
                     </li>
                 </ul>
             </li>
-            <li  <?php if(basename($_SERVER['PHP_SELF']) == 'hotel-suits.php'||basename($_SERVER['PHP_SELF']) == 'event-suits.php'||basename($_SERVER['PHP_SELF']) == 'driver-suits.php') echo 'class="active menu-item-has-children"'; else echo 'class="menu-item-has-children"' ?>>
+            <li <?php if (basename($_SERVER['PHP_SELF']) == 'hotel-suits.php' || basename($_SERVER['PHP_SELF']) == 'event-suits.php' || basename($_SERVER['PHP_SELF']) == 'driver-suits.php') echo 'class="active menu-item-has-children"';
+                else echo 'class="menu-item-has-children"' ?>>
                 <a href="" class="drop-down">Pages</a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
-                    <li <?php if(basename($_SERVER['PHP_SELF']) == 'hotel-suits.php') echo 'class="active"'; ?>><a href="hotel-suits.php">Hotel</a></li>
-                    <li <?php if(basename($_SERVER['PHP_SELF']) == 'event-suits.php') echo 'class="active"'; ?>><a href="event-suits.php">Event</a></li>
-                    <li <?php if(basename($_SERVER['PHP_SELF']) == 'driver-suits.php') echo 'class="active"'; ?>><a href="driver-suits.php">Chauffer Driven</a></li>
+                    <li <?php if (basename($_SERVER['PHP_SELF']) == 'hotel-suits.php') echo 'class="active"'; ?>><a href="hotel-suits.php">Hotel</a></li>
+                    <li <?php if (basename($_SERVER['PHP_SELF']) == 'event-suits.php') echo 'class="active"'; ?>><a href="event-suits.php">Event</a></li>
+                    <li <?php if (basename($_SERVER['PHP_SELF']) == 'driver-suits.php') echo 'class="active"'; ?>><a href="driver-suits.php">Chauffer Driven</a></li>
                 </ul>
             </li>
-            <li <?php if(basename($_SERVER['PHP_SELF']) == 'blog-grid.php') echo 'class="active"'; ?>> <a href="blog-grid.php" class="drop-down">Blog</a> </li>
-            <li <?php if(basename($_SERVER['PHP_SELF']) == 'gallery.php') echo 'class="active"'; ?>> <a href="gallery.php" class="drop-down">Gallery</a> </li>
-            <li <?php if(basename($_SERVER['PHP_SELF']) == 'comment.php') echo 'class="active"'; ?>> <a href="comment.php" class="drop-down">Comment Us</a> </li>
-            <li <?php if(basename($_SERVER['PHP_SELF']) == 'contact.php') echo 'class="active"'; ?>> <a href="contact.php" class="drop-down">Contact</a> </li>
+            <li <?php if (basename($_SERVER['PHP_SELF']) == 'blog-grid.php') echo 'class="active"'; ?>> <a href="blog-grid.php" class="drop-down">Blog</a> </li>
+            <li <?php if (basename($_SERVER['PHP_SELF']) == 'gallery.php') echo 'class="active"'; ?>> <a href="gallery.php" class="drop-down">Gallery</a> </li>
+            <li <?php if (basename($_SERVER['PHP_SELF']) == 'comment.php') echo 'class="active"'; ?>> <a href="comment.php" class="drop-down">Comment Us</a> </li>
+            <li <?php if (basename($_SERVER['PHP_SELF']) == 'contact.php') echo 'class="active"'; ?>> <a href="contact.php" class="drop-down">Contact</a> </li>
         </ul>
         <!-- <div class="topbar-right d-lg-none d-block">
             <button type="button" class="modal-btn header-cart-btn" data-bs-toggle="modal" data-bs-target="#user-login">
