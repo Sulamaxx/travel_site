@@ -68,8 +68,9 @@
                         <div class="widget-title">
                             <h5>We Are Here</h5>
                         </div>
-                        <p>get on a journey visit to gorgeous Srilanka with Travel Zoom Lanka, where every moment is meticulously crafted to leave an indelible mark on your heart. We understand that travel is more than just visiting destinations; it’s about creating magical memories that linger long after you’ve returned home. With an unerring passion for detail, we offer bespoke experiences that provide a profound insight into the rich tapestry of Sri Lanka’s vibrant culture, stunning landscapes, and hidden treasures.
-                            Our commitment at Travel Zoom Lanka is to transcend the ordinary. By understanding your unique desires and preferences, we ensure that your Sri Lankan sojourn is not just a trip but a personalized story waiting to be told. From secluded beaches to ancient temples, from lush rainforests to bustling markets, let us guide you through an authentic Sri Lankan experience, tailored just for you. With our expertise and your wanderlust, together we’ll create magical memories that for your lifetime</p>
+                        <p>Craft unforgettable memories in Sri Lanka with Travel Zoom Lanka.
+
+                            We design personalized journeys that go beyond sightseeing. Explore Sri Lanka's rich culture, stunning landscapes, and hidden gems. From beaches to temples, rainforests to markets, experience Sri Lanka authentically. Let us craft your dream Sri Lankan adventure.</p>
 
                     </div>
                 </div>

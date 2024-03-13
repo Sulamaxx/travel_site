@@ -26,7 +26,6 @@
     /* --primary-color2: #00e143; */
     --primary-color2: #00a945;
     --primary-color2-opc: 251, 176, 59;
- 
 }
 
 html {
@@ -3645,9 +3644,9 @@ header.style-2 .main-menu .hotline-area .content span {
     font-weight: 500;
     font-size: 14px;
     line-height: 1;
-    color: var(--white-color);
     margin-bottom: 5px;
     display: inline-block;
+    color: black;
 }
 
 header.style-2 .main-menu .hotline-area .content h6 {
@@ -3673,7 +3672,7 @@ header.style-2 .main-menu .hotline-area .content h6 a:hover {
         height: 32px;
         width: 32px;
         border-radius: 50%;
-        border: 1px solid var(--white-color);
+        border: 1px solid black;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -3684,7 +3683,7 @@ header.style-2 .main-menu .hotline-area .content h6 a:hover {
         font-size: 26px;
         line-height: 1;
         margin-top: 2px;
-        color: var(--white-color);
+        color: var(--black-color);
         transition: 0.35s;
     }
     header.style-2 .mobile-logo-area .menu-close-btn:hover {
@@ -3762,7 +3761,7 @@ header.style-2 .main-menu .hotline-area .content h6 a:hover {
     }
     header.style-2 .main-menu ul li ul.sub-menu>li a {
         padding: 12px 0;
-        color:black;
+        color: black;
     }
     header.style-2 .main-menu ul li ul.sub-menu>li a:hover {
         color: var(--primary-color1);
@@ -33516,7 +33515,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg, rgba(16, 12, 8, 0.6) 0%, rgba(16, 12, 8, 0.6) 100%);
+    background: linear-gradient( 180deg, rgba(16, 12, 8, 0.6) 0%, rgba(16, 12, 8, 0.6) 100%);
     /* Adjust opacity as needed */
     z-index: 1;
 }
