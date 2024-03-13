@@ -9,6 +9,7 @@
 </head>
 
 <?php include 'include/customer/customer-header.php' ?>
+
 <body>
 
 
@@ -17,10 +18,10 @@
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <div class="banner-content">
-                        <h1>Contact Us</h1>
+                        <h1>Comment Us</h1>
                         <ul class="breadcrumb-list">
                             <li><a href="index.php">Home</a></li>
-                            <li>Contact Us</li>
+                            <li>Comment Us</li>
                         </ul>
                     </div>
                 </div>
@@ -151,9 +152,9 @@
     <?php include 'include/customer/customer-footer.php' ?>
     <script>
         document.getElementById('comment').addEventListener("click", async () => {
-            document.getElementById('comment').innerHTML="Waiting";
+            document.getElementById('comment').innerHTML = "Waiting";
             var formData = {
-                where:"Comment",
+                where: "Comment",
                 name: document.getElementById('name').value,
                 email: document.getElementById('email').value,
                 contact: document.getElementById('contact').value,
@@ -192,7 +193,7 @@
                 .then(response => response.text())
                 .then(data => {
                     alert(data);
-                    document.getElementById('comment').innerHTML="Submit Now";
+                    document.getElementById('comment').innerHTML = "Submit Now";
                     if (data == "Message has been sent") {
                         window.location.reload();
                     }

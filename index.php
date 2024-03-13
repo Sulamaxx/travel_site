@@ -76,10 +76,11 @@ function limit_words($string, $word_limit)
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="home2-banner-content">
-                            <div class="eg-tag">
+                            <!-- <div class="eg-tag">
                                 <span>Sri Lanka</span>
-                            </div>
-                            <h1 class="animate-text">Let’s Explore Your
+                            </div> -->
+                            <img src="assets/img/welcomeToSriLanka.svg" style=" width: 300px; margin-bottom: 30px;">
+                            <h1 class=" animate-text">Let’s Explore Your
                                 <span>Holiday</span>
                                 <span>Family</span>
                                 <span>Honeymoon</span> Trip.
@@ -99,9 +100,7 @@ function limit_words($string, $word_limit)
                                     </div>
                                 </div>
                                 <a href="<?php echo $tripadvisor_link ?>" target="_blank" class="rating-area">
-                                    <div class="icon">
-                                        <img src="assets/img/home2/icon/tripadvisor-logo.png" alt>
-                                    </div>
+
                                     <div class="content">
                                         <div class="text-logo">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="110" height="19" viewBox="0 0 110 19">
