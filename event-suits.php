@@ -36,7 +36,7 @@ require "libs/connection.php";
         <div class="container">
 
             <!-- add cards -->
-            <div class="d-flex justify-content-around cards row g-lg-4 gy-5">
+            <div class="d-flex justify-content-around cards row g-lg-4 gy-5 mb-4">
                 <div class="card m-3" style="width: 18rem;">
                     <img class="card-img-top" src="assets/img/events/main/17-Deepavali-01.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -62,7 +62,7 @@ require "libs/connection.php";
                     <img class="card-img-top" src="assets/img/events/main/maha_shivaratri.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Maha Shivratri </h5>
-                        <p class="card-text">Maha Shivaratri is a Hindu festival celebrated annually in honour of the deity Shiva, between February and March. According to the Hindu calendar, the festival is observed on the fourteenth day of the dark half of the lunar month of Phalguna or Magha. </p>
+                        <p class="card-text">Maha Shivaratri is a Hindu festival celebrated annually in honour of the deity Shiva, between February and March. The Hindu festival is celebrated on the fourteenth day of the dark half of the lunar month of Phalguna or Magha.</p>
                     </div>
                 </div>
             </div>
@@ -310,5 +310,14 @@ require "libs/connection.php";
 <style>
     .card {
         padding: 10px;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 175px;
+    }
+
+    .card-title {
+        text-align: center;
     }
 </style>
