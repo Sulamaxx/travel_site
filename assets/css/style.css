@@ -3492,14 +3492,15 @@ header.style-2 .main-menu ul>li.menu-item-has-children::after {
     top: 20px;
     right: 10px;
     font-size: 14px;
-    color: var(--white-color);
     transition: all 0.55s ease-in-out;
+    color: black;
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
     header.style-2 .main-menu ul>li.menu-item-has-children::after {
         right: 4px;
         top: 15px;
+        color: black;
     }
 }
 
@@ -3782,7 +3783,7 @@ header.style-2 .main-menu .hotline-area .content h6 a:hover {
     header.style-2 .main-menu ul li .bi {
         top: 8px;
         font-size: 20px;
-        color: var(--white-color);
+        color: black;
     }
     header.style-2 .main-menu ul li.active a::before {
         display: none;
