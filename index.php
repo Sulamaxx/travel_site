@@ -80,7 +80,7 @@ function limit_words($string, $word_limit)
                                 <span>Sri Lanka</span>
                             </div> -->
                             <img src="assets/img/welcomeToSriLanka.svg" style=" width: 300px; margin-bottom: 30px;">
-                            <h1 class=" animate-text">Let’s Explore Your
+                            <h1 class="animate-text">Let’s Explore Your
                                 <span>Holiday</span>
                                 <span>Family</span>
                                 <span>Honeymoon</span> Trip.
@@ -365,9 +365,10 @@ function limit_words($string, $word_limit)
 
     <section class="kf_summer_offers overlay-blue" style="background-size: cover; background-position: center;background-repeat: no-repeat; background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-a-mesmerizing-drive-through-a-majestic-cityscape-during-sunset-3d-rendered-image_3745060.jpg); ">
         <div class="container" style="height: 500px;display: flex;flex-direction: column;align-items: center;justify-content: center;">
-            <h1 style="color:white; margin:30px;">
+            <h1 style="color:white;">
                 Chauffer Driven
             </h1>
+            <p style="color: var(--white-color)">Luxury travel starts here. Book your chauffeured journey for a seamless Sri Lankan experience. </p>
             <button class="btn secondary-btn2">
                 <a href="driver-suits.php">View Vehicles</a>
             </button>
