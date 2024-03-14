@@ -15,7 +15,7 @@ require "libs/connection.php";
 <body>
 
 
-    <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3) 101.02%), url(https://www.sltda.gov.lk/images/statistics-cover-new.jpg);">
+    <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.5) 101.02%), url(https://www.sltda.gov.lk/images/statistics-cover-new.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
