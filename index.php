@@ -370,7 +370,7 @@ function limit_words($string, $word_limit)
             </h1>
             <p style="color: var(--white-color)">Luxury travel starts here. Book your chauffeured journey for a seamless Sri Lankan experience. </p>
             <button class="btn secondary-btn2">
-                <a href="driver-suits.php">View Vehicles</a>
+                <a href="driver-suits.php" style="color: var(--white-color)">View Vehicles</a>
             </button>
 
         </div>
