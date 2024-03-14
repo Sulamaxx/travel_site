@@ -93,8 +93,8 @@ require "libs/connection.php";
 
                                         <div class="form-inner  mb-20">
                                             <span hidden id="hotel_id"></span>
-                                            <label>Select Shocker Drive <span>*</span></label>
-                                            <input id="hotel_name" type="text" readonly placeholder="See and Select Your Shocker Drive">
+                                            <label>Select Chauffer Driven <span>*</span></label>
+                                            <input id="hotel_name" type="text" readonly placeholder="See and Select Your Chauffer Driven">
                                         </div>
 
                                         <div class="form-inner mb-30">
@@ -175,7 +175,7 @@ require "libs/connection.php";
                                         </div>
                                         <div class="col-12">
                                             <div class="row justify-content-center ">
-                                                <button class="book-btn primary-btn2 mt-2 col-6" onclick="selectVehicle('<?= $data['id'] ?>','<?= $data['name'] ?>');">Select Shocker Drive</button>
+                                                <button class="book-btn primary-btn2 mt-2 col-6" onclick="selectVehicle('<?= $data['id'] ?>','<?= $data['name'] ?>');">Select Chauffer Driven</button>
                                             </div>
                                         </div>
                                     </div>
