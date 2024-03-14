@@ -172,16 +172,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 d-flex justify-content-center">
-                    <div class="tripadvisor-review">
-                        <strong>Excellent!</strong>
-                        <img src="assets/img/home2/icon/tripadvisor-star.svg" alt>
-                        <p><strong>5.0</strong> Rating out of <strong>5.0</strong> based on <a href="<?php echo $tripadvisor_link ?>" target="_blank"><strong>245354</strong>
-                                reviews</a></p>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
 
