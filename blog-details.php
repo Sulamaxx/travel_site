@@ -64,7 +64,7 @@ if (isset($_GET['id'])) {
                         <div class="row mt-40">
                             <div class="comment-area" id="comment-area">
                                 <div class="comment-title">
-                                    <h4>Comments (03)</h4>
+                                    <h4>Comments </h4>
                                     <div class="dash"></div>
                                 </div>
 
