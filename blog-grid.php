@@ -52,10 +52,11 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-card">
                             <div class="blog-card-img-wrap">
-                                <a href="blog-details.php?id=<?= $data['id'] ?>" class="card-img"><img src="<?= $data['img'] ?>" alt></a>
+                                <a href="blog-details.php?id=<?= $data['id'] ?>" class="card-img" style="height: 300px; ">
+                                    <div style="background-image: url('<?= $data['img'] ?>'); background-size: cover; background-position: center; height: 300px;"></div>
+                                </a>
                             </div>
-                            <div class="blog-card-content">
-
+                            <div class="blog-card-content" style="height: 200px;">
                                 <h5><a href="blog-details.php?id=<?= $data['id'] ?>"><?= $data['title'] ?></a></h5>
                                 <div class="bottom-area">
                                     <a href="blog-details.php?id=<?= $data['id'] ?>">View Post
