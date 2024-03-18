@@ -27,44 +27,44 @@ function limit_words($string, $word_limit)
         <div class="swiper home1-banner-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/hero/home2-banner-img1.jpg);">
+                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.2) 0%, rgba(16, 12, 8, 0.2) 100%), url(assets/img/home2/hero/home2-banner-img1.jpg);">
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/hero/home2-banner-img2.jpg);">
+                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.2) 0%, rgba(16, 12, 8, 0.2) 100%), url(assets/img/home2/hero/home2-banner-img2.jpg);">
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/hero/home2-banner-img3.jpg);">
+                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.2) 0%, rgba(16, 12, 8, 0.2) 100%), url(assets/img/home2/hero/home2-banner-img3.jpg);">
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/hero/home2-banner-img4.jpg);">
+                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.2) 0%, rgba(16, 12, 8, 0.2) 100%), url(assets/img/home2/hero/home2-banner-img4.jpg);">
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/hero/home2-banner-img5.jpg);">
+                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.2) 0%, rgba(16, 12, 8, 0.2) 100%), url(assets/img/home2/hero/home2-banner-img5.jpg);">
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/hero/home2-banner-img6.jpg);">
+                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.2) 0%, rgba(16, 12, 8, 0.2) 100%), url(assets/img/home2/hero/home2-banner-img6.jpg);">
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/hero/home2-banner-img7.jpg);">
+                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.2) 0%, rgba(16, 12, 8, 0.2) 100%), url(assets/img/home2/hero/home2-banner-img7.jpg);">
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/hero/home2-banner-img8.jpg);">
+                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.2) 0%, rgba(16, 12, 8, 0.2) 100%), url(assets/img/home2/hero/home2-banner-img8.jpg);">
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/hero/home2-banner-img9.jpg);">
+                    <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.2) 0%, rgba(16, 12, 8, 0.2) 100%), url(assets/img/home2/hero/home2-banner-img9.jpg);">
                     </div>
                 </div>
                 <?php for ($i = 10; $i <= 33; $i++) : ?>
                     <div class="swiper-slide">
-                        <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/hero/home2-banner-img<?php echo $i; ?>.jpg);">
+                        <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.2) 0%, rgba(16, 12, 8, 0.2) 100%), url(assets/img/home2/hero/home2-banner-img<?php echo $i; ?>.jpg);">
                         </div>
                     </div>
                 <?php endfor; ?>
