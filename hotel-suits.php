@@ -114,7 +114,7 @@ require "libs/connection.php";
                                                     <img src="<?= $data['img'] ?>" alt>
                                                 </div>
                                             </div>
-                                            <div class="swiper-slide">
+                                            <!-- <div class="swiper-slide">
                                                 <div class="room-img">
                                                     <img src="<?= $data['img'] ?>" alt>
                                                 </div>
@@ -123,7 +123,7 @@ require "libs/connection.php";
                                                 <div class="room-img">
                                                     <img src="<?= $data['img'] ?>" alt>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <div class="swiper-pagination5"></div>
                                     </div>

@@ -34,26 +34,26 @@ require "libs/connection.php";
     <div class="room-suits-page pt-120 mb-120">
         <div class="container">
 
-            <div class="d-flex justify-content-around cards row g-lg-4 gy-5">
-                <div class="card m-3" style="width: 18rem;">
+            <div class="d-flex justify-content-around cards row g-lg-4 gy-5 mb-5">
+                <div class="card m-3 col-11 col-lg-5" >
                     <img src="assets/img/driver/1.jpeg">
                 </div>
-                <div class="card m-3" style="width: 18rem;">
+                <div class="card m-3 col-11 col-lg-5" >
                     <img src="assets/img/driver/2.jpeg">
                 </div>
-                <div class="card m-3" style="width: 18rem;">
+                <div class="card m-3 col-11 col-lg-5" >
                     <img src="assets/img/driver/3.jpeg">
                 </div>
-                <div class="card m-3" style="width: 18rem;">
+                <div class="card m-3 col-11 col-lg-5" >
                     <img src="assets/img/driver/4.jpeg">
                 </div>
-                <div class="card m-3" style="width: 18rem;">
+                <div class="card m-3 col-11 col-lg-5" >
                     <img src="assets/img/driver/5.jpeg">
                 </div>
-                <div class="card m-3" style="width: 18rem;">
+                <div class="card m-3 col-11 col-lg-5" >
                     <img src="assets/img/driver/6.jpeg">
                 </div>
-                <div class="card m-3" style="width: 18rem;">
+                <div class="card m-3 col-11 col-lg-5" >
                     <img src="assets/img/driver/7.jpeg">
                 </div>
             </div>
@@ -138,7 +138,7 @@ require "libs/connection.php";
                                                     <img src="<?= $data['img'] ?>" alt>
                                                 </div>
                                             </div>
-                                            <div class="swiper-slide">
+                                            <!-- <div class="swiper-slide">
                                                 <div class="room-img">
                                                     <img src="<?= $data['img'] ?>" alt>
                                                 </div>
@@ -147,7 +147,7 @@ require "libs/connection.php";
                                                 <div class="room-img">
                                                     <img src="<?= $data['img'] ?>" alt>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <div class="swiper-pagination5"></div>
                                     </div>

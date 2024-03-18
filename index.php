@@ -364,7 +364,7 @@ function limit_words($string, $word_limit)
 
 
     <section class="kf_summer_offers overlay-blue" style="background-size: cover; background-position: center;background-repeat: no-repeat; background-image: url(assets/img/cover2.png); ">
-        <div class="container" style="height: 500px;display: flex;flex-direction: column;align-items: center;justify-content: center;">
+        <div class="container" style="height: 1000px;display: flex;flex-direction: column;align-items: center;justify-content: center;">
             <h1 style="color:white;">
                 Chauffer Driven
             </h1>

@@ -110,7 +110,7 @@
                 <a href="" class="drop-down">Pages</a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
                     <li <?php if (basename($_SERVER['PHP_SELF']) == 'hotel-suits.php') echo 'class="active"'; ?>><a href="hotel-suits.php">Hotel</a></li>
-                    <li <?php if (basename($_SERVER['PHP_SELF']) == 'event-suits.php') echo 'class="active"'; ?>><a href="event-suits.php">Event</a></li>
+                    <li <?php if (basename($_SERVER['PHP_SELF']) == 'event-suits.php') echo 'class="active"'; ?>><a href="event-suits.php">Think to do</a></li>
                     <li <?php if (basename($_SERVER['PHP_SELF']) == 'driver-suits.php') echo 'class="active"'; ?>><a href="driver-suits.php">Chauffer Driven</a></li>
                 </ul>
             </li>

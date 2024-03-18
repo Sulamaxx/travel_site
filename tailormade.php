@@ -92,7 +92,7 @@
                                                   <div class="kode_felid">
                                                       <label>Arrival Date</label>
                                                       <div class="ralative-icon">
-                                                          <input class="checkin" type="Date" id="date-range0">
+                                                          <input class="checkin" style="padding-left: 16px;" type="Date" id="date-range0">
                                                       </div>
                                                   </div>
                                               </div>
@@ -100,7 +100,7 @@
                                                   <div class="kode_felid">
                                                       <label>Departure Date</label>
                                                       <div class="ralative-icon">
-                                                          <input class="checkout" type="date" id="date-range1">
+                                                          <input class="checkout" style="padding-left: 16px;" type="date" id="date-range1">
                                                       </div>
                                                   </div>
                                               </div>
@@ -108,7 +108,7 @@
                                                   <div class="kode_felid">
                                                       <label>Starting Date</label>
                                                       <div class="ralative-icon">
-                                                          <input class="checkout" type="date" id="date-start">
+                                                          <input class="checkout" style="padding-left: 16px;" type="date" id="date-start">
                                                       </div>
                                                   </div>
                                               </div>
@@ -116,7 +116,7 @@
                                                   <div class="kode_felid">
                                                       <label>Number of Members</label>
                                                       <div class="ralative-icon">
-                                                          <input type="number" placeholder="Member Count" min="1" oninput="validity.valid||(value='');" id="members">
+                                                          <input type="number" style="padding-left: 16px;" placeholder="Member Count" min="1" oninput="validity.valid||(value='');" id="members">
                                                       </div>
                                                   </div>
                                               </div>
@@ -143,7 +143,7 @@
                                               <!--Travel booking procode-->
                                               <div class="kode_felid">
                                                   <label>Your Message</label>
-                                                  <textarea class="col-12" name="message" id="message" placeholder="Your Message" cols="30" rows="30"></textarea>
+                                                  <textarea class="col-12" style="padding-left: 16px; padding-top: 15px;" name="message" id="message" placeholder="Your Message" cols="30" rows="30"></textarea>
                                               </div>
                                           </div>
                                           <div class="col-md-3 col-xs-12 col-sm-12" id="send_btn">
