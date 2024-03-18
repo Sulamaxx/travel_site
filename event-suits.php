@@ -15,7 +15,7 @@ require "libs/connection.php";
 
 
 
-    <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.5) 101.02%), url(assets/img/innerpage/inner-banner-bg.png);">
+    <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(16, 12, 8, 0.2) 0%, rgba(16, 12, 8, 0.2) 101.02%), url(assets/img/innerpage/inner-banner-bg.png);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
@@ -36,7 +36,7 @@ require "libs/connection.php";
         <div class="container">
 
             <!-- add cards -->
-            <div class="d-flex justify-content-around cards row g-lg-4 gy-5 mb-4">
+            <!-- <div class="d-flex justify-content-around cards row g-lg-4 gy-5 mb-4">
                 <div class="card m-3" style="width: 18rem;">
                     <img class="card-img-top" src="assets/img/events/main/17-Deepavali-01.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -65,7 +65,7 @@ require "libs/connection.php";
                         <p class="card-text">Maha Shivaratri is a Hindu festival celebrated annually in honour of the deity Shiva, between February and March. The Hindu festival is celebrated on the fourteenth day of the dark half of the lunar month of Phalguna or Magha.</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
 
             <div class="row g-lg-4 gy-5">
@@ -140,29 +140,29 @@ require "libs/connection.php";
                     ?>
                         <div class="room-suits-card mb-30">
                             <div class="row g-0">
-                                <div class="col-md-4">
+                                <div class="col-md-11 mt-4">
                                     <div class="swiper hotel-img-slider">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
                                                 <div class="room-img">
-                                                    <img src="<?= $data['img'] ?>" alt>
+                                                    <img width="800px" src="<?= $data['img'] ?>" alt>
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="room-img">
-                                                    <img src="<?= $data['img'] ?>" alt>
+                                                    <img width="800px" src="<?= $data['img'] ?>" alt>
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="room-img">
-                                                    <img src="<?= $data['img'] ?>" alt>
+                                                    <img width="800px" src="<?= $data['img'] ?>" alt>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="swiper-pagination5"></div>
                                     </div>
                                 </div>
-                                <div class="col-md-8">
+                                <div class="col-md-12">
                                     <div class="room-content">
                                         <div class="content-top">
                                             <div class="reviews">

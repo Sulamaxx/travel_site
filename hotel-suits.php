@@ -15,7 +15,7 @@ require "libs/connection.php";
 
 
 
-    <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.5) 101.02%), url(https://www.sltda.gov.lk/images/home-stay-cover.jpg);">
+    <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(16, 12, 8, 0.2) 0%, rgba(16, 12, 8, 0.2) 101.02%), url(https://www.sltda.gov.lk/images/home-stay-cover.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
@@ -32,7 +32,7 @@ require "libs/connection.php";
     </div>
 
     <div class="room-suits-page pt-120 mb-120">
-        <div class="container">
+        <div class="container ">
             <div class="row g-lg-4 gy-5">
 
 
@@ -105,7 +105,8 @@ require "libs/connection.php";
                     ?>
                         <div class="room-suits-card mb-30">
                             <div class="row g-0">
-                                <div class="col-md-4">
+
+                                <div class="col-md-11 mt-4">
                                     <div class="swiper hotel-img-slider">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
@@ -127,7 +128,7 @@ require "libs/connection.php";
                                         <div class="swiper-pagination5"></div>
                                     </div>
                                 </div>
-                                <div class="col-md-8">
+                                <div class="col-md-12">
                                     <div class="room-content">
                                         <div class="content-top">
                                             <div class="reviews">

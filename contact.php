@@ -13,7 +13,7 @@
 <body>
 
 
-    <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.5) 101.02%), url(https://static.euronews.com/articles/stories/06/07/70/44/1200x675_cmsv2_23b3faa1-5d19-5a55-9913-bfd3ad7dae7a-6077044.jpg);">
+    <div class="breadcrumb-section" style="background-image:  linear-gradient(270deg, rgba(16, 12, 8, 0.2) 0%, rgba(16, 12, 8, 0.2) 101.02%), url(https://static.euronews.com/articles/stories/06/07/70/44/1200x675_cmsv2_23b3faa1-5d19-5a55-9913-bfd3ad7dae7a-6077044.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
