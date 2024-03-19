@@ -118,14 +118,16 @@
         }
 
         function openWhatsApp() {
-            var phoneNumber = '94767081491';
-            var message = 'Hello, I am interested in your website.';
-            var link = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=' + encodeURIComponent(message);
-            window.open(link, '_blank');
+            const phoneNumber = '94767081491';
+            const message = 'Hello, I am interested in your website.';
+            const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+
+            window.open(url, '_blank');
+
         }
+
 
     </script>
 </body>
 
 </html>
-

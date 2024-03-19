@@ -55,14 +55,14 @@ require "libs/connection.php";
                     <div class="col-lg-4 col-md-6">
                         <div class="package-card">
                             <div class="package-card-img-wrap">
-                                <a href="package-details.php" class="card-img"><img src="<?= $data['img'] ?>" alt="" width="100%" style="height: 300px;"></a>
+                                <a onclick="openSingleTour('<?= $data['id'] ?>')" class="card-img"><img src="<?= $data['img'] ?>" alt="" width="100%" style="height: 300px;"></a>
                                 <div class="batch">
                                     <span class="date"><?= $data['days'] ?> Days / <?= $data['days'] - 1 ?> Night</span>
                                 </div>
                             </div>
                             <div class="package-card-content">
                                 <div class="card-content-top">
-                                    <h5><a href="package-details.php"><?= $data['title'] ?></a></h5>
+                                    <h5><a  onclick="openSingleTour('<?= $data['id'] ?>')"><?= $data['title'] ?></a></h5>
                                     <div class="location-area">
 
                                         <ul class="location-list scrollTextAni">
