@@ -137,27 +137,26 @@ require "libs/connection.php";
 
                     $rs_event = Database::search("SELECT * FROM event WHERE status_id='1' LIMIT $limit OFFSET $offset");
                     while ($data = $rs_event->fetch_assoc()) {
+                        $image_rs = Database::search("SELECT * FROM event_img WHERE event_id='" . $data['id'] . "'");
                     ?>
                         <div class="room-suits-card mb-30">
                             <div class="row g-0">
                                 <div class="col-md-11 mt-4">
                                     <div class="swiper hotel-img-slider">
                                         <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="room-img">
-                                                    <img width="800px" src="<?= $data['img'] ?>" alt>
+
+                                            <?php
+                                            while ($data_img = $image_rs->fetch_assoc()) {
+                                            ?>
+                                                <div class="swiper-slide">
+                                                    <div class="room-img">
+                                                        <img width="800px" src="<?= $data_img['img'] ?>" alt>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="room-img">
-                                                    <img width="800px" src="<?= $data['img'] ?>" alt>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="room-img">
-                                                    <img width="800px" src="<?= $data['img'] ?>" alt>
-                                                </div>
-                                            </div>
+                                            <?php
+                                            }
+                                            ?>
+
                                         </div>
                                         <div class="swiper-pagination5"></div>
                                     </div>

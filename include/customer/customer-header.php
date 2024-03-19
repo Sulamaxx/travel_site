@@ -155,3 +155,7 @@
 <?php
 $tripadvisor_link = "https://www.tripadvisor.com/Attraction_Review-g8819727-d13511050-Reviews-ArtLankaTours-Ganemulla_Western_Province.html";
 ?>
+
+<?php
+include 'whatsapp.html';
+?>

@@ -54,9 +54,9 @@ if (isset($_SESSION['user']) && isset($_GET['id'])) {
                                             </div>
                                         </div>
                                     </div>
-
+                                    <label>If You Need Update All Images</label>
                                     <div class="upload-img-area">
-                                        <input type="file" name="image" id="mainImage" accept="image/*">
+                                        <input type="file" name="image" multiple id="mainImage" accept="image/*">
                                     </div>
 
                                     <div class="form-inner">
@@ -74,33 +74,23 @@ if (isset($_SESSION['user']) && isset($_GET['id'])) {
         </div>
 
         <script>
-             window.addEventListener('load', async function() {
-                var image_path = "<?= $data['img'] ?>";
-                await fetch(image_path)
-                    .then(response => response.blob())
-                    .then(blob => {
-                        var file = new File([blob], 'image.jpg', {
-                            type: 'image/jpeg'
-                        });
-                        var input = document.getElementById('mainImage');
-                        var dataTransfer = new DataTransfer();
-                        dataTransfer.items.add(file);
-                        input.files = dataTransfer.files;
-                    });
-                // alert(document.getElementById('mainImage').value)
-            });
+            
             function addEvent() {
                 document.getElementById('btnClick').innerHTML="Waiting";
                 const name = document.getElementById('name').value;
                 const desc = document.getElementById('description').value;
-                const mainImage = document.getElementById('mainImage').files[0];
-                
+               
+                const mainImage = document.getElementById('mainImage').files;
                 const formData = new FormData();
                 
                 formData.append('id', <?= $_GET['id'] ?>);
                 formData.append('name', name);
                 formData.append('desc', desc);
-                formData.append('mainImage', mainImage);
+
+                for (let i = 0; i < mainImage.length; i++) {
+                    formData.append('images[]', mainImage[i]);
+                }
+
                 fetch('updateEventProcess.php', {
                         method: "POST",
                         body: formData

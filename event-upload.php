@@ -11,7 +11,7 @@ if (isset($_SESSION['user'])) {
     <!-- Mirrored from demo-egenslab.b-cdn.net/html/triprex/preview/hotel-upload.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 09:08:50 GMT -->
 
     <head>
-    <?php include "include/admin/dashboard-header.php"; ?>
+        <?php include "include/admin/dashboard-header.php"; ?>
         <title>Travel Zoom Lanka - Add Event</title>
     </head>
 
@@ -52,9 +52,9 @@ if (isset($_SESSION['user'])) {
                                             </div>
                                         </div>
                                     </div>
-
+                                    <label>Select Multiple Images</label>
                                     <div class="upload-img-area">
-                                        <input type="file" name="image" id="mainImage" accept="image/*">
+                                        <input type="file" multiple name="image" id="mainImage" accept="image/*">
                                     </div>
 
                                     <div class="form-inner">
@@ -73,16 +73,18 @@ if (isset($_SESSION['user'])) {
 
         <script>
             function addEvent() {
-                document.getElementById('btnClick').innerHTML="Waiting";
+                document.getElementById('btnClick').innerHTML = "Waiting";
                 const name = document.getElementById('name').value;
                 const desc = document.getElementById('description').value;
-                const mainImage = document.getElementById('mainImage').files[0];
+                const mainImage = document.getElementById('mainImage').files;
 
                 const formData = new FormData();
 
                 formData.append('name', name);
                 formData.append('desc', desc);
-                formData.append('mainImage', mainImage);
+                for (let i = 0; i < mainImage.length; i++) {
+                    formData.append('images[]', mainImage[i]);
+                }
                 fetch('addEventProcess.php', {
                         method: "POST",
                         body: formData
@@ -90,7 +92,7 @@ if (isset($_SESSION['user'])) {
                     .then(res => res.text())
                     .then(data => {
                         alert(data)
-                        document.getElementById('btnClick').innerHTML="Publish Now";
+                        document.getElementById('btnClick').innerHTML = "Publish Now";
                         if (data === "Event added successfully") {
                             window.location.reload();
                         }

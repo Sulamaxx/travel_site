@@ -13,13 +13,21 @@ $result = Database::search($query);
 
 
 while ($data = $result->fetch_assoc()) {
+    $image_rs = Database::search("SELECT * FROM event_img WHERE event_id='" . $data['h_id'] . "'");
+   
 ?>
 
     <tr>
         <td data-label="Tour Package">
             <div class="product-name">
                 <div class="img">
-                    <img src="<?= $data['img'] ?>" alt>
+                    <?php
+                    while($data_img = $image_rs->fetch_assoc()){
+                    ?>
+                    <img src="<?= $data_img['img'] ?>" alt>
+                    <?php
+                    }
+                    ?>
                 </div>
                 <div class="product-content">
                     <h6><a href="event-update.php?id=<?= $data['h_id'] ?>"><?= $data['h_name'] ?></a></h6>
@@ -30,7 +38,7 @@ while ($data = $result->fetch_assoc()) {
             <?= $data['description'] ?>
         </td>
         <td data-label="Status">
-            <span class="confirmed"><?= $data['s_name'] ?></span>
+            <span class="confirmed"><?= $data['s_name']   ?></span>
         </td>
         <td data-label="Execution Time">
             <?php

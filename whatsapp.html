@@ -1,0 +1,131 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .whatsapp-icon {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            cursor: pointer;
+            z-index: 1000;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .whatsapp-icon img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body class="body">
+    <div id="whatsapp-icon" class="whatsapp-icon" onclick="openWhatsApp()">
+        <img src="assets/img/whatsapp.png" alt="WhatsApp Icon">
+    </div>
+    <script>
+        const whatsappIcon = document.getElementById('whatsapp-icon');
+        let isDragging = false;
+        let offsetX, offsetY;
+
+        whatsappIcon.addEventListener('mousedown', (event) => {
+            isDragging = true;
+            const iconRect = whatsappIcon.getBoundingClientRect();
+            offsetX = event.clientX - iconRect.left;
+            offsetY = event.clientY - iconRect.top;
+        });
+
+        document.addEventListener('mousemove', (event) => {
+            if (isDragging) {
+                let x = event.clientX - offsetX;
+                let y = event.clientY - offsetY;
+                x = Math.min(window.innerWidth - whatsappIcon.offsetWidth, Math.max(0, x));
+                y = Math.min(window.innerHeight - whatsappIcon.offsetHeight, Math.max(0, y));
+                whatsappIcon.style.transform = `translate(${x}px, ${y}px)`;
+            }
+        });
+
+        document.addEventListener('mouseup', () => {
+            isDragging = false;
+        });
+
+        function openWhatsApp() {
+            var phoneNumber = '94767081491';
+            var message = 'Hello, I am interested in your website.';
+            var link = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=' + encodeURIComponent(message);
+            window.open(link, '_blank');
+        }
+
+    </script>
+</body>
+
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .whatsapp-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            cursor: pointer;
+            z-index: 1000;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .whatsapp-icon img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body class="body">
+    <div id="whatsapp-icon" class="whatsapp-icon" ondblclick="openWhatsApp()" onmousedown="startDrag(event)">
+        <img src="assets/img/whatsapp.png" alt="WhatsApp Icon">
+    </div>
+    <script>
+        const whatsappIcon = document.getElementById('whatsapp-icon');
+        let offsetX, offsetY;
+
+        function startDrag(event) {
+            event.preventDefault();
+            offsetX = event.clientX - whatsappIcon.getBoundingClientRect().left;
+            offsetY = event.clientY - whatsappIcon.getBoundingClientRect().top;
+            document.addEventListener('mousemove', dragIcon);
+            document.addEventListener('mouseup', stopDrag);
+        }
+
+        function dragIcon(event) {
+            let x = event.clientX - offsetX;
+            let y = event.clientY - offsetY;
+            x = Math.min(window.innerWidth - whatsappIcon.offsetWidth, Math.max(0, x));
+            y = Math.min(window.innerHeight - whatsappIcon.offsetHeight, Math.max(0, y));
+            whatsappIcon.style.left = x + 'px';
+            whatsappIcon.style.top = y + 'px';
+        }
+
+        function stopDrag() {
+            document.removeEventListener('mousemove', dragIcon);
+            document.removeEventListener('mouseup', stopDrag);
+        }
+
+        function openWhatsApp() {
+            var phoneNumber = '94767081491';
+            var message = 'Hello, I am interested in your website.';
+            var link = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=' + encodeURIComponent(message);
+            window.open(link, '_blank');
+        }
+
+    </script>
+</body>
+
+</html>
+

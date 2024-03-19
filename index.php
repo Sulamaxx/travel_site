@@ -676,7 +676,7 @@ function limit_words($string, $word_limit)
                         <div class="eg-section-tag">
                             <span>Blog</span>
                         </div>
-                        <h2>Travel Blog Enthusiast</h2>
+                        <h2 >Travel Blog Enthusiast</h2>
                     </div>
                 </div>
             </div>

@@ -22,7 +22,7 @@
                             <li><a href="tailormade.php">Tailormade</a></li>
                             <li><a href="blog-grid.php">Article</a></li>
                             <li><a href="hotel-suits.php">Hotel</a></li>
-                            <li><a href="event-suits.php">Event</a></li>
+                            <li><a href="event-suits.php">Think To Do</a></li>
                         </ul>
                     </div>
                 </div>
