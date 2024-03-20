@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 require "libs/connection.php";
 if (isset($_SESSION['user']) && isset($_GET['id'])) {
 
