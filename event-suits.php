@@ -20,10 +20,10 @@ require "libs/connection.php";
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <div class="banner-content">
-                        <h1>Think to do</h1>
+                        <h1>Things To Do</h1>
                         <ul class="breadcrumb-list">
                             <li><a href="index.php">Home</a></li>
-                            <li>Think to do</li>
+                            <li>Things To Do</li>
                         </ul>
                     </div>
                 </div>

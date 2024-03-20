@@ -20,10 +20,10 @@ require "libs/connection.php";
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <div class="banner-content">
-                        <h1>Drivers</h1>
+                        <h1>Book Your Chauffeur</h1>
                         <ul class="breadcrumb-list">
                             <li><a href="index.php">Home</a></li>
-                            <li>Drivers</li>
+                            <li>Chauffer Driven </li>
                         </ul>
                     </div>
                 </div>
@@ -35,25 +35,25 @@ require "libs/connection.php";
         <div class="container">
 
             <div class="d-flex justify-content-around cards row g-lg-4 gy-5 mb-5">
-                <div class="card m-3 col-11 col-lg-5" >
+                <div class="card m-3 col-11 col-lg-5">
                     <img src="assets/img/driver/1.jpeg">
                 </div>
-                <div class="card m-3 col-11 col-lg-5" >
+                <div class="card m-3 col-11 col-lg-5">
                     <img src="assets/img/driver/2.jpeg">
                 </div>
-                <div class="card m-3 col-11 col-lg-5" >
+                <div class="card m-3 col-11 col-lg-5">
                     <img src="assets/img/driver/3.jpeg">
                 </div>
-                <div class="card m-3 col-11 col-lg-5" >
+                <div class="card m-3 col-11 col-lg-5">
                     <img src="assets/img/driver/4.jpeg">
                 </div>
-                <div class="card m-3 col-11 col-lg-5" >
+                <div class="card m-3 col-11 col-lg-5">
                     <img src="assets/img/driver/5.jpeg">
                 </div>
-                <div class="card m-3 col-11 col-lg-5" >
+                <div class="card m-3 col-11 col-lg-5">
                     <img src="assets/img/driver/6.jpeg">
                 </div>
-                <div class="card m-3 col-11 col-lg-5" >
+                <div class="card m-3 col-11 col-lg-5">
                     <img src="assets/img/driver/7.jpeg">
                 </div>
             </div>
