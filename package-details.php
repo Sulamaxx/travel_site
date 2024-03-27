@@ -98,7 +98,7 @@ if (isset($_GET['id'])) {
                                     </h2>
                                     <div id="collapse<?= $id ?>" class="accordion-collapse collapse <?= $key ?>" aria-labelledby="heading<?= $id ?>" data-bs-parent="#tourPlan">
                                         <div class="accordion-body">
-                                            <img src="<?= $data1['img'] ?>" alt>
+                                            <img class="dayImage" src="<?= $data1['img'] ?>" alt>
                                             <p><?= $data1['description'] ?></p>
                                         </div>
                                     </div>
@@ -239,3 +239,9 @@ if (isset($_GET['id'])) {
 <?php } else {
     header("Location:package-grid.php");
 } ?>
+
+<style>
+    .dayImage {
+        width: 100%;
+    }
+</style>
