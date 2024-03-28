@@ -62,7 +62,7 @@ function limit_words($string, $word_limit)
                     <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.2) 0%, rgba(16, 12, 8, 0.2) 100%), url(assets/img/home2/hero/home2-banner-img9.jpg);">
                     </div>
                 </div>
-                <?php for ($i = 10; $i <= 34; $i++) : ?>
+                <?php for ($i = 10; $i <= 33; $i++) : ?>
                     <div class="swiper-slide">
                         <div class="home2-banner-wrapper" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.2) 0%, rgba(16, 12, 8, 0.2) 100%), url(assets/img/home2/hero/home2-banner-img<?php echo $i; ?>.jpg);">
                         </div>
