@@ -326,6 +326,6 @@ require "libs/connection.php";
     }
 
     .banner5-card {
-        padding: 40px 50px;
+        padding: 30px 50px;
     }
 </style>
