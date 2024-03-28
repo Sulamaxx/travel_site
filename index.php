@@ -674,7 +674,7 @@ function limit_words($string, $word_limit)
         <div class="banner5-content">
             <span>Book your recreational or adventure activities with us get</span>
             <h3>30% Off</h3>
-            <a href="package-grid.php">Discover Great Deal</a>
+            <a href="event-suits.php">Discover Great Deal</a>
         </div>
         <!-- <div class="banner5-timer">
             <h6>Offer Will Be End:</h6>

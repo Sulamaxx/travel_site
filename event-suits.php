@@ -69,9 +69,14 @@ require "libs/connection.php";
 
 
             <div class="row g-lg-4 gy-5">
-
-
                 <div class="col-xl-4" id="form_data">
+                    <div class="banner5-card">
+                        <div class="banner5-content">
+                            <span>Book your recreational or adventure activities with us get</span>
+                            <h3>30% Off</h3>
+                            <a href="event-suits.php">Discover Great Deal</a>
+                        </div>
+                    </div>
                     <div class="booking-form-wrap mb-40">
                         <h4>Book Your Event</h4>
                         <!-- <p>Reserve your ideal trip early for a hassle-free trip; secure comfort and convenience!</p> -->
@@ -318,5 +323,9 @@ require "libs/connection.php";
 
     .card-title {
         text-align: center;
+    }
+
+    .banner5-card {
+        padding: 40px 50px;
     }
 </style>
