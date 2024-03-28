@@ -47,7 +47,7 @@ require "libs/connection.php";
 
                 $offset = ($page - 1) * $limit;
 
-                $result = Database::search("SELECT * FROM `tour`  WHERE `status_id`='1' LIMIT $limit OFFSET $offset");
+                $result = Database::search("SELECT * FROM `tour`  WHERE `status_id`='1' ORDER BY days ASC LIMIT $limit OFFSET $offset");
                 while ($data = $result->fetch_assoc()) {
 
                 ?>
@@ -62,7 +62,7 @@ require "libs/connection.php";
                             </div>
                             <div class="package-card-content">
                                 <div class="card-content-top">
-                                    <h5><a  onclick="openSingleTour('<?= $data['id'] ?>')"><?= $data['title'] ?></a></h5>
+                                    <h5><a onclick="openSingleTour('<?= $data['id'] ?>')"><?= $data['title'] ?></a></h5>
                                     <div class="location-area">
 
                                         <ul class="location-list scrollTextAni">
